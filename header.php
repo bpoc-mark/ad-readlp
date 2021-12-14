@@ -37,6 +37,52 @@
             $filePath = parse_url($filePath, PHP_URL_PATH);
         ?>
         <div class="page__header">
-            <h1>header</h1>
+            <div class="l-wrap">
+                <div class="l-wrap__left">
+                    <img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt="">
+                </div>
+                <div class="l-wrap__right">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__list--item">
+                                <a href="">ABOUT</a>
+                            </li>
+                            <li class="nav__list--item">
+                                <a href="">BUSINESS</a>
+                            </li>
+                            <li class="nav__list--item">
+                                <a href="">COMPANY</a>
+                            </li>
+                            <li class="nav__list--item">
+                                <a href="">COLUMN</a>
+                            </li>
+                            <ul class="nav__links">
+                                <li class="nav__links--item">
+                                    <a href=""><img src="<?php echo $filePath?>/release/image/header/fb.png" alt=""></a>
+                                </li>
+                                <li class="nav__links--item">
+                                    <a href=""><img src="<?php echo $filePath?>/release/image/header/insta.png"
+                                            alt=""></a>
+                                </li>
+                                <li class="nav__links--item">
+                                    <a href=""><img src="<?php echo $filePath?>/release/image/header/pintarest.png"
+                                            alt=""></a>
+                                </li>
+                                <li class="nav__links--item">
+                                    <a href=""><img src="<?php echo $filePath;?>/release/image/header/tel.png"
+                                            alt=""></a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="page__banner">
+            <div class="l-wrap">
+                <h1 class="page__banner--ttl">集まらないと、<br>
+                    はじまらない。</h1>
+                <p class="page__banner--sub">集客カンパニー「リード」</p>
+            </div>
         </div>
         <div class="page__content">

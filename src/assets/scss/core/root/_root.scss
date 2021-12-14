@@ -57,6 +57,8 @@ a:visited,
 a:link,
 a:active {
 	text-decoration: none;
+	display: block;
+	line-height: 1;
 }
 
 [tabindex="-1"]:focus {

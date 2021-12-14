@@ -1,0 +1,110 @@
+.page {
+	&__header {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.l-wrap {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			&__left {
+				.logo {
+					width: 80px;
+					height: 70px;
+				}
+			}
+
+			&__right {
+				width: 640px;
+				.nav {
+					&__list {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						&--item {
+							a {
+								color: $color-text-default;
+								display: inline-block;
+								font-family: $font-family-en;
+								letter-spacing: 0.08em;
+
+								@include font-line(14, 24);
+							}
+						}
+					}
+
+					&__links {
+						width: 168px;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						&--item {
+							&:nth-of-type(1) {
+								img {
+									width: 12px;
+									height: 22px;
+								}
+							}
+							&:nth-of-type(2) {
+								img {
+									width: 22px;
+									height: 22px;
+								}
+							}
+							&:nth-of-type(3) {
+								img {
+									width: 17px;
+									height: 22px;
+								}
+							}
+							&:nth-of-type(4) {
+								border: 1px solid #000;
+								border-radius: 5px;
+								padding: 15px;
+								img {
+									width: 21px;
+									height: 21px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__banner {
+		padding-top: 187.5px;
+		padding-bottom: 101px;
+		background: url("../image/main_bg.png");
+		background-size: 882px;
+		background-position: center -188px;
+		background-repeat: no-repeat;
+		height: 100vh;
+
+		@include is-sp {
+			margin-top: 141.5px;
+			margin-bottom: 215px;
+		}
+
+		&--ttl {
+			font-weight: 700;
+			@include font-line(130, 150);
+
+			@include is-max(1000px) {
+				font-size: 10vw;
+			}
+
+			@include is-sp {
+				@include font-line(47, 54);
+			}
+		}
+		&--sub {
+			font-weight: 700;
+			padding-top: 58px;
+			@include font-line(32, 48);
+		}
+	}
+}

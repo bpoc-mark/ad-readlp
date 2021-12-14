@@ -1,6 +1,5 @@
         </div>
         <footer class="page__footer">
-            footer
         </footer>
         </main>
         <!-- INSERT SCRIPTS HERE -->
