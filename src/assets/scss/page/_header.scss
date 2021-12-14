@@ -1,7 +1,18 @@
+main {
+	background: url("../image/main_bg.png");
+	background-size: 61%;
+	background-position: center -50px;
+	background-repeat: no-repeat;
+}
+
 .page {
 	&__header {
 		padding-top: 30px;
 		padding-bottom: 30px;
+		// position: fixed;
+		width: 100%;
+		z-index: 99999;
+		background: transparent;
 
 		.l-wrap {
 			display: flex;
@@ -78,17 +89,16 @@
 	&__banner {
 		padding-top: 187.5px;
 		padding-bottom: 101px;
-		background: url("../image/main_bg.png");
-		background-size: 882px;
-		background-position: center -188px;
-		background-repeat: no-repeat;
+		// background: url("../image/main_bg.png");
+		// background-size: contain;
+		// background-position: center -23px;
+		// background-repeat: no-repeat;
 		height: 100vh;
 
 		@include is-sp {
-			margin-top: 141.5px;
+			padding-top: 160px;
 			margin-bottom: 215px;
 		}
-
 		&--ttl {
 			font-weight: 700;
 			@include font-line(130, 150);
@@ -98,13 +108,33 @@
 			}
 
 			@include is-sp {
-				@include font-line(47, 54);
+				@include font-line(46, 54);
+			}
+
+			@include is-max(372px) {
+				font-size: 11.99vw;
 			}
 		}
 		&--sub {
 			font-weight: 700;
 			padding-top: 58px;
 			@include font-line(32, 48);
+		}
+
+		.l-wrap {
+			position: relative;
+
+			.floating_contact {
+				position: absolute;
+				right: 50px;
+				bottom: -10%;
+				width: 130px;
+				height: 130px;
+
+				@include is-sp {
+					display: none;
+				}
+			}
 		}
 	}
 }

@@ -1,0 +1,143 @@
+.page__footer {
+	&__wrap {
+		max-width: 1010px;
+		margin: 0 auto;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding-bottom: 170px;
+		width: 100%;
+
+		@include is-sp {
+			flex-wrap: wrap;
+		}
+	}
+
+	&--row-1 {
+		width: 220px;
+		a {
+			display: block;
+			width: 120px;
+			height: auto;
+		}
+
+		@include is-sp {
+			width: 100%;
+
+			a {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	&--row-2 {
+		width: calc(100% - 220px);
+
+		@include is-sp {
+			width: 100%;
+			padding: 0 20px;
+		}
+	}
+
+	&--links {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 28px;
+
+		@include is-sp {
+			flex-wrap: wrap;
+			width: 100%;
+			padding-top: 60px;
+		}
+
+		.accordion {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-family: $font-family-en;
+				font-weight: 600;
+				letter-spacing: 0.08em;
+
+				@include font-line(30, 24);
+
+				@include font-line(20);
+			}
+
+			img {
+				display: none;
+				width: 18px;
+				height: 18px;
+
+				@include is-sp {
+					display: block;
+				}
+			}
+		}
+
+		ul {
+			padding-top: 30px;
+			li {
+				a {
+					color: $color-text-default;
+					font-weight: 500;
+					letter-spacing: 0.04em;
+
+					@include font-line(13, 30);
+				}
+			}
+		}
+
+		&__items {
+			@include is-sp {
+				width: 100%;
+				padding: 35px 0;
+				border: 1px solid #e2e1e1;
+				border-right: none;
+				border-left: none;
+			}
+
+			.hidden {
+				@include is-sp {
+					display: none;
+				}
+			}
+
+			&:not(:nth-of-type(1)) {
+				padding: 10px 0 0 0;
+
+				@include is-sp {
+					padding: 35px 0;
+				}
+			}
+		}
+	}
+
+	&--copyright {
+		padding-bottom: 187px;
+
+		@include is-sp {
+			padding-bottom: 33px;
+		}
+		p {
+			font-family: $font-family-en;
+			font-weight: 500;
+			letter-spacing: 0.04em;
+			font-style: normal;
+			display: inline-flex;
+			align-items: center;
+
+			@include font-line(15, 24);
+
+			span {
+				font-family: $font-family-base;
+				a {
+					color: #000;
+					letter-spacing: 0.04em;
+					@include font-line(15);
+				}
+			}
+		}
+	}
+}

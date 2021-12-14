@@ -30,12 +30,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-    <main>
-        <?php
+    <?php
             $filePath = get_template_directory_uri(); 
             $filePath = parse_url($filePath, PHP_URL_PATH);
         ?>
+    <main>
         <div class="page__header">
             <div class="l-wrap">
                 <div class="l-wrap__left">
@@ -83,6 +82,10 @@
                 <h1 class="page__banner--ttl">集まらないと、<br>
                     はじまらない。</h1>
                 <p class="page__banner--sub">集客カンパニー「リード」</p>
+                <div class="floating_contact">
+                    <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
+                </div>
             </div>
+
         </div>
         <div class="page__content">
