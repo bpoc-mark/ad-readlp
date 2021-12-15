@@ -1,4 +1,81 @@
 .top {
 	.sect_1 {
+		padding: 0 0 162px 0;
+
+		&__column {
+			display: flex;
+			justify-content: space-between;
+			max-width: 1250px;
+			@include is-max(1000px) {
+				flex-wrap: wrap;
+			}
+
+			&--1 {
+				width: 505px;
+
+				@include is-max(1000px) {
+					width: 100%;
+				}
+
+				&__sml {
+					font-weight: 700;
+					letter-spacing: 0.1em;
+					@include font-line(18, 24);
+
+					span {
+						font-family: $font-family-en;
+						font-weight: 500;
+
+						@include font-line(18, 24);
+					}
+				}
+				&__ttl {
+					font-family: $font-family-en-text;
+					font-weight: 500;
+					line-height: normal;
+					width: fit-content;
+
+					@include font-line(125);
+
+					@include is-max(1040px) {
+						@include font-line(109);
+					}
+
+					@include is-sp {
+						@include font-line(63);
+					}
+				}
+			}
+
+			&--2 {
+				width: calc(100% - 505px);
+				padding-top: 63px;
+				margin-left: 101px;
+
+				@include is-max(1000px) {
+					width: 100%;
+					margin-left: 0;
+				}
+
+				&__ttl {
+					font-weight: 700;
+					letter-spacing: 0.08em;
+					@include font-line(35, 52);
+
+					@include is-sp {
+						@include font-line(25, 35);
+					}
+				}
+				&__desc {
+					font-weight: 500;
+					padding-top: 41px;
+					@include font-line(16, 32);
+
+					@include is-sp {
+						@include font-line(15, 30);
+					}
+				}
+			}
+		}
 	}
 }
