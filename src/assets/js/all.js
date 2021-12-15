@@ -21,4 +21,15 @@ $(document).ready(function () {
 			$(this).addClass("active");
 		}
 	});
+
+	// NAVBAR TOGGLE
+	$(".menu").on("click", function () {
+		$(".menu__line").toggleClass("isActive");
+	});
+	$(".menu_wrapper .nav__list .nav__list--item a").on("click", function (e) {
+		e.preventDefault();
+		$(this).toggleClass("isActive");
+		$(".sub_menu").toggle();
+	});
+	// END NAVBAR TOGGLE
 });
