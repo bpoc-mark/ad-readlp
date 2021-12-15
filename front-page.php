@@ -23,5 +23,107 @@
             </div>
         </div>
     </section>
+    <section class="sect_2">
+        <div class="l-wrap">
+            <h2 class="sect_2__ttl">Business</h2>
+
+            <div class="sect_2__content">
+                <div class="sect_2__content--1">
+                    <small><span>02 _ </span>事業領域 //</small>
+                    <p class="sect_2__content--1__ttl">
+                        ブランディング、ダイレクトマーケティング、デジタルプロモーション、メディアプランニング、映像クリエイティブ、リードが手がける5つの事業領域。<br class="u-d-n-sp">
+                        リードならではの強みを活かし、オフラインとオンラインをクロスさせながらビジネスの成功を支援します。
+                    </p>
+                </div>
+                <div class="sect_2__content--2">
+                    <div class="sect_2__content--2__item1">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-1.jpg"
+                            alt="">
+                        <p class="sml_ttl"><span></span>ブランディング</p>
+                        <div class="sect_2__content--2__ttl-cont">
+                            <h2>Branding</h2>
+                            <a href="">
+                                <div class="sect_2__content--2__ttl-cont--img">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
+                                        alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <p class="sect_2__content--2__ttl-cont--desc">サービス・プロダクトの企画段階から、ネーミングやコンセプトメイク、デザイン<br
+                                class="u-d-n-sp">などのクリエイティブを提案します。
+                        </p>
+                    </div>
+                    <div class="sect_2__content--2__item2">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-2.jpg"
+                            alt="">
+                        <p class="sml_ttl"><span></span>ダイレクトマーケティング</p>
+                        <div class="sect_2__content--2__ttl-cont">
+                            <h2>Marketing</h2>
+                            <a href="">
+                                <div class="sect_2__content--2__ttl-cont--img">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
+                                        alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <p class="sect_2__content--2__ttl-cont--desc">数多くの実績から導き出した「勝ちパターン」をもとに、ターゲティング、セグメ<br
+                                class="u-d-n-sp">ント、媒体選定など効果的なダイレクトマーケティングを実施します。
+                        </p>
+                    </div>
+                    <div class="sect_2__content--2__item3">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-3.jpg"
+                            alt="">
+                        <p class="sml_ttl"><span></span>デジタルプロモーション</p>
+                        <div class="sect_2__content--2__ttl-cont">
+                            <h2>Promotion</h2>
+                            <a href="">
+                                <div class="sect_2__content--2__ttl-cont--img">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
+                                        alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <p class="sect_2__content--2__ttl-cont--desc">WEB広告をはじめとした最適なプロモーションによって、生活者と密接につな<br
+                                class="u-d-n-sp">がるためのデジタルソリューションを提案します。
+                        </p>
+                    </div>
+                    <div class="sect_2__content--2__item4">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-4.jpg"
+                            alt="">
+                        <p class="sml_ttl"><span></span>メディアプランニング</p>
+                        <div class="sect_2__content--2__ttl-cont">
+                            <h2>Planning</h2>
+                            <a href="">
+                                <div class="sect_2__content--2__ttl-cont--img">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
+                                        alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <p class="sect_2__content--2__ttl-cont--desc">ターゲットとのタッチポイントを見極めながら、効果的な広告先を選定。また、<br
+                                class="u-d-n-sp">海外進出に向けたアウトバウンドマーケティングもおまかせください。
+                        </p>
+                    </div>
+                    <div class="sect_2__content--2__item5">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-5.jpg"
+                            alt="">
+                        <p class="sml_ttl"><span></span>映像クリエイティブ</p>
+                        <div class="sect_2__content--2__ttl-cont">
+                            <h2>Creative</h2>
+                            <a href="">
+                                <div class="sect_2__content--2__ttl-cont--img">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
+                                        alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <p class="sect_2__content--2__ttl-cont--desc">キャスティング、動画制作、動画広告プランニング、動画広告運用まで一気通貫<br
+                                class="u-d-n-sp">で行います。それぞれの課題解決に向けて最適なプランニングを提供します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 <?php get_footer();?>
