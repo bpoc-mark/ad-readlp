@@ -12,7 +12,6 @@
 
 			&--1 {
 				width: 505px;
-
 				@include is-max(1000px) {
 					width: 100%;
 				}
