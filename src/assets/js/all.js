@@ -22,14 +22,28 @@ $(document).ready(function () {
 		}
 	});
 
+	let allowed = false
+	var w = $(window).width();
+	if (w < 750) {
+	  allowed = true;
+	}
+
 	// NAVBAR TOGGLE
 	$(".menu").on("click", function () {
 		$(".menu__line").toggleClass("isActive");
+		$(".menu_wrapper").toggleClass("isActive");
 	});
 	$(".menu_wrapper .nav__list .nav__list--item a").on("click", function (e) {
 		e.preventDefault();
-		$(this).toggleClass("isActive");
-		$(".sub_menu").toggle();
+		if(allowed){
+			if($(this).hasClass("isActive")){
+				$(this).removeClass("isActive");
+				$(this).next(".sub_menu").slideUp();
+			}else {
+				$(this).addClass("isActive");
+				$(this).next(".sub_menu").slideDown();
+			}
+		}
 	});
 	// END NAVBAR TOGGLE
 });

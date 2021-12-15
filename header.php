@@ -35,7 +35,7 @@
             $filePath = parse_url($filePath, PHP_URL_PATH);
         ?>
     <main>
-        <!-- <div class="page__header">
+        <div class="page__header">
             <div class="l-wrap">
                 <div class="l-wrap__left">
                     <a href=""><img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt=""></a>
@@ -46,6 +46,32 @@
                             <ul class="nav__list menu_sp">
                                 <li class="nav__list--item">
                                     <a class="nav__list--item__link" href="">ABOUT</a>
+                                </li>
+                                <li class="nav__list--item">
+                                    <a class="nav__list--item__link" href="">BUSINESS</a>
+                                    <ul class="sub_menu">
+                                        <li class="sub_menu_item">
+                                            <a href="">ブランディング</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">ダイレクトマーケティング</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">デジタルプロモーション</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">メディアプランニング</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">映像クリエイティブ</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">実績</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__list--item">
+                                    <a class="nav__list--item__link" href="">COMPANY</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">TOPページ</a>
@@ -65,13 +91,21 @@
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">BUSINESS</a>
-                                </li>
-                                <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">COMPANY</a>
-                                </li>
-                                <li class="nav__list--item">
                                     <a class="nav__list--item__link" href="">COLUMN</a>
+                                    <ul class="sub_menu">
+                                        <li class="sub_menu_item">
+                                            <a href="">ポスティング</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">WEBマーケティング</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">OOH</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="">TVCM</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -106,7 +140,7 @@
                     </nav>
                 </div>
             </div>
-        </div> -->
+        </div>
         <div class="page__banner">
             <div class="l-wrap">
                 <h1 class="page__banner--ttl">集まらないと、<br>
