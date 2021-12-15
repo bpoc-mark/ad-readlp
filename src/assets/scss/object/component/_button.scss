@@ -343,3 +343,46 @@
 		width: 26px;
 	}
 }
+
+.c-buttonRight {
+	display: flex;
+	align-items: center;
+	padding-top: 45px;
+
+	@include is-sp {
+		padding-top: 40px;
+	}
+
+	a {
+		color: $color-text-default;
+		font-family: $font-family-en;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+
+		@include font-line(14, 24);
+	}
+
+	span {
+		background-image: url("../image/arrow-bigger-bg.png");
+		background-size: cover;
+		background-position: center;
+		width: 65px;
+		height: 65px;
+		margin-left: 8px;
+		transition: 0.3s ease-in-out;
+	}
+
+	img {
+		width: 20px;
+		height: 15px;
+		position: relative;
+		left: 0px;
+		margin-top: 25px;
+	}
+
+	&:hover {
+		span {
+			transform: scale(1.1);
+		}
+	}
+}
