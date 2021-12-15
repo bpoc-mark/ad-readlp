@@ -5,20 +5,25 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
-		padding-bottom: 170px;
+		padding: 0 50px 170px 50px;
 		width: 100%;
 
 		@include is-sp {
 			flex-wrap: wrap;
+			padding: 0 20px 170px 20px;
 		}
 	}
 
 	&--row-1 {
-		width: 220px;
+		width: 21.782178217821784%;
 		a {
 			display: block;
-			width: 120px;
+			width: 70px;
 			height: auto;
+
+			img {
+				width: 100%;
+			}
 		}
 
 		@include is-sp {
@@ -31,7 +36,11 @@
 	}
 
 	&--row-2 {
-		width: calc(100% - 220px);
+		width: calc(100% - 22%);
+
+		@include is-tabpc {
+			width: 100%;
+		}
 
 		@include is-sp {
 			width: 100%;
@@ -82,6 +91,11 @@
 
 		ul {
 			padding-top: 30px;
+
+			@include is-sp {
+				padding-left: 20px;
+			}
+
 			li {
 				a {
 					color: $color-text-default;
@@ -96,23 +110,19 @@
 		&__items {
 			@include is-sp {
 				width: 100%;
-				padding: 35px 0;
-				border: 1px solid #e2e1e1;
+				padding: 35px 20px 35px 0;
+				border-bottom: 1px solid #e2e1e1;
 				border-right: none;
 				border-left: none;
+
+				&:first-child {
+					border-top: 1px solid #e2e1e1;
+				}
 			}
 
 			.hidden {
 				@include is-sp {
 					display: none;
-				}
-			}
-
-			&:not(:nth-of-type(1)) {
-				padding: 10px 0 0 0;
-
-				@include is-sp {
-					padding: 35px 0;
 				}
 			}
 		}
@@ -141,6 +151,22 @@
 					letter-spacing: 0.04em;
 					@include font-line(15);
 				}
+			}
+		}
+	}
+
+	.l-wrap {
+		position: relative;
+
+		.backtop {
+			position: absolute;
+			right: 50px;
+			bottom: 159px;
+			width: 65px;
+			height: auto;
+
+			@include is-sp {
+				bottom: 125px;
 			}
 		}
 	}
