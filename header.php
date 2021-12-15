@@ -35,7 +35,7 @@
             $filePath = parse_url($filePath, PHP_URL_PATH);
         ?>
     <main>
-        <div class="page__header">
+        <!-- <div class="page__header">
             <div class="l-wrap">
                 <div class="l-wrap__left">
                     <img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt="">
@@ -76,7 +76,7 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="page__banner">
             <div class="l-wrap">
                 <h1 class="page__banner--ttl">集まらないと、<br>
