@@ -10,12 +10,12 @@
         <div class="page__footer--row-2">
             <div class="page__footer--links">
                 <div class="page__footer--links__items">
-                    <div class="accordion">
+                    <div class="accordion active">
                         <p>COMPANY</p>
                         <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
                             alt="">
                     </div>
-                    <ul class="hidden">
+                    <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">リードについて</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">会社概要</a></li>
@@ -23,12 +23,12 @@
                     </ul>
                 </div>
                 <div class="page__footer--links__items">
-                    <div class="accordion">
+                    <div class="accordion active">
                         <p>BUSINESS</p>
                         <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
                             alt="">
                     </div>
-                    <ul class="hidden">
+                    <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">ブランディング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">ダイレクトマーケティング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">デジタルプロモーション</a></li>
@@ -38,12 +38,12 @@
                     </ul>
                 </div>
                 <div class="page__footer--links__items">
-                    <div class="accordion">
+                    <div class="accordion active">
                         <p>COLUMN</p>
                         <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
                             alt="">
                     </div>
-                    <ul class="hidden">
+                    <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">ポスティング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">WEBマーケティング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">OOH</a></li>
@@ -51,12 +51,12 @@
                     </ul>
                 </div>
                 <div class="page__footer--links__items">
-                    <div class="accordion">
+                    <div class="accordion active">
                         <p>SNS</p>
                         <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
                             alt="">
                     </div>
-                    <ul class="hidden">
+                    <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">Facebook</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">Instagram</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">Pinterest</a></li>
