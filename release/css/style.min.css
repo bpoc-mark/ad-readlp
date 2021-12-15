@@ -825,7 +825,7 @@ main{background:url("../image/main_bg.png");background-size:61%;background-posit
 .page__footer__wrap{-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0 20px 170px 20px}
 .page__footer--row-1{width:100%}
 .page__footer--row-1 a{margin:0 auto}
-.page__footer--row-2{width:100%;padding:0 20px}
+.page__footer--row-2{width:100%}
 .page__footer--links{-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;padding-top:60px}
 .page__footer--links .accordion img{display:block}
 .page__footer--links ul{padding-left:20px}
