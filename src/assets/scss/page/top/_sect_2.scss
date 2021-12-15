@@ -1,0 +1,182 @@
+.top {
+	.sect_2 {
+		padding-top: 150px;
+		position: relative;
+
+		&::before {
+			content: "";
+			display: block;
+			background-color: #e5e5e4;
+			width: 40%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			z-index: 1;
+
+			@include is-sp {
+				width: 50%;
+			}
+		}
+
+		.l-wrap {
+			z-index: 5;
+			position: relative;
+
+			@include is-sp {
+				padding-left: 20px;
+				padding-right: 0;
+			}
+		}
+
+		&__ttl {
+			font-family: $font-family-en-text;
+			font-weight: 500;
+			line-height: 1;
+
+			@include font-line(250);
+
+			@include is-max(1175px) {
+				font-size: 20vw;
+			}
+
+			@include is-sp {
+				@include font-line(109.6);
+				white-space: nowrap;
+				overflow: hidden;
+				padding-bottom: 30px;
+			}
+		}
+
+		&__content {
+			max-width: 1120px;
+			display: flex;
+			margin-left: auto;
+
+			@include is-sp {
+				flex-wrap: wrap;
+				padding-right: 20px;
+			}
+
+			&--1 {
+				width: 40%;
+				margin: 50px 80px 0 0;
+
+				@include is-sp {
+					width: 100%;
+					margin: 0;
+				}
+
+				small {
+					font-weight: 700;
+					letter-spacing: 0.01em;
+
+					@include font-line(18, 24);
+
+					span {
+						font-family: $font-family-en;
+						font-weight: 500;
+
+						@include font-line(18, 24);
+					}
+				}
+
+				&__ttl {
+					font-weight: 500;
+					letter-spacing: 0.04em;
+					padding-top: 15px;
+
+					@include font-line(16, 32);
+				}
+			}
+
+			&--2 {
+				width: calc(100% - 40%);
+				margin-top: -60px;
+
+				@include is-sp {
+					width: 100%;
+					margin-top: 80px;
+				}
+
+				.sml_ttl {
+					font-weight: 500;
+					@include font-line(18, 24);
+					padding-top: 28px;
+					padding-bottom: 8px;
+
+					@include is-sp {
+						@include font-line(15);
+					}
+
+					span {
+						background-color: #e93f33;
+						width: 9px;
+						height: 9px;
+						border-radius: 50%;
+						display: inline-block;
+						position: relative;
+						top: -9px;
+						margin-right: 6.5px;
+					}
+				}
+
+				&__ttl-cont {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					h2 {
+						font-family: $font-family-en-text;
+						font-weight: 500;
+						line-height: 1;
+						@include font-line(55);
+
+						@include is-sp {
+							@include font-line(38);
+						}
+					}
+
+					&--img {
+						width: 40px;
+						height: auto;
+
+						img {
+							width: 100%;
+						}
+					}
+
+					&--desc {
+						font-weight: 500;
+						letter-spacing: 0.04em;
+						padding-top: 25px;
+
+						@include font-line(15, 27);
+
+						@include is-sp {
+							@include font-line(14);
+						}
+					}
+				}
+
+				&__item2 {
+					padding-top: 80px;
+				}
+				&__item3 {
+					padding-top: 80px;
+				}
+				&__item4 {
+					padding-top: 80px;
+				}
+				&__item5 {
+					padding-top: 80px;
+					padding-bottom: 150px;
+
+					@include is-sp {
+						padding-bottom: 100px;
+					}
+				}
+			}
+		}
+	}
+}
