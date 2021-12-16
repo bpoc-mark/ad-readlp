@@ -125,5 +125,57 @@
             </div>
         </div>
     </section>
+    <section class="sect_3">
+        <div class="l-wrap">
+            <div class="sect_3__container">
+                <div class="sect_3__col">
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-1.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-2.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-3.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-4.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-5.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-6.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-7.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-8.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-9.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-10.png"
+                            alt="">
+                    </div>
+                    <div class="sect_3__col--item">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-11.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 <?php get_footer();?>
