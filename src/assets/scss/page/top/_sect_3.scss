@@ -40,16 +40,25 @@
 				&:nth-of-type(1) {
 					img {
 						width: 146px;
+						@include is-sp {
+							width: 100px;
+						}
 					}
 				}
 				&:nth-of-type(2) {
 					img {
 						width: 175px;
+						@include is-sp {
+							width: 130px;
+						}
 					}
 				}
 				&:nth-of-type(3) {
 					img {
 						width: 175px;
+						@include is-sp {
+							width: 130px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -67,6 +76,9 @@
 					margin-top: 80px;
 					img {
 						width: 146px;
+						@include is-sp {
+							width: 100px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -76,6 +88,9 @@
 					margin-top: 80px;
 					img {
 						width: 175px;
+						@include is-sp {
+							width: 130px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -85,6 +100,9 @@
 					margin-top: 80px;
 					img {
 						width: 146px;
+						@include is-sp {
+							width: 100px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -94,6 +112,9 @@
 					margin-top: 80px;
 					img {
 						width: 175px;
+						@include is-sp {
+							width: 130px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -103,6 +124,9 @@
 					margin-top: 80px;
 					img {
 						width: 146px;
+						@include is-sp {
+							width: 100px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -112,6 +136,9 @@
 					margin-top: 80px;
 					img {
 						width: 66px;
+						@include is-sp {
+							width: 55px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
@@ -121,6 +148,9 @@
 					margin-top: 80px;
 					img {
 						width: 66px;
+						@include is-sp {
+							width: 55px;
+						}
 					}
 					@include is-sp {
 						margin-top: 45px;
