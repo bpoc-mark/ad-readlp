@@ -22,20 +22,31 @@ $(document).ready(function () {
 		}
 	});
 
+	$(window).on("load scroll", function () {
+		var t = $(this).scrollTop();
+		if (t > 100) {
+			$(".page__header").addClass("isScroll");
+		} else {
+			$(".page__header").removeClass("isScroll");
+		};
+	});
+
 	let allowed = false
 	var w = $(window).width();
 	if (w < 750) {
 	  allowed = true;
+	  $('.sub_menu').removeAttr('style');
 	}
 
 	// NAVBAR TOGGLE
 	$(".menu").on("click", function () {
 		$(".menu__line").toggleClass("isActive");
 		$(".menu_wrapper").toggleClass("isActive");
+		$(".page__header").toggleClass("isActive");
 	});
-	$(".menu_wrapper .nav__list .nav__list--item a").on("click", function (e) {
-		e.preventDefault();
+	$(".menu_wrapper .nav__list .nav__list--item:nth-child(-n+4) a").on("click", function (e) {
 		if(allowed){
+			e.preventDefault();
 			if($(this).hasClass("isActive")){
 				$(this).removeClass("isActive");
 				$(this).next(".sub_menu").slideUp();

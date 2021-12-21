@@ -7,37 +7,39 @@ main {
 
 .page {
 	&__header {
-		padding: 30px 0 30px 0;
 		// position: fixed;
 		width: 100%;
-		z-index: 99999;
-		background: transparent;
-
+		z-index: 999;
+		height: 130px;
+		display: flex;
+		align-items: center;
 		@include is-sp{
-			padding: 15px 0 15px 0;
+			height: 70px;
+			position: fixed;
+			&.isActive{
+				background-image: url(../image/bg.jpg);
+				background-size: 100% auto;
+			}
+			&.isScroll{
+				background-image: url(../image/bg.jpg);
+				background-size: 100% auto;
+			}
 		}
-
 		.l-wrap {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 
-			@include is-sp{
-				padding: 0 20px 0 20px;
-			}
-
 			&__left {
 				.logo {
 					width: 80px;
-
 					@include is-sp{
-						width: 90px;
+						width: 45px;
 					}
 				}
 			}
 
 			&__right {
-				width: 640px;
 				.nav {
 					display: flex;
 					justify-content: flex-end;
@@ -49,17 +51,19 @@ main {
 						@include is-sp{
 							position: fixed;
 							z-index: 999;
-							top: 0;
+							top: 70px;
 							left: 0;
 							width: 100%;
 							height: 100%;
-							background-color: #FFF;
+							background-image: url(../image/bg.jpg);
+							background-size: 100% auto;
 							align-items: flex-start;
-							margin-top: 107px;
 							padding: 0 20px 0 20px;
 							opacity: 0;
 							visibility: hidden;
 							transition: .3s ease-in-out;
+							overflow: scroll;
+							padding-bottom: 100px;
 						}
 						&.isActive{
 							@include is-sp{
@@ -68,7 +72,6 @@ main {
 							}
 						}
 					}
-
 					&__list {
 						display: flex;
 						justify-content: space-between;
@@ -76,6 +79,7 @@ main {
 						&.menu_sp{
 							@include is-sp{
 								flex-wrap: wrap;
+								justify-content: flex-start;
 								width: 100%;
 
 								.nav__list--item{
@@ -91,6 +95,8 @@ main {
 									}
 									&:nth-child(4){
 										order: 4;
+										border-bottom: 1px solid #e2e1e1;
+										margin-bottom: 50px;
 									}
 
 									&:first-child{
@@ -164,6 +170,49 @@ main {
 						}
 						&--item {
 							margin-right: 50px;
+							@include is-max(900px){
+								margin-right: 20px;
+							}
+
+							&:nth-of-type(5) {
+								margin-right: 20px;
+								img {
+									width: 13px;
+								}
+								@include is-sp{
+									margin-right: 0;
+									order: 5;
+									width: 13px !important;
+									border-top: none !important;
+								}
+							}
+							&:nth-of-type(6) {
+								margin-right: 20px;
+								img {
+									width: 22.5px;
+								}
+								@include is-sp{
+									order: 6;
+									margin-right: 0;
+									border-top: none !important;
+									width: 22.5px !important;
+									margin-right: 40px !important;
+									margin-left: 40px;
+								}
+							}
+							&:nth-of-type(7) {
+								margin-right: 20px;
+								img {
+									width: 17.5px;
+								}
+								@include is-sp{
+									order: 7;
+									margin-right: 0;
+									border-top: none !important;
+									border-bottom: none !important;
+									width: 17.7px !important;
+								}
+							}
 							a {
 								color: $color-text-default;
 								display: inline-block;
@@ -174,95 +223,78 @@ main {
 								@include font-line(14, 24);
 							}
 						}
-						&.iconlink{
-							.nav__list--item{
-								margin-right: 20px;
-								&:nth-of-type(1) {
-									img {
-										width: 12px;
-										height: 22px;
-									}
-									@include is-sp{
-										display: none;
-									}
-								}
-								&:nth-of-type(2) {
-									img {
-										width: 22px;
-										height: 22px;
-									}
-									@include is-sp{
-										display: none;
-									}
-								}
-								&:nth-of-type(3) {
-									img {
-										width: 17px;
-										height: 22px;
-									}
-									@include is-sp{
-										display: none;
-									}
-								}
-								&:nth-of-type(4) {
+					}
+					.m_nav__list{
+						@include is-sp{
+							display: flex;
+							align-items: center;
+						}
+						.nav__list--item{
+							margin-right: 0;
+							&:nth-of-type(1) {
+								a{
 									border: 1px solid #000;
 									border-radius: 5px;
-									padding: 14.5px 17px;
-									margin-right: unset;
-
+									margin-right: 0;
+									width: 55px;
+									height: 55px;
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									transition: .3s ease-in-out;
 									@include is-sp{
-										padding: 9.5px 14.5px;
-										margin-right: 20px;
+										width: 45px;
+										height: 45px;
 									}
-									img {
+									&:hover{
+										background-color: #000;
+										svg{
+											path{
+												fill: #fff;
+											}
+										}
+									}
+									svg {
 										width: 21px;
 										height: 21px;
-
+										transition: .3s ease-in-out;
 										@include is-sp{
-											width: 16px;
-											height: 16px;
+											width: 16.5px;
 										}
 									}
 								}
-								&:nth-of-type(5) {
-									border: 1px solid #000;
-									background-color: #000;
-									border-radius: 5px;
-									padding: 15px;
-									margin-right: unset;
-
-									@include is-sp{
-										padding: 9.5px 14.5px;
-										margin-right: 20px;
-									}
-									img {
-										width: 21px;
-										height: 21px;
-
-										@include is-sp{
-											width: 16px;
-											height: 16px;
-										}
-									}
-									@include is-pc{
-										display: none;
-									}
+							}
+							&:nth-of-type(2) {
+								background-color: #000000;
+								border-radius: 5px;
+								margin-right: 0;
+								width: 45px;
+								height: 45px;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								margin: 0 20px;
+								img {
+									width: 17px;
 								}
-								&:nth-of-type(6) {
-									@include is-pc{
-										display: none;
-									}
-									@include is-sp{
-										margin-right: 0px;
-									}
+								@include is-pc{
+									display: none;
+								}
+							}
+							&:nth-of-type(3) {
+								@include is-pc{
+									display: none;
+								}
+								@include is-sp{
+									margin-right: 0px;
 								}
 								.menu{
 									position: relative;
 									width: 19px;
 									height: 21px;
 									background-color: transparent;
-
-
+	
+	
 									&__line{
 										position: absolute;
 										top: 1px;
@@ -274,7 +306,7 @@ main {
 										height: 2px;
 										margin: auto;
 										transition: 0.3s;
-
+	
 										&.line_t{
 											&.isActive{
 												transform: rotate(-45deg);
@@ -298,13 +330,6 @@ main {
 								}
 							}
 						}
-					}
-
-					&__links {
-						width: 168px;
-						display: flex;
-						align-items: center;
-						justify-content: space-between;
 					}
 				}
 			}

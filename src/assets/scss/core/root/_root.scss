@@ -24,7 +24,8 @@ $color-danger: #dc3545;
 }
 
 body {
-	background-color: #f6f5f4;
+	background-image: url(../image/bg.jpg);
+	background-size: 100% auto;
 	color: $color-text-default;
 	font-family: $font-family-base;
 	font-weight: $font-weight-base;
