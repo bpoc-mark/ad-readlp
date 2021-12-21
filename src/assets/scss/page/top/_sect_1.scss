@@ -1,7 +1,9 @@
 .top {
 	.sect_1 {
-		padding: 0 0 162px 0;
-
+		padding: 126px 0 162px 0;
+		@include is-sp{
+			padding: 0 0 150px 0;
+		}
 		&__column {
 			display: flex;
 			justify-content: space-between;
@@ -20,12 +22,16 @@
 					font-weight: 700;
 					letter-spacing: 0.1em;
 					@include font-line(18, 24);
-
+					@include is-sp{
+						@include font-line(17, 25.5);
+					}
 					span {
 						font-family: $font-family-en;
 						font-weight: 500;
-
 						@include font-line(18, 24);
+						@include is-sp{
+							@include font-line(17, 25.5);
+						}
 					}
 				}
 				&__ttl {
@@ -33,15 +39,12 @@
 					font-weight: 500;
 					line-height: normal;
 					width: fit-content;
-
 					@include font-line(125);
-
 					@include is-max(1040px) {
 						@include font-line(109);
 					}
-
 					@include is-sp {
-						@include font-line(63);
+						@include font-line(62.5);
 					}
 				}
 			}
@@ -54,6 +57,7 @@
 				@include is-max(1000px) {
 					width: 100%;
 					margin-left: 0;
+					padding-top: 30px;
 				}
 
 				&__ttl {
@@ -62,7 +66,7 @@
 					@include font-line(35, 52);
 
 					@include is-sp {
-						@include font-line(25, 35);
+						@include font-line(25, 32.5);
 					}
 				}
 				&__desc {
@@ -72,6 +76,7 @@
 
 					@include is-sp {
 						@include font-line(15, 30);
+						padding-top: 26px;
 					}
 				}
 			}
