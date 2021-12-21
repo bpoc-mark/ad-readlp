@@ -1,111 +1,139 @@
 .c-card01 {
-    display: block;
-    background-color: white;
-    position: relative;
-    margin: 20px auto;
-    padding: 2%;
-
-    &--md {
-        width: calc(90%/3);
-
-        @include is-sp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    &--col3{
+        width: 31.25%;
+        @include is-sp{
             width: 100%;
-            padding: 20px;
+            margin: 0 0 53px 0;
         }
-    }
-
-    &__top,
-    &__center,
-    &__bottom {
-        text-align: center;
-    }
-
-    &__center,
-    &__bottom {
-        height: 200px;
-    }
-
-    &__bottom {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-
-        @include is-sp {
-            width: 100%;
-            height: 240px;
+        &:nth-child(3n+2){
+            margin: 60px 0 35px 3.13%;
+            @include is-sp{
+                margin: 0 0 53px 0;
+            }
         }
-
-        @include is-tabpc {
-            max-height: 200px;
-            margin-bottom: 20px;
+        &:nth-child(3n+3){
+            margin: 120px 0 35px 3.10%;
+            @include is-sp{
+                margin: 0 0 53px 0;
+            }
         }
-    }
-
-    &__pic {
-        width: 100%;
-        height: 100%;
-    }
-
-    &__title,
-    &__desc {
-        padding: 20px;
-    }
-
-    &__title {
-        @include is-pc {
-            @include font-line(18);
-            font-weight: 600;
+        &__img{
+            position: relative;
         }
-    }
-
-    &__desc {
-        letter-spacing: 1px;
-
-        @include is-tabpc {
-            @include font-line(13);
+        &__num{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            background-color: #fff;
+            font-family: $font-family-en;
             font-weight: 700;
+            @include font-line(30);
+            letter-spacing: .04em;
+
+            @include is-sp{
+                width: 53px;
+                height: 53px;
+                @include font-line(25);
+            }
+        }
+        &__title{
+            @include font-line(25, 37.5);
+            font-weight: 700;
+            padding: 27px 0 8px;
+
+            @include is-sp{
+                @include font-line(17, 25.5);
+                padding: 20px 0 10px;
+            }
+        }
+        &__desc{
+            @include font-line(15, 27);
+            letter-spacing: 0.04em;
+            @include is-sp{
+                @include font-line(14, 28);
+            }
         }
     }
 }
 
 .c-card02 {
     position: relative;
-    display: inline-block;
-    padding: 30px;
-    margin: 20px;
-    transition: padding 0.3s ease-out;
-
-    /* Pre-render the bigger shadow, but hide it */
-    &::after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        -webkit-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        opacity: 0;
-        transition: opacity 0.3s ease-out;
-    }
-
-    &:hover {
-        padding: 35px;
-
-        &::after {
-            opacity: 1;
+    .c-accordion{
+        border-bottom: 1px solid #000;
+        &:first-child{
+            border-top: 1px solid #000;
         }
-    }
+        &__head{
+            &--title{
+                position: relative;
+                display: block;
+                @include font-line(25);
+                cursor: pointer;
+                padding: 31px 0 33px;
+                @include is-sp{
+                    @include font-line(15);
+                    font-weight: 700;
+                    line-height: 1.2;
+                    padding: 22px 0 22px;
+                }
+                span{
+                    @include font-line(38);
+                    font-family: $font-family-en;
+                    font-weight: 500;
+                }
+                &.isActive{
+                    &::before{
+                        transform: translate(0, -50%) rotate(90deg);
+                        opacity: 0;
+                    }
+                    &::after{
+                        transform: translate(0, -50%) rotate(180deg);
+                    }
+                }
+                &::before{
+                    content: "";
+                    display: block;
+                    width: 25px;
+                    height: 2px;
+                    background-color: #000;
+                    position: absolute;
+                    top: 50%;
+                    right: 30px;
+                    transform: translate(0, -50%);
+                    transition: .3s ease-in-out;
 
-    &__pic {
-        height: 75px;
+                    @include is-sp{
+                        width: 18px;
+                    }
+                }
+                &::after{
+                    content: "";
+                    display: block;
+                    width: 25px;
+                    height: 2px;
+                    background-color: #000;
+                    position: absolute;
+                    top: 50%;
+                    right: 30px;
+                    transform: translate(0, -50%) rotate(90deg);
+                    transition: .3s ease-in-out;
 
-        img {
-            max-height: 100%;
+                    @include is-sp{
+                        width: 18px;
+                    }
+                }
+            }
+        }
+        &__content{
+            display: none;
         }
     }
 }
