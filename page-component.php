@@ -101,17 +101,22 @@ get_header();?>
             <br><br>
             <pre>
                 <?= trim(htmlspecialchars('
-                    <div class="c-accordion">
-                        <div class="c-accordion__head">
-                            <h3 class="c-accordion__head--title">ブランディング<br class="u-d-n-pc"><span class="u-d-n-pc">Branding</span></h3>
-                        </div>
-                        <div class="c-accordion__content">
-                            asdasdasdasdasdas <br> asdasdadsad <br>
+                     <div class="c-card02">
+                        <div class="c-accordion">
+                            <div class="c-accordion__head">
+                                <h3 class="c-accordion__head--title">ブランディング<br class="u-d-n-pc"><span class="u-d-n-pc">Branding</span></h3>
+                            </div>
+                            <div class="c-accordion__content">
+                                asdasdasdasdasdas <br> asdasdadsad <br>
+                            </div>
                         </div>
                     </div>
                 ')) ?>
             </pre>
         </div>
         <br><br><br><br><br>
+        <div class="l-wrap">
+
+        </div>
     </div>
 <?php get_footer();?>
