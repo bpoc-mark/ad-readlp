@@ -1,8 +1,12 @@
 .top {
 	.sect_2 {
 		padding-top: 150px;
+		padding-bottom: 150px;
 		position: relative;
-
+		@include is-sp{
+			padding-top: 100px;
+			padding-bottom: 95px;
+		}
 		&::before {
 			content: "";
 			display: block;
@@ -86,7 +90,7 @@
 					letter-spacing: 0.04em;
 					padding-top: 15px;
 
-					@include font-line(16, 32);
+					@include font-line(15, 32);
 				}
 			}
 
@@ -98,12 +102,15 @@
 					width: 100%;
 					margin-top: 80px;
 				}
+				a{
+					color: unset;
+				}
 
 				.sml_ttl {
-					font-weight: 500;
+					font-weight: 700;
 					@include font-line(18, 24);
 					padding-top: 28px;
-					padding-bottom: 8px;
+					padding-bottom: 10px;
 
 					@include is-sp {
 						@include font-line(15);
@@ -120,7 +127,7 @@
 						margin-right: 6.5px;
 					}
 				}
-
+				
 				&__ttl-cont {
 					display: flex;
 					justify-content: space-between;
@@ -149,7 +156,7 @@
 					&--desc {
 						font-weight: 500;
 						letter-spacing: 0.04em;
-						padding-top: 25px;
+						padding-top: 20px;
 
 						@include font-line(15, 27);
 
@@ -159,21 +166,12 @@
 					}
 				}
 
-				&__item2 {
-					padding-top: 80px;
-				}
-				&__item3 {
-					padding-top: 80px;
-				}
-				&__item4 {
-					padding-top: 80px;
-				}
-				&__item5 {
-					padding-top: 80px;
-					padding-bottom: 150px;
-
-					@include is-sp {
-						padding-bottom: 100px;
+				&__item {
+					&:not(:last-child){
+						padding-bottom: 80px;
+						@include is-sp{
+							padding-bottom: 55px;
+						}
 					}
 				}
 			}
