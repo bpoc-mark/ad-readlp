@@ -187,5 +187,54 @@
             </div>
         </div>
     </section>
+    <section class="sect_4">
+        <div class="bg"></div>
+        <div class="l-wrap">
+            <div class="head_row">
+                <div class="head_row--left">
+                    <small><span>03 _ </span>事例 //</small>
+                    <h3 class="head_row--left__ttl">Works</h3>
+                </div>
+                <div class="head_row--right">
+                    <p>
+                        リードが手掛けてきた実績を紹介します。<br>
+                        クライアントの課題に向き合い、分析・改善を繰り返すことで<br>
+                        企業・ブランド価値向上のお手伝いしています。
+                    </p>
+                    <button class="c-buttonRight">
+                        <a href="">READ MORE</a>
+                        <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                alt=""></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="slider_cont">
+            <div class="swiper top_swiper">
+                <div class="swiper-wrapper">
+                    <?php
+                        $list = [
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 1'],
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 2'],
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 3'],
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 4'],
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 5'],
+                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 6'],
+                        ];
+                        foreach ($list as $key => $el) :
+                    ?>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="<?php echo get_template_directory_uri();?><?= $el[0] ?>" alt="">
+                            </figure> 
+                            <p><?= $el[1] ?></p>
+                        </div> 
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
+            <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
+        </div>
+    </section>
 </div>
 <?php get_footer();?>

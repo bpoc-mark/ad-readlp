@@ -1,0 +1,150 @@
+.top {
+	.sect_4 {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 160px;
+		@include is-sp{
+			padding-bottom: 90px;
+		}
+		.bg{
+			height: calc(100% - 100px);
+			background-color: #eeeeed;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			right: 0;
+			z-index: -1;
+			&::before{
+				content: "";
+				display: block;
+				height: 100%;
+				background-color: #eeeeed;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				left: -580px;
+				z-index: -1;
+			}
+			@include is-sp{
+				height: calc(100% - 65px);
+			}
+		}
+		.l-wrap{
+			position: relative;
+			.head_row{
+				display: flex;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				&--left{
+					width: 470px;
+					@include is-max(900px){
+						width: 390px;
+					}
+					@include is-sp{
+						width: 100%;
+					}
+					small {
+						font-weight: 700;
+						letter-spacing: 0.01em;
+	
+						@include font-line(16, 24);
+						@include is-sp{
+							@include font-line(17);
+						}
+						span {
+							font-family: $font-family-en;
+							font-weight: 500;
+	
+							@include font-line(19, 24);
+							@include is-sp{
+								@include font-line(17);
+							}
+						}
+					}
+
+					&__ttl{
+						@include font-line(125);
+						font-family: $font-family-en;
+						font-weight: 500;
+						line-height: 1.1;
+
+						@include is-sp{
+							@include font-line(62.5);
+						}
+					}
+				}
+				&--right{
+					width: calc(100% - 470px);
+					padding-top: 50px;
+					@include is-max(900px){
+						width: calc(100% - 390px);
+					}
+					@include is-sp{
+						width: 100%;
+						padding-top: 18px;
+					}
+					p{
+						line-height: 32px;
+
+						@include is-sp{
+							@include font-line(15, 30);
+						}
+					}
+				}
+			}
+		}
+		.slider_cont{
+			position: relative;
+			max-width: 1440px;
+			margin:  30px auto 0;
+			padding: 60px 0 0 240px;
+			@include is-sp{
+				margin:  50px auto 0;
+				padding: 39px 0 0 20px;
+			}
+			.top_swiper{
+				.swiper-wrapper{
+					.swiper-slide{
+						p{
+							padding-top: 9px;
+							font-weight: 700;
+							@include font-line(14, 24);
+						}
+					}
+				}
+			}
+			.swiper-button-prev{
+				width: 41.5px;
+				left: auto;
+				right: 80px;
+				top: 0;
+				&::after{
+					content: "";
+					display: none;
+				}
+
+				@include is-sp{
+					width: 33.5px;
+					right: 20px;
+				}
+			}
+			.swiper-button-next{
+				width: 41.5px;
+				left: auto;
+				right: 140px;
+				top: 0;
+				&::after{
+					content: "";
+					display: none;
+				}
+				img{
+					transform: scaleX(-1);
+				}
+				@include is-sp{
+					width: 33.5px;
+					right: 72.5px;
+				}
+			}
+		}
+	}
+}

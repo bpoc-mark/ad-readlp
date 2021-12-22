@@ -21,7 +21,8 @@
     <!-- YakuHanJP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css">
     <!-- YakuHanJP -->
-
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!-- INSERT HERE SCRIPT FOR ADOBE FONTS -->
 
     <!-- END ADOBE FONTS -->
