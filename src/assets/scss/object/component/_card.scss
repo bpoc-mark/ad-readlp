@@ -4,20 +4,24 @@
     align-items: flex-start;
     &--col3{
         width: 31.25%;
+        @include is-between(900px, 751px){
+            width: 48%;
+            &:nth-child(2n+2){
+                margin: 60px 0 35px 4%;
+            }
+        }
         @include is-sp{
             width: 100%;
             margin: 0 0 53px 0;
         }
         &:nth-child(3n+2){
-            margin: 60px 0 35px 3.13%;
-            @include is-sp{
-                margin: 0 0 53px 0;
+            @include is-min(901px){
+                margin: 60px 0 114px 3.125%;
             }
         }
         &:nth-child(3n+3){
-            margin: 120px 0 35px 3.10%;
-            @include is-sp{
-                margin: 0 0 53px 0;
+            @include is-min(901px){
+                margin: 120px 0 0 3.125%;
             }
         }
         &__img{
@@ -139,22 +143,67 @@
 }
 
 .c-card03 {
-    position: relative;
-    padding: 30px;
-    height: 180px;
-    width: calc(100%/4);
-
-    &__pic {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-content: center;
-        align-items: center;
-
-        img {
-            max-height: 100%;
-            max-width: 100%;
-            margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    &--col3{
+        width: 31.25%;
+        position: relative;
+        background-color: #fff;
+        padding: 56px 40px 54px;
+        @include is-between(900px, 751px){
+            width: 48%;
+            &:not(:last-child){
+                margin: 0 0 60px 0;
+            }
+        }
+        @include is-sp{
+            width: 100%;
+            padding: 42px 20px 44px;
+            &:not(:last-child){
+                margin: 0 0 60px 0;
+            }
+        }
+        &:nth-child(3n+2){
+            @include is-min(901px){
+                margin: 0 0 0 3.125%;
+            }
+            @include is-between(900px, 751px){
+                margin: 0 0 0 4%;
+            }
+        }
+        &:nth-child(3n+3){
+            @include is-min(901px){
+                margin: 0 0 0 3.125%;
+            }
+        }
+        &--num{
+            font-family: $font-family-en;
+            @include font-line(80);
+            font-weight: 700;
+            letter-spacing: .04em;
+            position: absolute;
+            top: -60px;
+            left: 40px;
+            @include is-sp{
+                @include font-line(55);
+                top: -42px;
+                left: 20px;
+            }
+        }
+        &--title{
+            @include font-line(25, 37.5);
+            font-weight: 700;
+            margin-bottom: 8px;
+            @include is-sp{
+                @include font-line(17, 25.5);
+            }
+        }
+        &--desc{
+            @include font-line(15, 27);
+            @include is-sp{
+                @include font-line(14, 28);
+            }
         }
     }
 }

@@ -116,7 +116,36 @@ get_header();?>
         </div>
         <br><br><br><br><br>
         <div class="l-wrap">
-
+            <div class="c-card03">
+                <div class="c-card03--col3">
+                    <span class="c-card03--col3--num">01</span>
+                    <h3 class="c-card03--col3--title">地域・ターゲットに合わせ<br>最適な手法を選定</h3>
+                    <p class="c-card03--col3--desc">デジタルプロモーションと言ってもその手法はさまざま。リードでは、さまざまな媒体・施策から、地域・ターゲットに合わせて最適なものを選定します。これにより低コストでより見込み客に向けてピンポイントでアプローチすることができます。</p>
+                </div>
+                <div class="c-card03--col3">
+                    <span class="c-card03--col3--num">01</span>
+                    <h3 class="c-card03--col3--title">地域・ターゲットに合わせ<br>最適な手法を選定</h3>
+                    <p class="c-card03--col3--desc">デジタルプロモーションと言ってもその手法はさまざま。リードでは、さまざまな媒体・施策から、地域・ターゲットに合わせて最適なものを選定します。これにより低コストでより見込み客に向けてピンポイントでアプローチすることができます。</p>
+                </div>
+                <div class="c-card03--col3">
+                    <span class="c-card03--col3--num">01</span>
+                    <h3 class="c-card03--col3--title">地域・ターゲットに合わせ<br>最適な手法を選定</h3>
+                    <p class="c-card03--col3--desc">デジタルプロモーションと言ってもその手法はさまざま。リードでは、さまざまな媒体・施策から、地域・ターゲットに合わせて最適なものを選定します。これにより低コストでより見込み客に向けてピンポイントでアプローチすることができます。</p>
+                </div>
+            </div>
+            <br><br><br>
+            <pre>
+                <?= trim(htmlspecialchars('
+                    <div class="c-card03">
+                        <div class="c-card03--col3">
+                            <span class="c-card03--col3--num">01</span>
+                            <h3 class="c-card03--col3--title">地域・ターゲットに合わせ<br>最適な手法を選定</h3>
+                            <p class="c-card03--col3--desc">デジタルプロモーションと言ってもその手法はさまざま。リードでは、さまざまな媒体・施策から、地域・ターゲットに合わせて最適なものを選定します。これにより低コストでより見込み客に向けてピンポイントでアプローチすることができます。</p>
+                        </div>
+                    </div>
+                ')) ?>
+            </pre>
         </div>
+        <br><br><br><br><br>
     </div>
 <?php get_footer();?>
