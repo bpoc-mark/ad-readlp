@@ -1,24 +1,12 @@
 //MENU FOOTER
 $(document).ready(function () {
-	$(".accordion").on("click", function () {
-		if ($(this).hasClass("active")) {
-			$(this)
-				.find("img")
-				.attr(
-					"src",
-					"http://localhost:3000/wp-content/themes/ad-readlp/release/image/minus_sign.png"
-				);
-			$(this).next(".accordion_content").slideDown();
-			$(this).removeClass("active");
-		} else {
-			$(this)
-				.find("img")
-				.attr(
-					"src",
-					"http://localhost:3000/wp-content/themes/ad-readlp/release/image/plus_sign.png"
-				);
+	$(".page__footer--links__items .accordion").on("click", function () {
+		if ($(this).hasClass("isActive")) {
+			$(this).removeClass("isActive");
 			$(this).next(".accordion_content").slideUp();
-			$(this).addClass("active");
+		} else {
+			$(this).addClass("isActive");
+			$(this).next(".accordion_content").slideDown();
 		}
 	});
 
@@ -36,13 +24,14 @@ $(document).ready(function () {
 	if (w < 750) {
 	  allowed = true;
 	  $('.sub_menu').removeAttr('style');
+	  $('.sub_menu').removeAttr('style');
 	}
 
 	// NAVBAR TOGGLE
 	$(".menu").on("click", function () {
 		$(".menu__line").toggleClass("isActive");
 		$(".menu_wrapper").toggleClass("isActive");
-		$(".page__header").toggleClass("isActive");
+		$(".accordion_content").toggleClass("isActive");
 	});
 
 	// MENU LINK NAVBAR TOGGLE

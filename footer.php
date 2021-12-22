@@ -12,8 +12,6 @@
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>COMPANY</p>
-                        <img class="plus"
-                            src="http://localhost:3000/wp-content/themes/ad-readlp/release/image/plus_sign.png" alt="">
                     </div>
                     <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a></li>
@@ -25,8 +23,6 @@
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>BUSINESS</p>
-                        <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
-                            alt="">
                     </div>
                     <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">ブランディング</a></li>
@@ -40,8 +36,6 @@
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>COLUMN</p>
-                        <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
-                            alt="">
                     </div>
                     <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">ポスティング</a></li>
@@ -53,8 +47,6 @@
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>SNS</p>
-                        <img class="plus" src="<?php echo get_template_directory_uri();?>/release/image/plus_sign.png"
-                            alt="">
                     </div>
                     <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">Facebook</a></li>
