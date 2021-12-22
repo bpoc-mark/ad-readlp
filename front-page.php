@@ -1,5 +1,15 @@
 <?php get_header();?>
 <div class="top">
+    <section class="page__banner">
+        <div class="l-wrap">
+            <h1 class="page__banner--ttl">集まらないと、<br>
+                はじまらない。</h1>
+            <p class="page__banner--sub">集客カンパニー「リード」</p>
+            <div class="floating_contact">
+                <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
+            </div>
+        </div>
+    </section>
     <section class="sect_1">
         <div class="l-wrap">
             <div class="sect_1__column">

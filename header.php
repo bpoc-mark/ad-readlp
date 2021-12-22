@@ -48,7 +48,7 @@
                                     <a class="nav__list--item__link" href="">ABOUT</a>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">BUSINESS</a>
+                                    <a class="nav__list--item__link spLink" href="">BUSINESS</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">ブランディング</a>
@@ -71,7 +71,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">COMPANY</a>
+                                    <a class="nav__list--item__link spLink" href="">COMPANY</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">TOPページ</a>
@@ -91,7 +91,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">COLUMN</a>
+                                    <a class="nav__list--item__link spLink" href="">COLUMN</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">ポスティング</a>
@@ -139,16 +139,6 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
-            </div>
-        </div>
-        <div class="page__banner">
-            <div class="l-wrap">
-                <h1 class="page__banner--ttl">集まらないと、<br>
-                    はじまらない。</h1>
-                <p class="page__banner--sub">集客カンパニー「リード」</p>
-                <div class="floating_contact">
-                    <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
                 </div>
             </div>
         </div>

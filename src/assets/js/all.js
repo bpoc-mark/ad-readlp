@@ -44,7 +44,7 @@ $(document).ready(function () {
 		$(".menu_wrapper").toggleClass("isActive");
 		$(".page__header").toggleClass("isActive");
 	});
-	$(".menu_wrapper .nav__list .nav__list--item:nth-child(-n+4) a").on("click", function (e) {
+	$(".spLink").on("click", function (e) {
 		if(allowed){
 			e.preventDefault();
 			if($(this).hasClass("isActive")){
