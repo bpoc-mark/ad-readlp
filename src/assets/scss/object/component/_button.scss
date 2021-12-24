@@ -360,6 +360,11 @@
 		letter-spacing: 0.08em;
 
 		@include font-line(14, 24);
+		.jp_txt{
+			font-family: $font-family-base;
+			font-weight: 700;
+			background-image: unset;
+		}
 	}
 
 	span {

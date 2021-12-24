@@ -1,68 +1,97 @@
-.c-card01 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    &--col3{
-        width: 31.25%;
-        @include is-between(900px, 751px){
-            width: 48%;
-            &:nth-child(2n+2){
-                margin: 60px 0 35px 4%;
-            }
-        }
+.c-card01{
+    &--ttl{
+        position: relative;
+        @include font-line(35);
+        font-weight: 700;
+        letter-spacing: .05em;
+        padding-left: 20px;
+        margin-bottom: 52px;
         @include is-sp{
-            width: 100%;
-            margin: 0 0 53px 0;
-        }
-        &:nth-child(3n+2){
-            @include is-min(901px){
-                margin: 60px 0 114px 3.125%;
-            }
-        }
-        &:nth-child(3n+3){
-            @include is-min(901px){
-                margin: 120px 0 0 3.125%;
-            }
-        }
-        &__img{
-            position: relative;
-        }
-        &__num{
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            background-color: #fff;
-            font-family: $font-family-en;
-            font-weight: 700;
-            @include font-line(30);
-            letter-spacing: .04em;
-
-            @include is-sp{
-                width: 53px;
-                height: 53px;
-                @include font-line(25);
-            }
-        }
-        &__title{
             @include font-line(25, 37.5);
-            font-weight: 700;
-            padding: 27px 0 8px;
-
+            padding-left: 17px;
+            margin-bottom: 32px;
+        }
+        &::before{
+            content: "";
+            display: block;
+            width: 9.35px;
+            height: 9.35px;
+            border-radius: 50%;
+            background-color: #e93f33;
+            position: absolute;
+            top: 5px;
+            left: 0;
             @include is-sp{
-                @include font-line(17, 25.5);
-                padding: 20px 0 10px;
+                top: 3px;
             }
         }
-        &__desc{
-            @include font-line(15, 27);
-            letter-spacing: 0.04em;
+    }
+    .c-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        &--col3{
+            width: 31.25%;
+            @include is-between(900px, 751px){
+                width: 48%;
+                &:nth-child(2n+2){
+                    margin: 60px 0 35px 4%;
+                }
+            }
             @include is-sp{
-                @include font-line(14, 28);
+                width: 100%;
+                margin: 0 0 53px 0;
+            }
+            &:nth-child(3n+2){
+                @include is-min(901px){
+                    margin: 60px 0 114px 3.125%;
+                }
+            }
+            &:nth-child(3n+3){
+                @include is-min(901px){
+                    margin: 120px 0 0 3.125%;
+                }
+            }
+            &__img{
+                position: relative;
+            }
+            &__num{
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 64px;
+                height: 64px;
+                background-color: #fff;
+                font-family: $font-family-en;
+                font-weight: 700;
+                @include font-line(30);
+                letter-spacing: .04em;
+    
+                @include is-sp{
+                    width: 53px;
+                    height: 53px;
+                    @include font-line(25);
+                }
+            }
+            &__title{
+                @include font-line(25, 37.5);
+                font-weight: 700;
+                padding: 27px 0 8px;
+    
+                @include is-sp{
+                    @include font-line(17, 25.5);
+                    padding: 20px 0 10px;
+                }
+            }
+            &__desc{
+                @include font-line(15, 27);
+                letter-spacing: 0.04em;
+                @include is-sp{
+                    @include font-line(14, 28);
+                }
             }
         }
     }
@@ -138,71 +167,128 @@
         }
         &__content{
             display: none;
+            padding-bottom: 100px;
+            @include is-sp{
+                padding-bottom: 60px;
+            }
+
+            &--ttl{
+                position: relative;
+                z-index: -1;
+                font-family: $font-family-en;
+                color: #fff;
+                font-weight: 500;
+                @include font-line(200, 210);
+                white-space: nowrap;
+                letter-spacing: 5px;
+                @include is-sp{
+                    @include font-line(112.5, 100);
+                    letter-spacing: 4px;
+                    left: -5px;
+                }
+            }
+            &--body{
+                margin-top: -85px;
+                @include is-sp{
+                    margin-top: -43px;
+                }
+            }
         }
     }
 }
 
-.c-card03 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    &--col3{
-        width: 31.25%;
+.c-card03{
+    &--ttl{
         position: relative;
-        background-color: #fff;
-        padding: 56px 40px 54px;
-        @include is-between(900px, 751px){
-            width: 48%;
-            &:not(:last-child){
-                margin: 0 0 60px 0;
-            }
-        }
+        @include font-line(35);
+        font-weight: 700;
+        letter-spacing: .05em;
+        padding-left: 20px;
+        margin-bottom: 76px;
         @include is-sp{
-            width: 100%;
-            padding: 42px 20px 44px;
-            &:not(:last-child){
-                margin: 0 0 60px 0;
-            }
-        }
-        &:nth-child(3n+2){
-            @include is-min(901px){
-                margin: 0 0 0 3.125%;
-            }
-            @include is-between(900px, 751px){
-                margin: 0 0 0 4%;
-            }
-        }
-        &:nth-child(3n+3){
-            @include is-min(901px){
-                margin: 0 0 0 3.125%;
-            }
-        }
-        &--num{
-            font-family: $font-family-en;
-            @include font-line(80);
-            font-weight: 700;
-            letter-spacing: .04em;
-            position: absolute;
-            top: -60px;
-            left: 40px;
-            @include is-sp{
-                @include font-line(55);
-                top: -42px;
-                left: 20px;
-            }
-        }
-        &--title{
             @include font-line(25, 37.5);
-            font-weight: 700;
-            margin-bottom: 8px;
+            padding-left: 17px;
+            margin-bottom: 52px;
+        }
+        &::before{
+            content: "";
+            display: block;
+            width: 9.35px;
+            height: 9.35px;
+            border-radius: 50%;
+            background-color: #e93f33;
+            position: absolute;
+            top: 5px;
+            left: 0;
             @include is-sp{
-                @include font-line(17, 25.5);
+                top: 3px;
             }
         }
-        &--desc{
-            @include font-line(15, 27);
+    }
+    .c-card {
+        display: flex;
+        flex-wrap: wrap;
+        @include is-between(900px, 751px){
+            align-items: flex-start;
+        }
+        &--col3{
+            width: 31.25%;
+            position: relative;
+            background-color: #fff;
+            padding: 56px 40px 54px;
+            @include is-between(900px, 751px){
+                width: 48%;
+                &:not(:last-child){
+                    margin: 0 0 60px 0;
+                }
+            }
             @include is-sp{
-                @include font-line(14, 28);
+                width: 100%;
+                padding: 42px 20px 44px;
+                &:not(:last-child){
+                    margin: 0 0 60px 0;
+                }
+            }
+            &:nth-child(3n+2){
+                @include is-min(901px){
+                    margin: 0 0 0 3.125%;
+                }
+                @include is-between(900px, 751px){
+                    margin: 0 0 0 4%;
+                }
+            }
+            &:nth-child(3n+3){
+                @include is-min(901px){
+                    margin: 0 0 0 3.125%;
+                }
+            }
+            &--num{
+                font-family: $font-family-en;
+                @include font-line(80);
+                font-weight: 700;
+                letter-spacing: .04em;
+                position: absolute;
+                top: -60px;
+                left: 40px;
+                @include is-sp{
+                    @include font-line(55);
+                    top: -42px;
+                    left: 20px;
+                }
+            }
+            &--title{
+                @include font-line(25, 37.5);
+                font-weight: 700;
+                margin-bottom: 8px;
+                @include is-sp{
+                    @include font-line(17, 25.5);
+                }
+            }
+            &--desc{
+                @include font-line(15, 27);
+                @include is-sp{
+                    @include font-line(14, 28);
+                }
             }
         }
     }
