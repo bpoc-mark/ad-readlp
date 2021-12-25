@@ -1,0 +1,126 @@
+.page_about {
+    /*==================================
+    ROW 1 COMPONENT
+    ==================================*/
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        .col{
+            width: 50%;
+            @include is-max(900px){
+                width: 100%;
+            }
+            &:last-child{
+                padding-left: 100px;
+                @include is-max(900px){
+                    padding-left: 0;
+                }
+            }
+            &--ttl{
+                @include font-line(35, 52.5);
+                font-weight: 700;
+                margin-bottom: 22px;
+                @include is-sp{
+                    @include font-line(25, 37.5);
+                }
+            }
+            &--desc{
+                @include font-line(16, 32);
+                @include is-sp{
+                    @include font-line(15, 30);
+                }
+            }
+        }
+    }
+
+    .sect-1{
+        padding-bottom: 130px;
+        @include is-sp{
+            padding-bottom: 140px;
+        }
+        .l-wrap{
+            .row{
+                .col{
+                    &:last-child{
+                        padding-top: 35px;
+                        @include is-max(900px){
+                            padding-top: 30px;
+                        }
+                    }
+                    &--ttl{
+                        margin-bottom: 40px;
+                        @include is-sp{
+                            margin-bottom: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .sect-2{
+        .l-wrap{
+            .c-card01{
+                &--ttl{
+                    margin-bottom: 32px;
+                }
+                .row{
+                    padding-bottom: 80px;
+                    margin-bottom: 80px;
+                    border-bottom: 1px solid #000;
+                    @include is-sp{
+                        padding-bottom: 60px;
+                        margin-bottom: 60px;
+                    }
+                    .col{
+                        &:first-child{
+                            @include is-max(900px){
+                                padding-bottom: 28px;
+                            }
+                        }
+                        .c-buttonRight{
+                            padding-top: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sect_3{
+        padding-top: 65px;
+        @include is-sp{
+            padding-top: 80px;
+        }
+        .l-wrap{
+            .c-card01{
+                &--ttl{
+                    @include is-sp{
+                        margin-bottom: 25px;
+                    }
+                }
+                &--desc{
+                    @include font-line(16, 32);
+                    margin-bottom: 52px;
+                    @include is-sp{
+                        @include font-line(15, 30);
+                        margin-bottom: 32px;
+                    }
+                }
+            }
+            .c-buttonRight{
+                margin-left: auto;
+                margin-top: -60px;
+                padding-top: 0;
+                @include is-max(900px){
+                    margin-top: 30px;
+                }
+                @include is-sp{
+                    margin-left: unset;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
