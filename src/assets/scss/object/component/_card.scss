@@ -88,7 +88,6 @@
             }
             &__desc{
                 @include font-line(15, 27);
-                letter-spacing: 0.04em;
                 @include is-sp{
                     @include font-line(14, 28);
                 }
