@@ -1,0 +1,62 @@
+.page_privacy{
+    .sect-1{
+        .l-wrap{
+            .privacy{
+                width: 75%;
+                margin-left: auto;
+                @include is-sp{
+                    width: 100%;
+                    margin-left: unset;
+                }
+                &--item{
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 32px;
+                    @include is-sp{
+                        padding-bottom: 21px;
+                    }
+                    &:not(:last-child){
+                        margin-bottom: 62px;
+                        @include is-sp{
+                            margin-bottom: 55px;
+                        }
+                    }
+                    &__ttl{
+                        @include font-line(25, 37.5);
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                        @include is-sp{
+                            @include font-line(17, 25.5);
+                        }
+                    }
+                    &__desc{
+                        @include font-line(16, 32);
+                        @include is-sp{
+                            @include font-line(17, 30);
+                        }
+                    }
+                    &__highlight{
+                        margin-top: 17px;
+                        margin-bottom: 4px;
+                        p{
+                            font-weight: 700;
+                            @include font-line(16, 32);
+                            @include is-sp{
+                                @include font-line(17, 30);
+                            }
+                            &:not(:last-child){
+                                margin-bottom: 6px;
+                            }
+                            &::before{
+                                content: "●";
+                                font-size: 9px;
+                                position: relative;
+                                top: -3px;
+                                margin-right: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
