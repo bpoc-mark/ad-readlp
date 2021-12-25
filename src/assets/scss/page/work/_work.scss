@@ -1,0 +1,96 @@
+.page_work{
+    .sect-1{
+        .l-wrap{
+            .work_row{
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                &--item{
+                    width: 42.19%;
+                    @include is-sp{
+                        width: 100%;
+                        &:not(:last-child){
+                            margin-bottom: 45px;
+                        }
+                    }
+                    &:nth-child(2n+2){
+                        @include is-min(751px){
+                            margin-left: 15.62%;
+                            margin-top: 115px;
+                        }
+                    }
+                    &__sub{
+                        @include font-line(14);
+                        font-weight: 700;
+                        text-align: right;
+                        margin-bottom: 11px;
+                        span{
+                            color: #e93f33;
+                        }
+                    }
+                    &__client{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        margin-top: 31px;
+                        span{
+                            color: #b4b4b4;
+                            margin-right: 22px;
+                            font-family: $font-family-en;
+                            @include font-line(14);
+                            letter-spacing: .04em;
+                            padding-top: 10px;
+                        }
+                        p{
+                            @include font-line(25, 37.5);
+                            font-weight: 700;
+                        }
+                    }
+                    &__target{
+                        display: flex;
+                        justify-content: flex-start;
+                        span{
+                            color: #b4b4b4;
+                            margin-right: 22px;
+                            font-family: $font-family-en;
+                            @include font-line(14);
+                            letter-spacing: .04em;
+                            padding-top: 8px;
+                        }
+                        p{
+                            @include font-line(14, 37.5);
+                            font-weight: 700;
+                        }
+                    }
+                    &__content{
+                        @include font-line(15, 27);
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .btn_wrap{
+                @include is-min(751px){
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 10px;
+                }
+                @include is-sp{
+                    margin-top: 26px;
+                }
+                .c-buttonRight{
+                    &:first-child{
+                        @include is-min(751px){
+                            margin-right: 51px;
+                        }
+                    }
+                    &:last-child{
+                        @include is-sp{
+                            padding-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
