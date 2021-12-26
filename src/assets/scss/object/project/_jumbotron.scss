@@ -1,0 +1,18 @@
+.p-jumbotron {
+	padding: 124px 0 0;
+	&__main {
+		font-family: $font-family-en;
+		@include font-line(150, 150);
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(62, 62);
+		}
+	}
+	&__sub {
+		@include font-line(18, 24);
+		font-weight: bold;
+		@include is-sp {
+			@include font-line(17, 26);
+		}
+	}
+}

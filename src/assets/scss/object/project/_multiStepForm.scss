@@ -1,0 +1,92 @@
+.p-multiStepForm {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	@include is-sp {
+		flex-flow: column;
+	}
+	&__stepList {
+		@include is-tabpc {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		@include is-sp {
+			margin-bottom: 50px;
+		}
+		&__item {
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+			@include is-sp {
+				@include font-line(15, 37.5);
+			}
+			&.isCurrent {
+				a {
+					color: #000000;
+				}
+			}
+			a {
+				color: #b4b4b4;
+			}
+		}
+	}
+	&__form {
+		width: 960px;
+		@include is-sp {
+			width: 100%;
+		}
+		margin-left: auto;
+		&__item,
+		&__label {
+			display: flex;
+			align-items: center;
+			@include is-sp {
+				align-items: flex-start;
+			}
+		}
+		&__item {
+			justify-content: space-between;
+			@include is-sp {
+				flex-flow: column;
+			}
+			&:not(:last-child) {
+				margin-bottom: 40px;
+			}
+		}
+		&__label {
+			@include is-sp {
+				margin-bottom: 15px;
+			}
+			.required {
+				margin-right: 15px;
+			}
+			&--flexStart {
+				align-self: flex-start;
+			}
+		}
+		&__field {
+			width: 670px;
+			position: relative;
+			margin-left: auto;
+			@include is-sp {
+				width: 100%;
+			}
+			&.isError {
+				span {
+					color: #e93f33;
+				}
+			}
+			&--checkbox {
+				li {
+					&:not(:last-child) {
+						margin-bottom: 20px;
+					}
+				}
+			}
+			button {
+				max-width: 470px;
+			}
+		}
+	}
+}
