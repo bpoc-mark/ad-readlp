@@ -1,0 +1,371 @@
+.page_company{
+     /*==================================
+    ROW 1 COMPONENT
+    ==================================*/
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        .col{
+            width: 50%;
+            @include is-max(900px){
+                width: 100%;
+            }
+            &:last-child{
+                padding-left: 100px;
+                @include is-max(900px){
+                    padding-left: 0;
+                }
+            }
+            &--ttl{
+                @include font-line(35, 52.5);
+                font-weight: 700;
+                margin-bottom: 22px;
+                @include is-sp{
+                    @include font-line(25, 37.5);
+                }
+            }
+            &--desc{
+                @include font-line(16, 32);
+                @include is-sp{
+                    @include font-line(15, 30);
+                }
+            }
+        }
+    }
+
+    .sect-1{
+        padding-bottom: 125px;
+        .l-wrap{
+            .row{
+                .col{
+                    &:first-child{
+                        padding-right: 100px;
+                        @include is-max(1200px){
+                            padding-right: 50px;
+                        }
+                        @include is-max(900px){
+                            padding-right: 0;
+                            padding-bottom: 20px;
+                        }
+                        @include is-sp{
+                            padding-bottom: 35px;
+                        }
+                    }
+                    &:last-child{
+                        @include is-max(1200px){
+                            padding-left: 50px;
+                        }
+                        @include is-max(900px){
+                            padding-left: 0;
+                        }
+                    }
+                    &--ttl{
+                        @include font-line(25, 52.5);
+                        font-weight: 700;
+                        margin-bottom: 38px;
+                        @include is-sp{
+                            @include font-line(17, 25.5);
+                            margin-bottom: 18px;
+                        }
+                    }
+                    .company{
+                        &--item{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: flex-start;
+                            border-bottom: 1px solid #000;
+                            padding-bottom: 20px;
+                            margin-bottom: 26px;
+                            @include is-sp{
+                                margin-bottom: 21px;
+                            }
+                            &__left{
+                                width: 160px;
+                                @include is-sp{
+                                    width: 140px
+                                }
+                                p{
+                                    @include font-line(16);
+                                    font-weight: 700;
+                                    @include is-sp{
+                                        @include font-line(15, 30);
+                                    }
+                                }
+                            }
+                            &__right{
+                                width: calc(100% - 160px);
+                                @include is-sp{
+                                    width: calc(100% - 140px);
+                                }
+                                p{
+                                    @include font-line(16, 32);
+                                    @include is-sp{
+                                        @include font-line(15, 30);
+                                    }
+                                    &:not(:last-child){
+                                        margin-bottom: 12px;
+                                    }
+                                    span{
+                                        font-weight: 700;
+                                        &::before{
+                                            content: "●";
+                                            font-size: 9px;
+                                            position: relative;
+                                            top: -3px;
+                                            margin-right: 6px;
+                                        }
+                                    }
+                                    a{
+                                        color: #000;
+                                        display: inline-block;
+                                        margin-right: 7px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-2{
+        .l-wrap{
+            .c-card01{
+                border-bottom: 1px solid #000;
+                padding-bottom: 150px;
+                @include is-sp{
+                    padding-bottom: 55px;
+                }
+                .row{
+                    .col{
+                        &:last-child{
+                            @include is-max(900px){
+                                padding-left: 0;
+                                padding-top: 28px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-3{
+        padding-top: 140px;
+        @include is-sp{
+            padding-top: 55px;
+        }
+        .l-wrap{
+            .c-card01{
+                border-bottom: 1px solid #000;
+                padding-bottom: 150px;
+                @include is-sp{
+                    padding-bottom: 60px;
+                }
+                &--ttl{
+                    margin-bottom: 37px;
+                    @include is-sp{
+                        margin-bottom: 16px
+                    }
+                }
+                .row{
+                    &:not(:last-child){
+                        margin-bottom: 65px;
+                        @include is-sp{
+                            margin-bottom: 40px;
+                        }
+                    }
+                    .col{
+                        &--ttl{
+                            @include font-line(45, 67.5);
+                            font-weight: 700;
+                            margin-bottom: 22px;
+                            @include is-sp{
+                                margin-bottom: 18px;
+                                @include font-line(35, 52.5);
+                            }
+                        }
+                        .c-buttonRight{
+                            margin-top: 25px;
+                            @include is-sp{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-4{
+        padding-top: 140px;
+        @include is-sp{
+            padding-top: 55px;
+        }
+        .l-wrap{
+            .c-card01{
+                border-bottom: 1px solid #000;
+                padding-bottom: 150px;
+                @include is-sp{
+                    padding-bottom: 55px;
+                }
+                .row{
+                    &:not(:last-child){
+                        margin-bottom: 80px;
+                        @include is-sp{
+                            margin-bottom: 55px;
+                        }
+                    }
+                    .col{
+                        &:first-child{
+                        }
+                        iframe{
+                            height: 425px;
+                            @include is-sp{
+                                height: 260px
+                            }
+                        }
+                        &--ttl{
+                            @include font-line(25, 52.5);
+                            font-weight: 700;
+                            margin-top: -18px;
+                            margin-bottom: 31px;
+                            @include is-max(900px){
+                                margin-top: 28px;
+                                margin-bottom: 18px;
+                            }
+                            @include is-sp{
+                                @include font-line(17, 25.5);
+                            }
+                        }
+                        &--address{
+                            @include font-line(16, 32);
+                            margin-bottom: 14px;
+                            @include is-sp{
+                                margin-bottom: 18px;
+                                @include font-line(15, 30);
+                            }
+                            a{
+                                color: #000;
+                                display: inline-block;
+                            }
+                        }
+                        &--landmark{
+                            span{
+                                font-weight: 700;
+                                @include font-line(16, 32);
+                                @include is-sp{
+                                    @include font-line(15, 30);
+                                }
+                                &::before{
+                                    content: "●";
+                                    font-size: 9px;
+                                    position: relative;
+                                    top: -3px;
+                                    margin-right: 6px;
+                                }
+                            }
+                            font-weight: 500;
+                            @include font-line(16, 32);
+                            @include is-sp{
+                                @include font-line(15, 30);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-5{
+        padding-top: 140px;
+        @include is-sp{
+            padding-top: 55px;
+        }
+        .l-wrap{
+            .c-card01{
+                border-bottom: 1px solid #000;
+                padding-bottom: 150px;
+                @include is-sp{
+                    padding-bottom: 65px;
+                }
+                .row{
+                    .col{
+                        &:last-child{
+                            @include is-max(1000px){
+                                padding-left: 50px;
+                            }
+                            @include is-max(900px){
+                                padding-left: 0;
+                                padding-top: 31px;
+                            }
+                        }
+                        .history{
+                            position: relative;
+                            &::before{
+                                content: "";
+                                display: block;
+                                width: 1px;
+                                height: 85%;
+                                background-color: #e93f33;
+                                position: absolute;
+                                top: 10px;
+                                left: 12px;
+                                @include is-max(900px){
+                                    top: 20px;
+                                }
+                                @include is-sp{
+                                    top: 10px;
+                                    left: 9px;
+                                }
+                                @include is-max(361px){
+                                    top: 20px;
+                                }
+                                @include is-max(355px){
+                                    height: 80%;
+                                }
+                            }
+                            &__item{
+                                display: flex;
+                                justify-content: flex-start;
+                                flex-wrap: wrap;
+                                &:not(:last-child){
+                                    margin-bottom: 22px;
+                                }
+                                &--year{
+                                    width: 140px;
+                                    @include is-sp{
+                                        width: 105px;
+                                    }
+                                    p{
+                                        @include font-line(25);
+                                        font-weight: 700;
+                                        color: #e93f33;
+                                        @include is-sp{
+                                            @include font-line(20);
+                                        }
+                                    }
+                                }
+                                &--details{
+                                    width: calc(100% - 140px);
+                                    @include is-sp{
+                                        width: calc(100% - 105px);
+                                    }
+                                    p{
+                                        @include font-line(16, 32);
+                                        padding-top: 3px;
+                                        @include is-sp{
+                                            padding-top: 0;
+                                            @include font-line(15, 30);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .c-buttonRight{
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
