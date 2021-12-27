@@ -13,12 +13,15 @@
 	align-items: center;
 	position: relative;
 	cursor: pointer;
+	&:before,
 	&:after {
 		content: "";
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		margin: auto 0;
+	}
+	&:after {
 		transform: rotate(45deg);
 		border-top: 2px solid #fff;
 		border-right: 2px solid #fff;
@@ -31,6 +34,15 @@
 			right: 18px;
 			width: 12px;
 			height: 12px;
+		}
+	}
+	&:before {
+		height: 1.7px;
+		background: #fff;
+		width: 16px;
+		right: 20px;
+		@include is-sp {
+			right: 21px;
 		}
 	}
 	&:hover {
@@ -54,11 +66,12 @@
 	}
 	&--xl {
 		@include is-sp {
-			height: 70px;
+			height: 72.5px;
+			@include font-line(15, 15);
 		}
 		@include is-tabpc {
 			height: 75px;
-			@include font-line(20, 20);
+			@include font-line(16, 16);
 		}
 		&::after {
 			right: 20px;
@@ -123,6 +136,9 @@
 			color: $color-main;
 			&:after {
 				border-color: $color-main;
+			}
+			&:before {
+				background: $color-main;
 			}
 		}
 	}
@@ -392,21 +408,21 @@
 	}
 }
 
-.c-buttonContact{
+.c-buttonContact {
 	width: 130px;
 	height: 130px;
 	position: absolute;
 	bottom: -15px;
 	right: 0;
-	@include is-max(1400px){
+	@include is-max(1400px) {
 		right: 50px;
 	}
-	&:hover{
-		&::before{
+	&:hover {
+		&::before {
 			transform: scale(1.05);
 		}
 	}
-	&::before{
+	&::before {
 		content: "";
 		display: block;
 		width: 100%;
@@ -418,9 +434,9 @@
 		top: 0;
 		left: 0;
 		z-index: 0;
-		transition: .3s ease-in-out;
+		transition: 0.3s ease-in-out;
 	}
-	&__link{
+	&__link {
 		display: flex !important;
 		align-items: center;
 		justify-content: center;
@@ -431,9 +447,9 @@
 		z-index: 1;
 		font-family: $font-family-en;
 		@include font-line(16);
-		letter-spacing: .04em;
+		letter-spacing: 0.04em;
 		color: #fff;
-		img{
+		img {
 			margin-bottom: 10px;
 		}
 	}

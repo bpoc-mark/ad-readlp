@@ -5,10 +5,17 @@
 	border-radius: 5px;
 	background: #ffffff;
 	// color: #c6c6c6;
-	color: $color-text04;
-	font-weight: bold;
+	color: #000;
+	font-weight: 500;
+	@include font-line(16, 16);
+	@include is-sp {
+		@include font-line(15, 15);
+	}
+	&::placeholder {
+		color: #b4b4b4;
+	}
 	&:focus {
-		border-color: #1e72be;
+		border-color: #b4b4b4;
 	}
 	&--error {
 		border-color: #d65c5c;
@@ -18,12 +25,20 @@
 	}
 }
 .c-textarea01 {
-	padding: 5px 10px;
+	padding: 30px;
 	width: 100%;
 	border: none;
 	border-radius: 5px;
 	background: #ffffff;
-	font-weight: bold;
+	font-weight: 500;
+	@include font-line(16, 16);
+	font-family: $font-family-base;
+	@include is-sp {
+		@include font-line(15, 15);
+	}
+	&::placeholder {
+		color: #b4b4b4;
+	}
 	&:focus {
 		border-color: #1e72be;
 	}
@@ -72,12 +87,12 @@
 					border-right: 3px solid #fff;
 					border-bottom: 3px solid #fff;
 					display: block;
-					height: 9px;
+					height: 10px;
 					margin-top: -8px;
 					position: absolute;
-					top: 65%;
+					top: 58%;
 					transform: rotate(45deg);
-					width: 5px;
+					width: 6px;
 				}
 			}
 		}
@@ -100,6 +115,8 @@
 		a {
 			display: inline-block;
 			color: #000;
+			text-decoration: underline;
+			text-underline-offset: 6px;
 		}
 	}
 	&__label {

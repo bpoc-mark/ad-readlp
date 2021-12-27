@@ -93,7 +93,7 @@ get_header(); ?>
                         <label class="c-checkbox03__label" for="c-checkbox031">
                             <span class="c-checkbox03__check"></span>
                             <span class="c-checkbox03__name">
-                                c-checkbox03</span>
+                                ブランディング</span>
                         </label>
                     </li>
                     <li class="c-checkbox03">
@@ -101,7 +101,7 @@ get_header(); ?>
                         <label class="c-checkbox03__label" for="c-checkbox032">
                             <span class="c-checkbox03__check"></span>
                             <span class="c-checkbox03__name">
-                                c-checkbox03</span>
+                                ダイレクトマーケティング</span>
                         </label>
                     </li>
                     <li class="c-checkbox03">
@@ -109,7 +109,31 @@ get_header(); ?>
                         <label class="c-checkbox03__label" for="c-checkbox033">
                             <span class="c-checkbox03__check"></span>
                             <span class="c-checkbox03__name">
-                                c-checkbox03</span>
+                                デジタルプロモーション</span>
+                        </label>
+                    </li>
+                    <li class="c-checkbox03">
+                        <input class="c-checkbox03__input" type="checkbox" name="xxxx[]" id="c-checkbox034" value="xxxx">
+                        <label class="c-checkbox03__label" for="c-checkbox034">
+                            <span class="c-checkbox03__check"></span>
+                            <span class="c-checkbox03__name">
+                                メディアプランニング</span>
+                        </label>
+                    </li>
+                    <li class="c-checkbox03">
+                        <input class="c-checkbox03__input" type="checkbox" name="xxxx[]" id="c-checkbox035" value="xxxx">
+                        <label class="c-checkbox03__label" for="c-checkbox035">
+                            <span class="c-checkbox03__check"></span>
+                            <span class="c-checkbox03__name">
+                                映像クリエイティブ</span>
+                        </label>
+                    </li>
+                    <li class="c-checkbox03">
+                        <input class="c-checkbox03__input" type="checkbox" name="xxxx[]" id="c-checkbox036" value="xxxx">
+                        <label class="c-checkbox03__label" for="c-checkbox036">
+                            <span class="c-checkbox03__check"></span>
+                            <span class="c-checkbox03__name">
+                                その他お問い合わせ</span>
                         </label>
                     </li>
                 </ul>
