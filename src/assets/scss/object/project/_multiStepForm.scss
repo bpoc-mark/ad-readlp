@@ -52,15 +52,25 @@
 		&--complete {
 			.container {
 				width: 470px;
+				@include is-sp {
+					width: 100%;
+				}
 				.heading {
 					@include font-line(35, 52.5);
 					font-weight: bold;
 					margin-bottom: 40px;
+					@include is-sp {
+						@include font-line(25, 37.5);
+					}
 				}
 				.text {
 					@include font-line(16, 32);
 					font-weight: 500;
 					margin-bottom: 62.5px;
+					@include is-sp {
+						@include font-line(15, 30);
+						margin-bottom: 40px;
+					}
 				}
 			}
 		}
@@ -115,6 +125,17 @@
 				display: flex;
 				width: 100%;
 				justify-content: space-between;
+				@include is-sp {
+					flex-flow: column;
+					align-items: center;
+				}
+				button {
+					&:first-child {
+						@include is-sp {
+							margin-bottom: 30px;
+						}
+					}
+				}
 			}
 			button {
 				max-width: 470px;
