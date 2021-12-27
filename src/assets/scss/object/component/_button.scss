@@ -7,7 +7,7 @@
 	@include font-line(20, 20);
 	color: $color-text01;
 	text-decoration: none;
-	display: flex;
+	display: flex !important;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -360,7 +360,7 @@
 		letter-spacing: 0.08em;
 
 		@include font-line(14, 24);
-		.jp_txt{
+		.jp_txt {
 			font-family: $font-family-base;
 			font-weight: 700;
 			background-image: unset;

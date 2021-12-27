@@ -37,6 +37,33 @@
 			width: 100%;
 		}
 		margin-left: auto;
+		$form: &;
+		&--confirmation {
+			#{$form} {
+				&__item {
+					padding-bottom: 26px;
+					&:not(:last-child) {
+						margin-bottom: 67.5px;
+						border-bottom: 1px solid #000;
+					}
+				}
+			}
+		}
+		&--complete {
+			.container {
+				width: 470px;
+				.heading {
+					@include font-line(35, 52.5);
+					font-weight: bold;
+					margin-bottom: 40px;
+				}
+				.text {
+					@include font-line(16, 32);
+					font-weight: 500;
+					margin-bottom: 62.5px;
+				}
+			}
+		}
 		&__item,
 		&__label {
 			display: flex;
@@ -83,6 +110,11 @@
 						margin-bottom: 20px;
 					}
 				}
+			}
+			&--confirmation {
+				display: flex;
+				width: 100%;
+				justify-content: space-between;
 			}
 			button {
 				max-width: 470px;
