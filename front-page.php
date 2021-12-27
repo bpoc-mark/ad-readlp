@@ -8,6 +8,12 @@
             <div class="floating_contact">
                 <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
             </div>
+            <div class="c-buttonContact u-d-n-sp">
+                <a href="" class="c-buttonContact__link">
+                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    Contact
+                </a>
+            </div>
         </div>
     </section>
     <section class="sect_1">

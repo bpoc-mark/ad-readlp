@@ -4,6 +4,23 @@
 
 get_header();?>
 <div class="page_business">
+    <div class="p-jumbotron">
+        <div class="l-wrap">
+            <p class="p-jumbotron__sub">
+                美容広告代理店リードの事業領域
+            </p>
+            <p class="p-jumbotron__main">
+                Business
+            </p>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <div class="c-buttonContact u-d-n-sp">
+                <a href="" class="c-buttonContact__link">
+                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </div>
     <section class="sect-1">
         <div class="l-wrap">
             <div class="row">
