@@ -1,7 +1,4 @@
 .p-jumbotron {
-<<<<<<< HEAD
-	padding: 124px 0 0;
-=======
     position: relative;
     .l-wrap{
         padding: 124px 50px 200px;
@@ -10,7 +7,6 @@
             padding: 184px 20px 120px;
         }
     }
->>>>>>> a7142250877f5b64d01f216c143ff468f00177e4
 	&__main {
 		font-family: $font-family-en;
 		@include font-line(150, 150);
@@ -26,9 +22,6 @@
 			@include font-line(17, 26);
 		}
 	}
-<<<<<<< HEAD
-}
-=======
 
     .aioseo-breadcrumbs{
         margin-top: 45px;
@@ -58,4 +51,3 @@
         }
     }
 }
->>>>>>> a7142250877f5b64d01f216c143ff468f00177e4
