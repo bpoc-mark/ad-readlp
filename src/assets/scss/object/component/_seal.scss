@@ -1,20 +1,23 @@
 .c-seal01 {
-    border-radius: 50px 50px 50px 50px;
-    margin-bottom: 10px;
-    display: inline-block;
-    border: 2px solid transparent;
-    &--accent {
-        background-color: $color-primary;
-        color: #ffffff;
-
-        &--w {
-            background-color: #ffffff;
-            color: $color-primary;
-            border: 2px solid $color-primary;
-        }
-    }
-
-    &--l {
-        padding: 3px 10px 3px 10px;
-    }
+	display: inline-block;
+	border: 2px solid transparent;
+	background: #000;
+	color: #fff;
+	width: 60px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&--accent {
+		background-color: $color-primary;
+		color: #ffffff;
+		&--w {
+			background-color: #ffffff;
+			color: $color-primary;
+			border: 2px solid $color-primary;
+		}
+	}
+	&--l {
+		padding: 3px 10px 3px 10px;
+	}
 }
