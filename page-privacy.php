@@ -4,6 +4,23 @@
 
 get_header();?>
 <div class="page_privacy">
+    <div class="p-jumbotron">
+        <div class="l-wrap">
+            <p class="p-jumbotron__sub">
+                プライバシーポリシー
+            </p>
+            <p class="p-jumbotron__main">
+                Privacy Policy
+            </p>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <div class="c-buttonContact u-d-n-sp">
+                <a href="" class="c-buttonContact__link">
+                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </div>
     <section class="sect-1">
         <div class="l-wrap">
             <ul class="privacy">
