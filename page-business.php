@@ -58,7 +58,7 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_1.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">

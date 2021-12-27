@@ -1,15 +1,18 @@
 <?php
 /* Template Name: Contact Confirmation Page */
 get_header(); ?>
-<div class="l-wrap">
-    <div class="p-jumbotron">
+<div class="p-jumbotron">
+    <div class="l-wrap">
         <p class="p-jumbotron__sub">
             お問い合わせ
         </p>
         <p class="p-jumbotron__main">
             Contact
         </p>
+        <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
     </div>
+</div>
+<div class="l-wrap">
     <div class="p-multiStepForm">
         <ul class="p-multiStepForm__stepList">
             <li class="p-multiStepForm__stepList__item">
