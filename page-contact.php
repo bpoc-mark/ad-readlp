@@ -152,8 +152,8 @@ get_header(); ?>
                     <textarea name="" id="" class="c-textarea01 " cols="30" rows="10" placeholder="お問い合わせ内容をご記⼊ください"></textarea>
                 </div>
             </li>
-            <li class="p-multiStepForm__form__item p-multiStepForm__form__item--privacy">
-                <div class="p-multiStepForm__form__field">
+            <li class="p-multiStepForm__form__item--privacy">
+                <div class="p-multiStepForm__form__item--privacy__item">
                     <input class="c-checkbox03__input" type="checkbox" name="xxxx[]" id="privacy" value="xxxx">
                     <label class="c-checkbox03__label" for="privacy">
                         <span class="c-checkbox03__check"></span>
@@ -162,8 +162,8 @@ get_header(); ?>
                     </label>
                 </div>
             </li>
-            <li class="p-multiStepForm__form__item p-multiStepForm__form__item--privacy">
-                <div class="p-multiStepForm__form__field">
+            <li class="p-multiStepForm__form__item--privacy">
+                <div class="p-multiStepForm__form__item--privacy__item">
                     <button class="c-button01 c-button01--main c-button01--xl">入力内容を確認する</button>
                 </div>
             </li>

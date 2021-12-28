@@ -5,9 +5,15 @@
 	color: #fff;
 	width: 60px;
 	height: 25px;
+	@include font-line(11);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	@include is-sp{
+		width: 57px;
+		height: 23px;
+		@include font-line(10);
+	}
 	&--accent {
 		background-color: $color-primary;
 		color: #ffffff;

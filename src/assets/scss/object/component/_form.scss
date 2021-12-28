@@ -1,15 +1,16 @@
 .c-text01 {
+	padding: 30px;
 	width: 100%;
-	padding: 18px 16px;
 	border: none;
 	border-radius: 5px;
 	background: #ffffff;
-	// color: #c6c6c6;
-	color: #000;
 	font-weight: 500;
+	@include font-line(16, 16);
+	font-family: $font-family-base;
 	@include font-line(16, 16);
 	@include is-sp {
 		@include font-line(15, 15);
+		padding: 25px 20px;
 	}
 	&::placeholder {
 		color: #b4b4b4;
@@ -31,10 +32,10 @@
 	border-radius: 5px;
 	background: #ffffff;
 	font-weight: 500;
-	@include font-line(16, 16);
+	@include font-line(16, 30);
 	font-family: $font-family-base;
 	@include is-sp {
-		@include font-line(15, 15);
+		@include font-line(15, 32);
 	}
 	&::placeholder {
 		color: #b4b4b4;

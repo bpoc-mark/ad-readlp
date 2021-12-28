@@ -2,8 +2,10 @@
 	display: flex;
 	justify-content: space-between;
 	position: relative;
+	padding-bottom: 140px;
 	@include is-sp {
 		flex-flow: column;
+		padding-bottom: 0;
 	}
 	&__stepList {
 		@include is-tabpc {
@@ -32,7 +34,7 @@
 		}
 	}
 	&__form {
-		width: 960px;
+		width: 75%;
 		@include is-sp {
 			width: 100%;
 		}
@@ -83,17 +85,37 @@
 			}
 		}
 		&__item {
-			justify-content: space-between;
+			flex-wrap: wrap;
+			justify-content: flex-start;
 			@include is-sp {
 				flex-flow: column;
 			}
 			&:not(:last-child) {
 				margin-bottom: 40px;
 			}
+			&--privacy{
+				margin-left: 290px;
+				@include is-max(900px){
+					margin-left: 0;
+				}
+				&:last-child{
+					max-width: 470px;
+					margin-top: 35px;
+					@include is-max(900px){
+						max-width: 100%;
+					}
+				}
+			}
 		}
 		&__label {
+			width: 290px;
+			@include is-max(900px){
+				width: 100%;
+				margin-bottom: 15px;
+			}
 			@include is-sp {
 				margin-bottom: 15px;
+				@include font-line(15);
 			}
 			.required {
 				margin-right: 15px;
@@ -103,9 +125,11 @@
 			}
 		}
 		&__field {
-			width: 670px;
+			width: calc(100% - 290px);
 			position: relative;
-			margin-left: auto;
+			@include is-max(900px){
+				width: 100%;
+			}
 			@include is-sp {
 				width: 100%;
 			}
@@ -130,6 +154,10 @@
 					align-items: center;
 				}
 				button {
+					width: 49%;
+					@include is-sp{
+						width: 100%;
+					}
 					&:first-child {
 						@include is-sp {
 							margin-bottom: 30px;
@@ -138,7 +166,13 @@
 				}
 			}
 			button {
-				max-width: 470px;
+				// max-width: 470px;
+			}
+			p{
+				@include font-line(16, 32);
+				@include is-sp{
+					@include font-line(15, 30);
+				}
 			}
 		}
 	}

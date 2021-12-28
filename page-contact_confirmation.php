@@ -110,8 +110,8 @@ get_header(); ?>
             </li>
             <li class="p-multiStepForm__form__item ">
                 <div class="p-multiStepForm__form__field p-multiStepForm__form__field--confirmation">
-                    <button class="c-button01 c-button01--main c-button01--xl">入力内容を確認する</button>
-                    <button class="c-button01 c-button01--main--w c-button01--xl">入力内容を確認する</button>
+                    <button class="c-button01 c-button01--main c-button01--xl">送信する</button>
+                    <button class="c-button01 c-button01--main--w c-button01--xl">入力内容を編集する</button>
                 </div>
             </li>
         </ul>
