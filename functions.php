@@ -11,10 +11,10 @@ function enqueue_styles(){
 add_action ('wp_enqueue_scripts', 'enqueue_styles');
 
 // Remove Default Wordpress Jquery
-function remove_jquery_enqueue() {
-    wp_deregister_script( 'jquery' );
-}
-add_action( 'wp_enqueue_scripts', 'remove_jquery_enqueue' );
+// function remove_jquery_enqueue() {
+//     wp_deregister_script( 'jquery' );
+// }
+// add_action( 'wp_enqueue_scripts', 'remove_jquery_enqueue' );
 
 // Enqueu the Script
 // function enqueue_scripts(){
@@ -155,3 +155,16 @@ function owp_pf_support() {
     add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link ', 'image', 'quote', 'status', 'video', 'audio', 'chat' ) );
 }
 add_action( 'after_setup_theme', 'owp_pf_support' );
+
+
+add_action('wp_footer', 'redirect_cf7');
+function redirect_cf7()
+{
+?>
+    <script type="text/javascript">
+        document.addEventListener('wpcf7mailsent', function(event) {
+            location = 'http://ad-readlp.test/thank';
+        }, false);
+    </script>
+<?php
+}

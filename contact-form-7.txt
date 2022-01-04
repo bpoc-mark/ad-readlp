@@ -1,0 +1,101 @@
+<ul class="p-multiStepForm__form">
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    会社名
+                </label>
+                <div class="p-multiStepForm__form__field ">
+                    [text* read-company-name class:c-text01 id:company class:p-multiStepForm__form__inputText placeholder "例)株式会社リード"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    お名前
+                </label>
+                <div class="p-multiStepForm__form__field ">
+                    [text* read-your-name class:c-text01 class:p-multiStepForm__form__inputText placeholder "例)山田花子"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    ふりがな
+                </label>
+                <div class="p-multiStepForm__form__field ">
+                    [text* read-furigana class:c-text01 class:p-multiStepForm__form__inputText placeholder "例)やまだはなこ"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    電話番号
+                </label>
+                <div class="p-multiStepForm__form__field isError">
+                    [tel* read-tel-num class:c-text01 class:p-multiStepForm__form__inputText placeholder "例)0123456789"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    メールアドレス
+                </label>
+                <div class="p-multiStepForm__form__field isError">
+                    [email* read-email-address class:c-text01 class:p-multiStepForm__form__inputText placeholder "例)read@xxxxx.jp"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label p-multiStepForm__form__label--flexStart">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    お問い合わせ種別
+                </label>
+                <ul class="p-multiStepForm__form__field p-multiStepForm__form__field--checkbox">
+                    [checkbox* read-inquiry use_label_element "ブランディング" "ダイレクトマーケティング" "デジタルプロモーション" "デジタルプロモーション" "メディアプランニング" "映像クリエイティブ" "その他お問い合わせ"]
+                </ul>
+            </li>
+            <li class="p-multiStepForm__form__item">
+                <label for="#" class="p-multiStepForm__form__label p-multiStepForm__form__label--flexStart">
+                    <span class="c-seal01 required">
+                        必須
+                    </span>
+                    お問い合わせ内容
+                </label>
+                <div class="p-multiStepForm__form__field">
+                    [textarea* read-inquiry-content class:c-textarea01 placeholder "お問い合わせ内容をご記⼊ください"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item--privacy">
+                <div class="p-multiStepForm__form__item--privacy__item">
+                    [checkbox* privacy id:privacy use_label_element "に同意する"]
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item--confirm">
+                <div class="p-multiStepForm__form__item--confirm__item">
+                     <div class="btn_confirm">
+                         [confirm class:c-button01 class:c-button01--main class:c-button01--xl "入力内容を確認する"]
+                     </div>
+                </div>
+            </li>
+            <li class="p-multiStepForm__form__item ">
+                <div class="p-multiStepForm__form__field p-multiStepForm__form__field--confirmation">
+                    <span class="btn_left">
+                         [back class:c-button01 class:c-button01--main class:c-button01--xl "送信する"]
+                    </span>
+                     <span class="btn_right">
+                         [submit class:c-button01 class:c-button01--main--w class:c-button01--xl "入力内容を編集する"]
+                    </span>
+                </div>
+            </li>
+        </ul>

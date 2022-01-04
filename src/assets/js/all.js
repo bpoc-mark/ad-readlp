@@ -59,6 +59,14 @@ $(document).ready(function () {
 			$(this).addClass("isActive");
 		}
 	});
+
+	$('.wpcf7-list-item label input').click(function(){
+		if($(this).is(':checked')){
+			$(this).parent().addClass('isActive');
+		}else{
+			$(this).parent().removeClass('isActive');
+		}
+	})
 });
 
 // TOP PAGE SLIDER JS

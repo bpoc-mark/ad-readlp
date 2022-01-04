@@ -1,0 +1,275 @@
+.page_contact{
+    .l-wrap{
+        .p-multiStepForm{
+            .wpcf7{
+                width: 75%;
+                @include is-sp {
+                    width: 100%;
+                }
+                margin-left: auto;
+            }
+            &__form{
+                .btn_confirm{
+                    position: relative;
+                    display: block;
+                    max-width: 470px;
+                    @include is-sp{
+                        max-width: 100%;
+                    }
+                    &::after{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 36px;
+                        right: 20px;
+                        width: 20px;
+                        height: 1px;
+                        background-color: #fff;
+                    }
+                    &::before{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        z-index: 5;
+                        top: 31px;
+                        right: 21px;
+                        width: 12px;
+                        height: 12px;
+                        border-top: 1px solid #fff;
+                        border-right: 1px solid #fff;
+                        transform: rotate(45deg);
+                        @include is-sp{
+                            top: 30.5px;
+                        }
+                    }
+                }
+                
+                &.isConfirmation{
+                    .p-multiStepForm__form__item{
+                        padding-bottom: 22px;
+                        &:not(:last-child){
+                            border-bottom: 1px solid #000;
+                            margin-bottom: 60px;
+                        }
+                    }
+
+                    .p-multiStepForm__form__item--privacy{
+                        display: none;
+                    }
+
+                    .btn_left, .btn_right{
+                        position: relative;
+                        width: 49%;
+                        @include is-sp{
+                            width: 100%;
+                        }
+                        &::after{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            top: 36px;
+                            right: 20px;
+                            width: 20px;
+                            height: 1px;
+                            background-color: #000;
+                        }
+                        &::before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            z-index: 5;
+                            top: 31px;
+                            right: 21px;
+                            width: 12px;
+                            height: 12px;
+                            border-top: 1px solid #000;
+                            border-right: 1px solid #000;
+                            transform: rotate(45deg);
+                            @include is-sp{
+                                top: 30.5px;
+                            }
+                        }
+                    }
+                    .btn_left{
+                        @include is-sp{
+                            margin-bottom: 30px;
+                        }
+                        &::after{
+                            background-color: #fff;
+                        }
+                        &::before{
+                            border-top: 1px solid #fff;
+                            border-right: 1px solid #fff;
+                        }
+                    }
+                    p{
+                        color: #000;
+                        @include is-sp{
+                            @include font-line(15);
+                        }
+                    }
+                }
+                &__item{
+                    .p-multiStepForm__form__field--checkbox{
+                        .read-inquiry{
+                            .wpcf7-checkbox{
+                                display: flex;
+                                flex-wrap: wrap;
+                                .wpcf7-list-item{
+                                    margin: 0;
+                                    width: 100%;
+                                    &:not(:last-child){
+                                        margin-bottom: 15px;
+                                    }
+                                    label{
+                                        position: relative;
+                                        &::before{
+                                            content: "";
+                                            display: block;
+                                            width: 25px;
+                                            height: 25px;
+                                            background-color: #e7e6e6;
+                                            position: absolute;
+                                            top: -4px;
+                                            left: -.5px;
+                                            z-index: 5;
+                                            border-radius: 5px;
+                                        }
+                                        &.isActive{
+                                            &::before{
+                                                background-color: #e93f33;
+                                            }
+                                            &::after{
+                                                content: "";
+                                                display: block;
+                                                width: 11px;
+                                                height: 7px;
+                                                border-bottom: 3px solid #fff;
+                                                border-left: 3px solid #fff;
+                                                position: absolute;
+                                                top: 4px;
+                                                left: 7px;
+                                                z-index: 5;
+                                                transform: rotate(-45deg);
+                                            }
+                                        }
+                                        input{
+                                            width: 25px;
+                                            height: 25px;
+                                            position: relative;
+                                            top: 3px;
+                                            opacity: 0;
+                                        }
+                                        span{
+                                            position: relative;
+                                            top: -3px;
+                                            padding-left: 11px;
+                                            @include is-sp{
+                                                @include font-line(15);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &--confirm{
+                        margin-top: 30px;
+                        margin-left: 290px;
+                        @include is-max(900px){
+                            margin-left: 0;
+                        }
+                    }
+                    &--privacy{
+                        &__item{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            .wpcf7-list-item{
+                                margin: 0;
+                                label{
+                                    position: relative;
+                                    &::before{
+                                        content: "";
+                                        display: block;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-color: #e7e6e6;
+                                        position: absolute;
+                                        top: -4px;
+                                        left: -.5px;
+                                        z-index: 5;
+                                        border-radius: 5px;
+                                    }
+                                    &.isActive{
+                                        &::before{
+                                            background-color: #e93f33;
+                                        }
+                                        &::after{
+                                            content: "";
+                                            display: block;
+                                            width: 11px;
+                                            height: 7px;
+                                            border-bottom: 3px solid #fff;
+                                            border-left: 3px solid #fff;
+                                            position: absolute;
+                                            top: 4px;
+                                            left: 7px;
+                                            z-index: 5;
+                                            transform: rotate(-45deg);
+                                        }
+                                    }
+                                    input{
+                                        width: 25px;
+                                        height: 25px;
+                                        position: relative;
+                                        top: 3px;
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                            .wpcf7-list-item-label{
+                                display: inline-flex;
+                                align-items: center;
+                                flex-direction: row-reverse;
+                                position: relative;
+                                top: -10px;
+                                padding-left: 10px;
+                                @include is-sp{
+                                    @include font-line(15);
+                                }
+                                a{
+                                    position: relative;
+                                    color: #000;
+                                    &::after{
+                                        content: "";
+                                        display: block;
+                                        width: 100%;
+                                        height: 1px;
+                                        background-color: #000;
+                                        position: absolute;
+                                        bottom: -5px;
+                                        left: 0;
+                                    }
+                                }
+                            }
+                            .c-checkbox03__label{
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .p-multiStepForm__form--complete{
+            width: 75%;
+            @include is-sp {
+                width: 100%;
+            }
+            margin-left: auto;
+            br{
+                display: block;
+            }
+        }
+    }
+}

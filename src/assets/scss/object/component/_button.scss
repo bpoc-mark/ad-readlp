@@ -1,18 +1,18 @@
 .c-button01 {
 	$button01: &;
-	background-color: #fff;
-	border: 2px #ccc solid;
-	width: 100%;
-	font-weight: 700;
+	background-color: #fff !important;
+	border: 2px #ccc solid !important;
+	width: 100% !important;
+	font-weight: 700 !important;
 	@include font-line(20, 20);
-	color: $color-text01;
-	text-decoration: none;
+	color: $color-text01 !important;
+	text-decoration: none !important;
 	display: flex !important;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	cursor: pointer;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	position: relative !important;
+	cursor: pointer !important;
 	&:before,
 	&:after {
 		content: "";
@@ -36,15 +36,7 @@
 			height: 12px;
 		}
 	}
-	&:before {
-		height: 1.7px;
-		background: #fff;
-		width: 16px;
-		right: 20px;
-		@include is-sp {
-			right: 21px;
-		}
-	}
+	
 	&:hover {
 		@include is-tabpc {
 			@include opacity(0.7);
@@ -127,11 +119,11 @@
 	}
 
 	&--main {
-		background-color: $color-main;
-		border-color: $color-main;
-		color: #fff;
+		background-color: $color-main !important;
+		border-color: $color-main !important;
+		color: #fff !important;
 		&--w {
-			background-color: #fff;
+			background-color: transparent !important;
 			border-color: $color-main;
 			color: $color-main;
 			&:after {
