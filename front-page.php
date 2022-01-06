@@ -51,7 +51,7 @@
                         リードならではの強みを活かし、オフラインとオンラインをクロスさせながらビジネスの成功を支援します。
                     </p>
                 </div>
-                <div class="sect_2__content--2">
+                <div class="sect_2__content--2" id="branding">
                     <div class="sect_2__content--2__item">
                         <a href="">
                             <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-1.jpg"
@@ -64,7 +64,7 @@
                                         alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc">サービス・プロダクトの企画段階から、ネーミングやコンセプトメイク、デザイン<br
+                            <p class="sect_2__content--2__ttl-cont--desc" id="marketing">サービス・プロダクトの企画段階から、ネーミングやコンセプトメイク、デザイン<br
                                     class="u-d-n-sp">などのクリエイティブを提案します。
                             </p>
                         </a>
@@ -81,7 +81,7 @@
                                         alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc">数多くの実績から導き出した「勝ちパターン」をもとに、ターゲティング、セグメ<br
+                            <p class="sect_2__content--2__ttl-cont--desc" id="promotion">数多くの実績から導き出した「勝ちパターン」をもとに、ターゲティング、セグメ<br
                                     class="u-d-n-sp">ント、媒体選定など効果的なダイレクトマーケティングを実施します。
                             </p>
                         </a>
@@ -98,7 +98,7 @@
                                         alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc">WEB広告をはじめとした最適なプロモーションによって、生活者と密接につな<br
+                            <p class="sect_2__content--2__ttl-cont--desc" id="planning">WEB広告をはじめとした最適なプロモーションによって、生活者と密接につな<br
                                     class="u-d-n-sp">がるためのデジタルソリューションを提案します。
                             </p>
                         </a>
@@ -115,7 +115,7 @@
                                         alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc">ターゲットとのタッチポイントを見極めながら、効果的な広告先を選定。また、<br
+                            <p class="sect_2__content--2__ttl-cont--desc" id="creative">ターゲットとのタッチポイントを見極めながら、効果的な広告先を選定。また、<br
                                     class="u-d-n-sp">海外進出に向けたアウトバウンドマーケティングもおまかせください。
                             </p>
                         </a>
@@ -193,7 +193,7 @@
             </div>
         </div>
     </section>
-    <section class="sect_4">
+    <!-- <section class="sect_4">
         <div class="bg"></div>
         <div class="l-wrap">
             <div class="head_row">
@@ -241,6 +241,6 @@
             <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
             <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
         </div>
-    </section>
+    </section> -->
 </div>
 <?php get_footer();?>

@@ -40,60 +40,60 @@
         <div class="page__header">
             <div class="l-wrap">
                 <div class="l-wrap__left">
-                    <a href=""><img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt=""></a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>"><img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt=""></a>
                 </div>
                 <div class="l-wrap__right">
                     <nav class="nav">
                         <div class="menu_wrapper">
                             <ul class="nav__list menu_sp">
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link" href="">ABOUT</a>
+                                    <a class="nav__list--item__link" href="<?php echo get_permalink(get_page_by_path('About')) ?>">ABOUT</a>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link spLink" href="">BUSINESS</a>
+                                    <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Business')) ?>">BUSINESS</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
-                                            <a href="">ブランディング</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>/#branding">ブランディング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">ダイレクトマーケティング</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>/#marketing">ダイレクトマーケティング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">デジタルプロモーション</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>/#promotion">デジタルプロモーション</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">メディアプランニング</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>/#planning">メディアプランニング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">映像クリエイティブ</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>/#creative">映像クリエイティブ</a>
                                         </li>
-                                        <li class="sub_menu_item">
+                                        <!-- <li class="sub_menu_item">
                                             <a href="">実績</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link spLink" href="">COMPANY</a>
+                                    <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Company')) ?>">COMPANY</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
-                                            <a href="">TOPページ</a>
+                                            <a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">リードについて</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('About')) ?>">リードについて</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">会社概要</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">お問い合せ</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>">お問い合せ</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="">プライバシーポリシー</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">プライバシーポリシー</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link spLink" href="">COLUMN</a>
+                                    <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Column')) ?>">COLUMN</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">ポスティング</a>

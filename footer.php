@@ -30,7 +30,7 @@
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">デジタルプロモーション</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">メディアプランニング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">映像クリエイティブ</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li>
+                        <!-- <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li> -->
                     </ul>
                 </div>
                 <div class="page__footer--links__items">

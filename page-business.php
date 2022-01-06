@@ -96,8 +96,8 @@ get_header();?>
                                     </div>
                                 </div>
                             </div>  
-                            <div class="brd_space"></div>
-                            <div class="c-card03 c-card-ttle-mbt">
+                            <!-- <div class="brd_space"></div> -->
+                            <!-- <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">ブランディング実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
@@ -116,7 +116,7 @@ get_header();?>
                                         </button>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>   -->
                         </div>
                     </div>
                 </div>
@@ -163,8 +163,8 @@ get_header();?>
                                     </div>
                                 </div>
                             </div>  
-                            <div class="brd_space"></div>
-                            <div class="c-card03 c-card-ttle-mbt">
+                            <!-- <div class="brd_space"></div> -->
+                            <!-- <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">ダイレクトマーケティング実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
@@ -183,7 +183,7 @@ get_header();?>
                                         </button>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>   -->
                         </div>
                     </div>
                 </div>
@@ -245,7 +245,7 @@ get_header();?>
                                     </div>
                                 </div>
                             </div>  
-                            <div class="brd_space"></div>
+                            <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">デジタルプロモーション実績</h3>
                                 <div class="row sect_2_row">
@@ -265,7 +265,7 @@ get_header();?>
                                         </button>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>   -->
                         </div>
                     </div>
                 </div>
@@ -312,7 +312,7 @@ get_header();?>
                                     </div>
                                 </div>
                             </div>  
-                            <div class="brd_space"></div>
+                            <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">メディアプランニング実績</h3>
                                 <div class="row sect_2_row">
@@ -332,7 +332,7 @@ get_header();?>
                                         </button>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>   -->
                         </div>
                     </div>
                 </div>
@@ -378,7 +378,7 @@ get_header();?>
                                     </div>
                                 </div>
                             </div>  
-                            <div class="brd_space"></div>
+                            <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">映像クリエイティブ実績</h3>
                                 <div class="row sect_2_row">
@@ -398,7 +398,7 @@ get_header();?>
                                         </button>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>   -->
                             <div class="brd_space"></div>
                             <div class="logo">
                                 <div class="logo_row">
