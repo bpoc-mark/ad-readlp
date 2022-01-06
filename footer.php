@@ -15,9 +15,9 @@
                     </div>
                     <ul class="accordion_content hidden">
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">リードについて</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">会社概要</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">お問い合せ</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('About')) ?>">リードについて</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>">お問い合せ</a></li>
                     </ul>
                 </div>
                 <div class="page__footer--links__items">
@@ -25,11 +25,11 @@
                         <p>BUSINESS</p>
                     </div>
                     <ul class="accordion_content hidden">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">ブランディング</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">ダイレクトマーケティング</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">デジタルプロモーション</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">メディアプランニング</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">映像クリエイティブ</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#branding">ブランディング</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#marketing">ダイレクトマーケティング</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#promotion">デジタルプロモーション</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#planning">メディアプランニング</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#creative">映像クリエイティブ</a></li>
                         <!-- <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li> -->
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
     </div>
     <div class="l-wrap">
         <div class="page__footer--copyright">
-            <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="">　プライバシーポリシー</a></span></p>
+            <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">　プライバシーポリシー</a></span></p>
         </div>
         <a href="" class="backtop">
             <img src="<?php echo get_template_directory_uri();?>/release/image/baktotap.svg" alt="">
