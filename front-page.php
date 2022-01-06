@@ -9,7 +9,7 @@
                 <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
             </div>
             <div class="c-buttonContact u-d-n-sp">
-                <a href="" class="c-buttonContact__link">
+                <a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>" class="c-buttonContact__link">
                     <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
