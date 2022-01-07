@@ -2,7 +2,7 @@
 <footer class="page__footer">
     <div class="page__footer__wrap">
         <div class="page__footer--row-1">
-            <a href="">
+            <a href="<?php echo esc_url(home_url('/')); ?>">
                 <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg"
                     alt="">
             </a>
