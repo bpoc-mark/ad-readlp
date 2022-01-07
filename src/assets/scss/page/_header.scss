@@ -116,6 +116,10 @@ main {
 										padding: 26px 0 16px 0;
 										font-size: 20px;
 
+										&:nth-child(3){
+											display: none;
+										}
+
 										&::before{
 											position: absolute;
 											right: 20px;

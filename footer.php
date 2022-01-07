@@ -33,7 +33,7 @@
                         <!-- <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li> -->
                     </ul>
                 </div>
-                <div class="page__footer--links__items">
+                <!-- <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>COLUMN</p>
                     </div>
@@ -43,7 +43,7 @@
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">OOH</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">TVCM</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>SNS</p>
