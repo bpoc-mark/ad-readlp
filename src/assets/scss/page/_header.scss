@@ -107,9 +107,6 @@ main {
 										display: none;
 									}
 
-									&:first-child{
-										display: none;
-									}
 									&:last-child{
 										border-bottom: 1px solid #e2e1e1;
 									}
@@ -184,7 +181,6 @@ main {
 							&:nth-of-type(4){
 								display: none;
 							}
-
 							&:nth-of-type(5) {
 								margin-right: 20px;
 								img {
