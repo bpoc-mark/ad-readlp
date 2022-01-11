@@ -95,7 +95,7 @@ main {
 									&:nth-child(2){
 										order: 3;
 										border-bottom: 1px solid #e2e1e1;
-										margin-bottom: 50px;
+										// margin-bottom: 50px;
 									}
 									&:nth-child(3){
 										order: 2;
@@ -104,7 +104,7 @@ main {
 										order: 4;
 										border-bottom: 1px solid #e2e1e1;
 										margin-bottom: 50px;
-										display: none;
+										display: block;
 									}
 
 									&:last-child{
@@ -179,7 +179,7 @@ main {
 								margin-right: 20px;
 							}
 							&:nth-of-type(4){
-								display: none;
+								display: block;
 							}
 							&:nth-of-type(5) {
 								margin-right: 20px;

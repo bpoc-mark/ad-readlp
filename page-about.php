@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 /* Template Name: About Page */
 
-get_header();?>
+get_header(); ?>
 <div class="page_about">
     <div class="p-jumbotron">
         <div class="l-wrap">
@@ -12,10 +12,10 @@ get_header();?>
             <p class="p-jumbotron__main">
                 About
             </p>
-            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
             <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
             </div>
@@ -40,20 +40,20 @@ get_header();?>
                         <br>
                         リードが広告を通して叶えたいのは、<br class="u-d-n-sp">
                         世の中を正すとか、<<br class="u-d-n-sp">
-                        一方向の正義を振りかざすとか、<br class="u-d-n-sp">
-                        そんな大それたことではありません。<br>
-                        <br>
-                        「悩んでいる人の背中をそっと押してあげる」とか、<br class="u-d-n-sp">
-                        「明日が来るのが少しだけ楽しみになる」とか、<br class="u-d-n-sp">
-                        そんな小さな変化やきっかけを持ってもらうこと。<br>
-                        <br>
-                        悩みを解決し、不安を振り払うことで、明るい未来が見られるよう、<br class="u-d-n-sp">
-                        これからも人の感情を動かす最適解を創っていきます。
+                            一方向の正義を振りかざすとか、<br class="u-d-n-sp">
+                            そんな大それたことではありません。<br>
+                            <br>
+                            「悩んでいる人の背中をそっと押してあげる」とか、<br class="u-d-n-sp">
+                            「明日が来るのが少しだけ楽しみになる」とか、<br class="u-d-n-sp">
+                            そんな小さな変化やきっかけを持ってもらうこと。<br>
+                            <br>
+                            悩みを解決し、不安を振り払うことで、明るい未来が見られるよう、<br class="u-d-n-sp">
+                            これからも人の感情を動かす最適解を創っていきます。
                     </p>
                 </div>
                 <div class="col">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_1/img_1.png" alt="私たちが導き出すのは、それぞれの企業・ブランドのコミュニケーション戦略の最適解。">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_1/img_1.png" alt="私たちが導き出すのは、それぞれの企業・ブランドのコミュニケーション戦略の最適解。">
                     </figure>
                 </div>
             </div>
@@ -66,7 +66,7 @@ get_header();?>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_2/img_1.jpg" alt="クライアントの悩み・課題を明確化するヒアリング力。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_2/img_1.jpg" alt="クライアントの悩み・課題を明確化するヒアリング力。">
                         </figure>
                     </div>
                     <div class="col">
@@ -80,15 +80,14 @@ get_header();?>
                         </p>
                         <button class="c-buttonRight">
                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
                         </button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_2/img_2.jpg" alt="マーケティングを土台にした最適な広告設計。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_2/img_2.jpg" alt="マーケティングを土台にした最適な広告設計。">
                         </figure>
                     </div>
                     <div class="col">
@@ -101,16 +100,15 @@ get_header();?>
                             リードでは、定量・定性の両面において、的確なマーケティングを実施。その結果をもとに、それぞれの企業・ブランドにとって最適な広告設計を行います。
                         </p>
                         <button class="c-buttonRight">
-                            <a href=""><span class="jp_txt">事業領域を見る</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>"><span class="jp_txt">事業領域を見る</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('business')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_2/img_3.jpg" alt="15年で培ってきたデータ・ノウハウをもとにした分析・提案。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_2/img_3.jpg" alt="15年で培ってきたデータ・ノウハウをもとにした分析・提案。">
                         </figure>
                     </div>
                     <div class="col">
@@ -124,16 +122,15 @@ get_header();?>
                             失敗を知っているからこそわかる成功へのアプローチで、企業・ブランドの価値向上をお手伝いします。
                         </p>
                         <button class="c-buttonRight">
-                            <a href=""><span class="jp_txt">リードについて見る</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><span class="jp_txt">リードについて見る</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_2/img_4.jpg" alt="実施→分析の繰り返しで常に改善策をブラッシュアップ。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_2/img_4.jpg" alt="実施→分析の繰り返しで常に改善策をブラッシュアップ。">
                         </figure>
                     </div>
                     <div class="col">
@@ -146,9 +143,8 @@ get_header();?>
                             その分析データをもとに課題を抽出し、次回以降の改善策のブラッシュアップへとつなげていきます。
                         </p>
                         <button class="c-buttonRight">
-                            <a href=""><span class="jp_txt">問い合わせる</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><span class="jp_txt">問い合わせる</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -166,7 +162,7 @@ get_header();?>
                 <div class="c-card">
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_3/img_1.jpg" alt="ブランディング">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_3/img_1.jpg" alt="ブランディング">
                             <span class="c-card--col3__num">01</span>
                         </div>
                         <h3 class="c-card--col3__title">ブランディング</h3>
@@ -174,7 +170,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_3/img_2.jpg" alt="ダイレクトマーケティング">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_3/img_2.jpg" alt="ダイレクトマーケティング">
                             <span class="c-card--col3__num">02</span>
                         </div>
                         <h3 class="c-card--col3__title">ダイレクトマーケティング</h3>
@@ -182,7 +178,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_3/img_3.jpg" alt="デジタルプロモーション">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_3/img_3.jpg" alt="デジタルプロモーション">
                             <span class="c-card--col3__num">03</span>
                         </div>
                         <h3 class="c-card--col3__title">デジタルプロモーション</h3>
@@ -190,7 +186,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_3/img_4.jpg" alt="メディアプランニング">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_3/img_4.jpg" alt="メディアプランニング">
                             <span class="c-card--col3__num">04</span>
                         </div>
                         <h3 class="c-card--col3__title">メディアプランニング</h3>
@@ -198,7 +194,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/about/sect_3/img_5.jpg" alt="映像クリエイティブ">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/about/sect_3/img_5.jpg" alt="映像クリエイティブ">
                             <span class="c-card--col3__num">05</span>
                         </div>
                         <h3 class="c-card--col3__title">映像クリエイティブ</h3>
@@ -208,10 +204,9 @@ get_header();?>
             </div>
             <button class="c-buttonRight">
                 <a href=""><span class="jp_txt">会社概要を見る</span></a>
-                <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                        alt=""></span>
+                <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
             </button>
         </div>
     </section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>
