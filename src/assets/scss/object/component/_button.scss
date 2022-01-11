@@ -403,9 +403,10 @@
 .c-buttonContact {
 	width: 130px;
 	height: 130px;
-	position: absolute;
-	bottom: -15px;
-	right: 0;
+	position: fixed;
+	bottom: 10px;
+	right: 65px;
+	z-index: 150;
 	@include is-max(1400px) {
 		right: 50px;
 	}

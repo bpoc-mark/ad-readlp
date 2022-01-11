@@ -3,8 +3,7 @@
     <div class="page__footer__wrap">
         <div class="page__footer--row-1">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg"
-                    alt="">
+                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
             </a>
         </div>
         <div class="page__footer--row-2">
@@ -49,9 +48,9 @@
                         <p>SNS</p>
                     </div>
                     <ul class="accordion_content hidden">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">Facebook</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">Instagram</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">Pinterest</a></li>
+                        <li><a href="https://www.facebook.com/read.official/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/read_shukyaku/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.jp/re_ad/" target="_blank">Pinterest</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +61,7 @@
             <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">　プライバシーポリシー</a></span></p>
         </div>
         <a href="" class="backtop">
-            <img src="<?php echo get_template_directory_uri();?>/release/image/baktotap.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/baktotap.svg" alt="">
         </a>
     </div>
 </footer>

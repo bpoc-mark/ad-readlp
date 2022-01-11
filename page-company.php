@@ -1,21 +1,21 @@
-<?php 
+<?php
 
 /* Template Name: Company Page */
 
-get_header();?>
+get_header(); ?>
 <div class="page_company">
     <div class="p-jumbotron">
         <div class="l-wrap">
             <p class="p-jumbotron__sub">
-                美容広告代理店リードの会社概要
+                美容の広告代理店リードの会社概要
             </p>
             <p class="p-jumbotron__main">
                 Company
             </p>
-            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
             <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
             </div>
@@ -36,14 +36,14 @@ get_header();?>
                                     <span>東京本社</span><br>
                                     〒150-0002<br>
                                     東京都渋谷区渋谷1-11-1 COI西青山ビル4F<br>
-                                    TEL：<a href="tel:03-6418-2475">03-6418-2475</a>  <br class="u-d-n-pc">FAX：03-6418-2476
+                                    TEL：<a href="tel:03-6418-2475">03-6418-2475</a> <br class="u-d-n-pc">FAX：03-6418-2476
                                 </p>
                                 <p>
                                     <span>大阪支社</span><br>
                                     〒540-0024<br>
                                     大阪府大阪市中央区南新町2-4-12 <br>
                                     インテリンクス南新町9F<br>
-                                    TEL：<a href="tel:06-6910-4515">06-6910-4515</a>  <br class="u-d-n-pc">FAX：06-6910-4516
+                                    TEL：<a href="tel:06-6910-4515">06-6910-4515</a> <br class="u-d-n-pc">FAX：06-6910-4516
                                 </p>
                             </div>
                         </li>
@@ -100,7 +100,7 @@ get_header();?>
                     </ul>
                 </div>
                 <div class="col">
-                <h3 class="col--ttl">株式会社ネクストステージ</h3>
+                    <h3 class="col--ttl">株式会社ネクストステージ</h3>
                     <ul class="company">
                         <li class="company--item">
                             <div class="company--item__left">
@@ -110,7 +110,7 @@ get_header();?>
                                 <p>
                                     〒150-0002<br>
                                     東京都渋谷区渋谷1-11-1 COI西青山ビル4F<br>
-                                    TEL：<a href="tel:03-6418-2475">03-6418-2475</a>  <br class="u-d-n-pc">FAX：03-6418-2476
+                                    TEL：<a href="tel:03-6418-2475">03-6418-2475</a> <br class="u-d-n-pc">FAX：03-6418-2476
                                 </p>
                             </div>
                         </li>
@@ -151,7 +151,7 @@ get_header();?>
                                 <p>役員</p>
                             </div>
                             <div class="company--item__right">
-                                <p>代表取締役会長  多田 亜樹博<br>代表取締役社長  石橋 泰博</p>
+                                <p>代表取締役会長 多田 亜樹博<br>代表取締役社長 石橋 泰博</p>
                             </div>
                         </li>
                         <li class="company--item">
@@ -174,7 +174,7 @@ get_header();?>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/company/sect_2/img_1.jpg" alt="効果のある広告で弊社に関わる全ての人々の、利益と幸せに貢献する。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/company/sect_2/img_1.jpg" alt="効果のある広告で弊社に関わる全ての人々の、利益と幸せに貢献する。">
                         </figure>
                     </div>
                     <div class="col">
@@ -231,9 +231,8 @@ get_header();?>
                             私たちは、社員とその家族のしあわせを永続的に叶える、社員満足度NO.1の『100年カンパニー』を目指す。
                         </p>
                         <button class="c-buttonRight">
-                            <a href=""><span class="jp_txt">リードについて見る</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><span class="jp_txt">リードについて見る</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -246,7 +245,7 @@ get_header();?>
                 <h3 class="c-card01--ttl">アクセス情報</h3>
                 <div class="row">
                     <div class="col">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5571.262671895361!2d139.70209831364522!3d35.659552908100196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b588343e88b%3A0x368f280c785c91be!2zSmFwYW4sIOOAkjE1MC0wMDAyIFRva3lvLCBTaGlidXlhIENpdHksIFNoaWJ1eWEsIDEtY2jFjW1l4oiSMTHiiJIxIO-8o--8r--8qeilv-mdkuWxseODk-ODqyA0Zg!5e0!3m2!1sen!2sph!4v1640453730901!5m2!1sja!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5571.262671895361!2d139.70209831364522!3d35.659552908100196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b588343e88b%3A0x368f280c785c91be!2zSmFwYW4sIOOAkjE1MC0wMDAyIFRva3lvLCBTaGlidXlhIENpdHksIFNoaWJ1eWEsIDEtY2jFjW1l4oiSMTHiiJIxIO-8o--8r--8qeilv-mdkuWxseODk-ODqyA0Zg!5e0!3m2!1sen!2sph!4v1640453730901!5m2!1sja!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <div class="col">
                         <h3 class="col--ttl">READ CO.,LTD 東京本社</h3>
@@ -301,7 +300,7 @@ get_header();?>
                 <div class="row">
                     <div class="col">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/company/sect_5/img_1.jpg" alt="効果のある広告で弊社に関わる全ての人々の、利益と幸せに貢献する。">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/company/sect_5/img_1.jpg" alt="効果のある広告で弊社に関わる全ての人々の、利益と幸せに貢献する。">
                         </figure>
                     </div>
                     <div class="col">
@@ -336,8 +335,8 @@ get_header();?>
                                 </div>
                                 <div class="history__item--details">
                                     <p>
-                                    1月 大阪府大阪市に大阪支社を設立<br>
-                                    10月 本社を東京都渋谷区に移転
+                                        1月 大阪府大阪市に大阪支社を設立<br>
+                                        10月 本社を東京都渋谷区に移転
                                     </p>
                                 </div>
                             </div>
@@ -350,11 +349,10 @@ get_header();?>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <button class="c-buttonRight">
-                            <a href=""><span class="jp_txt">リードについて見る</span></a>
-                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                    alt=""></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><span class="jp_txt">リードについて見る</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -362,4 +360,4 @@ get_header();?>
         </div>
     </section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>

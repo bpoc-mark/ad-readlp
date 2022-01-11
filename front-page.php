@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_header(); ?>
 <div class="top">
     <section class="page__banner">
         <div class="l-wrap">
@@ -6,11 +6,11 @@
                 はじまらない。</h1>
             <p class="page__banner--sub">集客カンパニー「リード」</p>
             <div class="floating_contact">
-                <img src="<?php echo $filePath;?>/release/image/contact_btn.svg" alt="">
+                <img src="<?php echo $filePath; ?>/release/image/contact_btn.svg" alt="">
             </div>
             <div class="c-buttonContact u-d-n-sp">
-                <a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>" class="c-buttonContact__link">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonContact__link">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
             </div>
@@ -31,9 +31,8 @@
                     <p class="sect_1__column--2__desc">それにより生まれる「伝わるコミュニケーション戦略」で、<br class="u-d-n-sp">
                         生活者の心を動かし、行動を促し、あなたのビジネスの成功を後押しします。</p>
                     <button class="c-buttonRight">
-                        <a href="">READ MORE</a>
-                        <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                alt=""></span>
+                        <a href="<?php echo get_permalink(get_page_by_path('About')) ?>">READ MORE</a>
+                        <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                     </button>
                 </div>
             </div>
@@ -54,86 +53,71 @@
                 <div class="sect_2__content--2" id="branding">
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-1.jpg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-1.jpg" alt="">
                             <p class="sml_ttl"><span></span>ブランディング</p>
                             <div class="sect_2__content--2__ttl-cont">
                                 <h2>Branding</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
-                                        alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc" id="marketing">サービス・プロダクトの企画段階から、ネーミングやコンセプトメイク、デザイン<br
-                                    class="u-d-n-sp">などのクリエイティブを提案します。
+                            <p class="sect_2__content--2__ttl-cont--desc" id="marketing">サービス・プロダクトの企画段階から、ネーミングやコンセプトメイク、デザイン<br class="u-d-n-sp">などのクリエイティブを提案します。
                             </p>
                         </a>
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-2.jpg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-2.jpg" alt="">
                             <p class="sml_ttl"><span></span>ダイレクトマーケティング</p>
                             <div class="sect_2__content--2__ttl-cont">
                                 <h2>Marketing</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
-                                        alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc" id="promotion">数多くの実績から導き出した「勝ちパターン」をもとに、ターゲティング、セグメ<br
-                                    class="u-d-n-sp">ント、媒体選定など効果的なダイレクトマーケティングを実施します。
+                            <p class="sect_2__content--2__ttl-cont--desc" id="promotion">数多くの実績から導き出した「勝ちパターン」をもとに、ターゲティング、セグメ<br class="u-d-n-sp">ント、媒体選定など効果的なダイレクトマーケティングを実施します。
                             </p>
                         </a>
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-3.jpg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-3.jpg" alt="">
                             <p class="sml_ttl"><span></span>デジタルプロモーション</p>
                             <div class="sect_2__content--2__ttl-cont">
                                 <h2>Promotion</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
-                                        alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc" id="planning">WEB広告をはじめとした最適なプロモーションによって、生活者と密接につな<br
-                                    class="u-d-n-sp">がるためのデジタルソリューションを提案します。
+                            <p class="sect_2__content--2__ttl-cont--desc" id="planning">WEB広告をはじめとした最適なプロモーションによって、生活者と密接につな<br class="u-d-n-sp">がるためのデジタルソリューションを提案します。
                             </p>
                         </a>
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-4.jpg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-4.jpg" alt="">
                             <p class="sml_ttl"><span></span>メディアプランニング</p>
                             <div class="sect_2__content--2__ttl-cont">
                                 <h2>Planning</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
-                                        alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc" id="creative">ターゲットとのタッチポイントを見極めながら、効果的な広告先を選定。また、<br
-                                    class="u-d-n-sp">海外進出に向けたアウトバウンドマーケティングもおまかせください。
+                            <p class="sect_2__content--2__ttl-cont--desc" id="creative">ターゲットとのタッチポイントを見極めながら、効果的な広告先を選定。また、<br class="u-d-n-sp">海外進出に向けたアウトバウンドマーケティングもおまかせください。
                             </p>
                         </a>
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_2_img-5.jpg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-5.jpg" alt="">
                             <p class="sml_ttl"><span></span>映像クリエイティブ</p>
                             <div class="sect_2__content--2__ttl-cont">
                                 <h2>Creative</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/arrow-big.svg"
-                                        alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </div>
-                            <p class="sect_2__content--2__ttl-cont--desc">キャスティング、動画制作、動画広告プランニング、動画広告運用まで一気通貫<br
-                                    class="u-d-n-sp">で行います。それぞれの課題解決に向けて最適なプランニングを提供します。
+                            <p class="sect_2__content--2__ttl-cont--desc">キャスティング、動画制作、動画広告プランニング、動画広告運用まで一気通貫<br class="u-d-n-sp">で行います。それぞれの課題解決に向けて最適なプランニングを提供します。
                             </p>
                         </a>
                     </div>
@@ -146,48 +130,37 @@
             <div class="sect_3__container">
                 <div class="sect_3__col">
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-1.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-1.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-2.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-2.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-3.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-3.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-4.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-4.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-5.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-5.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-6.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-6.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-7.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-7.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-8.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-8.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-9.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-9.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-10.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-10.png" alt="">
                     </div>
                     <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-11.png"
-                            alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-11.png" alt="">
                     </div>
                 </div>
             </div>
@@ -209,7 +182,7 @@
                     </p>
                     <button class="c-buttonRight">
                         <a href="">READ MORE</a>
-                        <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                        <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                 alt=""></span>
                     </button>
                 </div>
@@ -219,28 +192,28 @@
             <div class="swiper top_swiper">
                 <div class="swiper-wrapper">
                     <?php
-                        $list = [
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 1'],
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 2'],
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 3'],
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 4'],
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 5'],
-                            ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 6'],
-                        ];
-                        foreach ($list as $key => $el) :
+                    $list = [
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 1'],
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 2'],
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 3'],
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 4'],
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 5'],
+                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 6'],
+                    ];
+                    foreach ($list as $key => $el) :
                     ?>
                         <div class="swiper-slide">
                             <figure>
-                                <img src="<?php echo get_template_directory_uri();?><?= $el[0] ?>" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?><?= $el[0] ?>" alt="">
                             </figure> 
                             <p><?= $el[1] ?></p>
                         </div> 
                     <?php endforeach; ?>
                 </div>
             </div>
-            <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
-            <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
+            <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
+            <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
         </div>
     </section> -->
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>
