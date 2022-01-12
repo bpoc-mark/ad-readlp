@@ -60,7 +60,7 @@
         <div class="page__footer--copyright">
             <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">　プライバシーポリシー</a></span></p>
         </div>
-        <a href="" class="backtop">
+        <a href="#page-top" class="backtop">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/baktotap.svg" alt="">
         </a>
     </div>
