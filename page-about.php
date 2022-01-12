@@ -78,10 +78,10 @@ get_header(); ?>
                             この業界だからこう、この企業だからこう、私たちはそういった先入観をまず無くすことを大切にしています。なぜなら、企業・ブランドによってその悩み・課題はさまざまだから。<br>
                             成功のスタート地点には、必ず悩み・課題の発見があります。リードでは、まず徹底したヒアリングを行うことで、解決すべきポイントを明確にします。
                         </p>
-                        <button class="c-buttonRight">
+                        <!-- <button class="c-buttonRight">
                             <a href=""><span class="jp_txt">実績を見る</span></a>
                             <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <div class="row">
