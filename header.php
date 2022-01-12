@@ -37,7 +37,7 @@
     $filePath = parse_url($filePath, PHP_URL_PATH);
     ?>
     <main>
-        <div class="page__header">
+        <div id="page-top" class="page__header">
             <div class="l-wrap">
                 <div class="l-wrap__left">
                     <a href="<?php echo esc_url(home_url('/')); ?>"><img class="logo" src="<?php echo $filePath; ?>/release/image/header/logo.svg" alt=""></a>

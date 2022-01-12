@@ -97,3 +97,9 @@ const swiper1 = new Swiper('.top_swiper', {
 		prevEl: '.swiper-button-prev',
 	},
 });
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, 2000);
+});
