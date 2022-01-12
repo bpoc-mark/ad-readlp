@@ -45,7 +45,8 @@
 			}
 
 			@include is-sp {
-				@include font-line(109.6);
+				// @include font-line(109.6);
+				font-size: 20vw;
 				white-space: nowrap;
 				overflow: hidden;
 				padding-bottom: 30px;
