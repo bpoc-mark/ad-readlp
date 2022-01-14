@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 /* Template Name: Business Page */
 
-get_header();?>
+get_header(); ?>
 <div class="page_business">
     <div class="p-jumbotron">
         <div class="l-wrap">
@@ -12,10 +12,10 @@ get_header();?>
             <p class="p-jumbotron__main">
                 Business
             </p>
-            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
             <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
             </div>
@@ -26,7 +26,7 @@ get_header();?>
             <div class="row">
                 <div class="col">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_1/sect_1_img_1.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_1/sect_1_img_1.png" alt="">
                     </figure>
                 </div>
                 <div class="col">
@@ -58,7 +58,7 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
@@ -95,14 +95,14 @@ get_header();?>
                                             その魅力を引き出します。</p>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <!-- <div class="brd_space"></div> -->
                             <!-- <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">ブランディング実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
                                         <figure>
-                                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
                                         </figure>
                                     </div>
                                     <div class="col">
@@ -111,7 +111,7 @@ get_header();?>
                                         <p class="col__desc">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです200文字</p>
                                         <button class="c-buttonRight">
                                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                                     alt=""></span>
                                         </button>
                                     </div>
@@ -130,7 +130,7 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/marketing_img_1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/marketing_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
@@ -162,14 +162,14 @@ get_header();?>
                                         <p class="c-card--col3--desc">地域やターゲットの特性を見極め、広告を実施する最適なエリアをセグメントします。世帯構成や年齢層などのデータから、より効果の高い施策を行うことで、これまで眠っていた見込み客を徹底的に掘り起こします。</p>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <!-- <div class="brd_space"></div> -->
                             <!-- <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">ダイレクトマーケティング実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
                                         <figure>
-                                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
                                         </figure>
                                     </div>
                                     <div class="col">
@@ -178,7 +178,7 @@ get_header();?>
                                         <p class="col__desc">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです200文字</p>
                                         <button class="c-buttonRight">
                                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                                     alt=""></span>
                                         </button>
                                     </div>
@@ -197,7 +197,7 @@ get_header();?>
                             <div class="row sect_2_row sect_2_row_mgtbm">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/promotion_img_1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/promotion_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
@@ -212,14 +212,14 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
                                     <h3 class="col__ttl">
-                                    オンライン×オフラインの<br class="u-d-n-sp">
-                                    相乗効果でターゲットの<br class="u-d-n-sp">
-                                    行動促進を加速します。
+                                        オンライン×オフラインの<br class="u-d-n-sp">
+                                        相乗効果でターゲットの<br class="u-d-n-sp">
+                                        行動促進を加速します。
                                     </h3>
                                     <p class="col__desc">リードがもともと得意とするオフライン広告。これをデジタルプロモーションと掛け合わせることで、より広く、深く、それぞれのサービス・プロダクトが持つ価値をターゲットに向けて届けることができます。生活者の「欲しい」という衝動を逃すことのないコミュニケーション戦略で、期待以上の成果を目指します。</p>
                                 </div>
@@ -244,14 +244,14 @@ get_header();?>
                                         <p class="c-card--col3--desc">デジタルプロモーションを実施する上で、今や欠かせないのがインフルエンサー。リードでは、それぞれのサービス・プロダクトに最適なインフルエンサーの選定から、実際の施策提案まで総合的にサポートします。</p>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">デジタルプロモーション実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
                                         <figure>
-                                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
                                         </figure>
                                     </div>
                                     <div class="col">
@@ -260,7 +260,7 @@ get_header();?>
                                         <p class="col__desc">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです200文字</p>
                                         <button class="c-buttonRight">
                                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                                     alt=""></span>
                                         </button>
                                     </div>
@@ -279,7 +279,7 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/planning_img_1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/planning_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
@@ -311,14 +311,14 @@ get_header();?>
                                         <p class="c-card--col3--desc">「Made in Japan」の価値の向上に伴い、日本での成功を海外にも展開する企業も増えています。リードでは、そんなアウトバウンドマーケティングの支援も行っています。海外進出のお手伝いもおまかせください。</p>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">メディアプランニング実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
                                         <figure>
-                                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
                                         </figure>
                                     </div>
                                     <div class="col">
@@ -327,7 +327,7 @@ get_header();?>
                                         <p class="col__desc">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです200文字</p>
                                         <button class="c-buttonRight">
                                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                                     alt=""></span>
                                         </button>
                                     </div>
@@ -346,7 +346,7 @@ get_header();?>
                             <div class="row sect_2_row">
                                 <div class="col">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/creative_img_1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/creative_img_1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="col">
@@ -377,14 +377,14 @@ get_header();?>
                                         <p class="c-card--col3--desc">実施へのハードルが高いと思われがちな、TVCM の実施もおまかせください。枠の確保から実施まで、ワンストップでサポートします。また、地方TVCMも全国TVCMの実施・運用実績も豊富なので、全国どこでも放映が可能です。</p>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <!-- <div class="brd_space"></div>
                             <div class="c-card03 c-card-ttle-mbt">
                                 <h3 class="c-card03--ttl">映像クリエイティブ実績</h3>
                                 <div class="row sect_2_row">
                                     <div class="col">
                                         <figure>
-                                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_2/branding_img_2.png" alt="">
                                         </figure>
                                     </div>
                                     <div class="col">
@@ -393,7 +393,7 @@ get_header();?>
                                         <p class="col__desc">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです200文字</p>
                                         <button class="c-buttonRight">
                                             <a href=""><span class="jp_txt">実績を見る</span></a>
-                                            <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
+                                            <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
                                                     alt=""></span>
                                         </button>
                                     </div>
@@ -403,48 +403,39 @@ get_header();?>
                             <div class="logo">
                                 <div class="logo_row">
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-1.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-1.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-2.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-2.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-3.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-3.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-4.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-4.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-5.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-5.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-6.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-6.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-7.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-7.png" alt="">
                                     </div>
                                     <div class="logo_row--item">
-                                        <img src="<?php echo get_template_directory_uri();?>/release/image/pages/top/sect_3/sect_3_img-8.png"
-                                            alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-8.png" alt="">
                                     </div>
                                 </div>
                                 <button class="c-buttonRight">
                                     <a href=""><span class="jp_txt">制作実績一覧を見る</span></a>
-                                    <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                                            alt=""></span>
+                                    <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>      
+            </div>
         </div>
     </section>
     <section class="sect_3">
@@ -454,7 +445,7 @@ get_header();?>
                 <div class="c-card">
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_1.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_1.jpg" alt="">
                             <span class="c-card--col3__num">01</span>
                         </div>
                         <h3 class="c-card--col3__title">お電話かメールにて、お気軽にお電話ください</h3>
@@ -462,7 +453,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_2.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_2.jpg" alt="">
                             <span class="c-card--col3__num">02</span>
                         </div>
                         <h3 class="c-card--col3__title">打ち合わせで課題やお悩みをお聞かせください</h3>
@@ -470,7 +461,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_3.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_3.jpg" alt="">
                             <span class="c-card--col3__num">03</span>
                         </div>
                         <h3 class="c-card--col3__title">マーケティング戦略の策定後、企画を提案</h3>
@@ -478,7 +469,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_4.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_4.jpg" alt="">
                             <span class="c-card--col3__num">04</span>
                         </div>
                         <h3 class="c-card--col3__title">徹底的な消費者目線でクリエイティブを制作します</h3>
@@ -486,7 +477,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_5.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_5.jpg" alt="">
                             <span class="c-card--col3__num">05</span>
                         </div>
                         <h3 class="c-card--col3__title">課題に合わせた最適な媒体で広告を実施します</h3>
@@ -494,7 +485,7 @@ get_header();?>
                     </div>
                     <div class="c-card--col3">
                         <div class="c-card--col3__img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/pages/business/sect_3/img_6.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/business/sect_3/img_6.jpg" alt="">
                             <span class="c-card--col3__num">06</span>
                         </div>
                         <h3 class="c-card--col3__title">実施データ分析後さらなるブラシュアップ</h3>
@@ -504,10 +495,9 @@ get_header();?>
             </div>
             <button class="c-buttonRight">
                 <a href=""><span class="jp_txt">リードについて見る</span></a>
-                <span><img src="<?php echo get_template_directory_uri();?>/release/image/read_morebigger.svg"
-                        alt=""></span>
+                <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
             </button>
         </div>
     </section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>
