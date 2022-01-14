@@ -48,8 +48,8 @@
                         <div class="menu_wrapper">
                             <ul class="nav__list menu_sp">
                                 <li class="nav__list--item">
-                                    <a class="nav__list--item__link spLink" href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
-                                    <ul class="sub_menu">
+                                    <a class="nav__list--item__link" href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
+                                    <!-- <ul class="sub_menu">
                                         <li class="sub_menu_item">
                                             <a href="">ポスティング</a>
                                         </li>
@@ -62,7 +62,7 @@
                                         <li class="sub_menu_item">
                                             <a href="">TVCM</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav__list--item">
                                     <a class="nav__list--item__link" href="<?php echo get_permalink(get_page_by_path('About')) ?>">ABOUT</a>
@@ -94,19 +94,19 @@
                                     <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Company')) ?>">COMPANY</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="<?php echo get_permalink(get_page_by_path('About')) ?>">リードについて</a>
-                                        </li>
-                                        <li class="sub_menu_item">
                                             <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>">お問い合せ</a>
+                                            <a href="#sect-2">企業理念</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">プライバシーポリシー</a>
+                                            <a href="#sect-3">企業ビジョン</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="#sect-4">アクセス情報</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="#sect-5">沿革</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -140,7 +140,7 @@
                         </div>
                         <ul class="m_nav__list">
                             <li class="nav__list--item">
-                                <a href="">
+                                <a href="tel:03-6418-2475">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="35.96" height="35.94" viewBox="0 0 35.96 35.94">
                                         <g id="e2523a6d-3528-49e5-b5e7-e5945c6adb8b" data-name="Layer 2">
                                             <g id="ebe919d9-8c59-4e07-bc9c-35d5311ec3f2" data-name="Layer 1">
@@ -151,7 +151,7 @@
                                 </a>
                             </li>
                             <li class="nav__list--item">
-                                <a href=""><img src="<?php echo $filePath; ?>/release/image/header/contact.svg" alt=""></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><img src="<?php echo $filePath; ?>/release/image/header/contact.svg" alt=""></a>
                             </li>
                             <li class="nav__list--item">
                                 <div class="menu">

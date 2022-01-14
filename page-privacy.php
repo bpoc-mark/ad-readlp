@@ -13,12 +13,12 @@ get_header();?>
                 Privacy Policy
             </p>
             <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
-            <div class="c-buttonContact u-d-n-sp">
+            <!-- <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
                     <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <section class="sect-1">
