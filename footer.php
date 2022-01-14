@@ -1,5 +1,11 @@
 </div>
 <footer class="page__footer">
+    <div class="c-buttonContact u-d-n-sp">
+        <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonContact__link">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
+            Contact
+        </a>
+    </div>
     <div class="page__footer__wrap">
         <div class="page__footer--row-1">
             <a href="<?php echo esc_url(home_url('/')); ?>">
@@ -13,10 +19,11 @@
                         <p>COMPANY</p>
                     </div>
                     <ul class="accordion_content hidden">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">TOPページ</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('About')) ?>">リードについて</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>">お問い合せ</a></li>
+                        <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a></li>
+                        <li> <a href="#sect-2">企業理念</a></li>
+                        <li> <a href="#sect-3">企業ビジョン</a></li>
+                        <li> <a href="#sect-4">アクセス情報</a></li>
+                        <li> <a href="#sect-5">沿革</a></li>
                     </ul>
                 </div>
                 <div class="page__footer--links__items">

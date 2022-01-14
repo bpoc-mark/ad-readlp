@@ -13,12 +13,12 @@ get_header(); ?>
                 Company
             </p>
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
-            <div class="c-buttonContact u-d-n-sp">
+            <!-- <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <section class="sect-1">
@@ -167,7 +167,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="sect-2">
+    <section class="sect-2" id="sect-2">
         <div class="l-wrap">
             <div class="c-card01">
                 <h3 class="c-card01--ttl">企業理念</h3>
@@ -193,7 +193,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="sect-3">
+    <section class="sect-3" id="sect-3">
         <div class="l-wrap">
             <div class="c-card01">
                 <h3 class="c-card01--ttl">企業ビジョン</h3>
@@ -239,7 +239,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="sect-4">
+    <section class="sect-4" id="sect-4">
         <div class="l-wrap">
             <div class="c-card01">
                 <h3 class="c-card01--ttl">アクセス情報</h3>
@@ -293,7 +293,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="sect-5">
+    <section class="sect-5" id="sect-5">
         <div class="l-wrap">
             <div class="c-card01">
                 <h3 class="c-card01--ttl">沿革</h3>

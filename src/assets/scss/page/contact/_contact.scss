@@ -271,5 +271,20 @@
                 display: block;
             }
         }
+        .p-multiStepForm{
+            ul.p-multiStepForm__form.isConfirmation{
+                .btn_confirm{
+                    &::after{
+                        display: none;
+                    }
+                    &::before{
+                        display: none;
+                        @include is-sp{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

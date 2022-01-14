@@ -13,12 +13,12 @@ get_header(); ?>
                 Business
             </p>
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
-            <div class="c-buttonContact u-d-n-sp">
+            <!-- <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <section class="sect-1">
@@ -48,7 +48,7 @@ get_header(); ?>
     <section class="sect_2">
         <div class="l-wrap">
             <div class="c-card02">
-                <div class="c-accordion">
+                <div class="c-accordion" id="brand">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">ブランディング<br class="u-d-n-pc"><span class="u-d-n-pc">Branding</span></h3>
                     </div>
@@ -120,7 +120,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion">
+                <div class="c-accordion" id="market">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">ダイレクトマーケティング<br class="u-d-n-pc"><span class="u-d-n-pc">Marketing</span></h3>
                     </div>
@@ -187,7 +187,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion">
+                <div class="c-accordion" id="promo">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">デジタルプロモーション<br class="u-d-n-pc"><span class="u-d-n-pc">Promotion</span></h3>
                     </div>
@@ -269,7 +269,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion">
+                <div class="c-accordion" id="plan">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">メディアプランニング<br class="u-d-n-pc"><span class="u-d-n-pc">Planning</span></h3>
                     </div>
@@ -336,7 +336,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion">
+                <div class="c-accordion" id="create">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">映像クリエイティブ<br class="u-d-n-pc"><span class="u-d-n-pc">Creative</span></h3>
                     </div>
@@ -494,8 +494,8 @@ get_header(); ?>
                 </div>
             </div>
             <button class="c-buttonRight">
-                <a href=""><span class="jp_txt">リードについて見る</span></a>
-                <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
+                <a href="<?php echo get_permalink(get_page_by_path('about')) ?>"><span class="jp_txt">リードについて見る</span></a>
+                <span><a href="<?php echo get_permalink(get_page_by_path('about')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
             </button>
         </div>
     </section>

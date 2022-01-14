@@ -13,12 +13,12 @@ get_header(); ?>
                 About
             </p>
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
-            <div class="c-buttonContact u-d-n-sp">
+            <!-- <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <section class="sect-1">
@@ -39,16 +39,16 @@ get_header(); ?>
                         その企業・ブランドに相応しいコミュニケーションを模索します。<br>
                         <br>
                         リードが広告を通して叶えたいのは、<br class="u-d-n-sp">
-                        世の中を正すとか、<<br class="u-d-n-sp">
-                            一方向の正義を振りかざすとか、<br class="u-d-n-sp">
-                            そんな大それたことではありません。<br>
-                            <br>
-                            「悩んでいる人の背中をそっと押してあげる」とか、<br class="u-d-n-sp">
-                            「明日が来るのが少しだけ楽しみになる」とか、<br class="u-d-n-sp">
-                            そんな小さな変化やきっかけを持ってもらうこと。<br>
-                            <br>
-                            悩みを解決し、不安を振り払うことで、明るい未来が見られるよう、<br class="u-d-n-sp">
-                            これからも人の感情を動かす最適解を創っていきます。
+                        世の中を正すとか、<br class="u-d-n-sp">
+                        一方向の正義を振りかざすとか、<br class="u-d-n-sp">
+                        そんな大それたことではありません。<br>
+                        <br>
+                        「悩んでいる人の背中をそっと押してあげる」とか、<br class="u-d-n-sp">
+                        「明日が来るのが少しだけ楽しみになる」とか、<br class="u-d-n-sp">
+                        そんな小さな変化やきっかけを持ってもらうこと。<br>
+                        <br>
+                        悩みを解決し、不安を振り払うことで、明るい未来が見られるよう、<br class="u-d-n-sp">
+                        これからも人の感情を動かす最適解を創っていきます。
                     </p>
                 </div>
                 <div class="col">
@@ -122,8 +122,8 @@ get_header(); ?>
                             失敗を知っているからこそわかる成功へのアプローチで、企業・ブランドの価値向上をお手伝いします。
                         </p>
                         <button class="c-buttonRight">
-                            <a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><span class="jp_txt">リードについて見る</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <a href="<?php echo get_permalink(get_page_by_path('company')) ?>#sect-2"><span class="jp_txt">企業理念</span></a>
+                            <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>#sect-2"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -203,8 +203,8 @@ get_header(); ?>
                 </div>
             </div>
             <button class="c-buttonRight">
-                <a href=""><span class="jp_txt">会社概要を見る</span></a>
-                <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></span>
+                <a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><span class="jp_txt">会社概要を見る</span></a>
+                <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
             </button>
         </div>
     </section>

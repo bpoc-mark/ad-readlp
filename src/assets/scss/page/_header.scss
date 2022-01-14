@@ -96,6 +96,40 @@ main {
 										order: 3;
 										border-bottom: 1px solid #e2e1e1;
 										// margin-bottom: 50px;
+
+										.nav__list--item__link{
+											position: relative;
+											display: block;
+											padding: 26px 0 16px 0;
+											font-size: 20px;
+
+											&::before{
+												position: absolute;
+												right: 30px;
+												top: 30%;
+												transform: translate(0, -50%);
+												content: ">";
+												display: block;
+												width: 0;
+												height: 0;
+												background-color: #000;
+												transition: .3s ease-in-out;
+											}
+											&::after{
+												display: none;
+											}
+
+											&.isActive{
+											&::before{
+												transform: translate(0, -50%) rotate(90deg);
+												opacity: 0;
+											}
+											&::after{
+												transform: translate(0, -50%) rotate(180deg);
+											}
+										}
+									}
+
 									}
 									&:nth-child(3){
 										order: 2;

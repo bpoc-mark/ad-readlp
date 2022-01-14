@@ -305,7 +305,7 @@ get_header(); ?>
                     privacyLink = (e) =>{
                         let privacy = document.querySelector('#privacy .wpcf7-list-item label .wpcf7-list-item-label');
                         let privacyElem = document.createElement("a");
-                        privacyElem.setAttribute('href',"yourlink.htm");
+                        privacyElem.setAttribute('href',"privacy");
                         let privacyNode = document.createTextNode("プライバシーポリシー");
                         privacyElem.appendChild(privacyNode);
                         privacy.appendChild(privacyElem);
