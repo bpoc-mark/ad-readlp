@@ -23,9 +23,18 @@ $(document).ready(function () {
 	var w = $(window).width();
 	if (w < 750) {
 	  allowed = true;
-	  $('.sub_menu').removeAttr('style');
-	  $('.sub_menu').removeAttr('style');
+		$('.sub_menu').removeAttr('style');
+		$('.sub_menu').removeAttr('style');
 	}
+
+	$(window).on("load resize", function () {
+		var w = $(window).width();
+		if (w < 750) {
+		allowed = true;
+			$('.sub_menu').removeAttr('style');
+			$('.sub_menu').removeAttr('style');
+		}
+	});
 
 	// NAVBAR TOGGLE
 	$(".menu").on("click", function () {
@@ -47,7 +56,7 @@ $(document).ready(function () {
 			}
 		}
 	});
-	
+
 	// ACCORDION TOGGLE
 	$(".c-accordion__head--title").on("click", function () {
 		if($(this).hasClass("isActive")){
@@ -104,3 +113,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
   }, 2000);
 });
 
+	//Submenu Anchor Link
+	function navCompany() {
+		$(".menu").click();
+	}
