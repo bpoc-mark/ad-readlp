@@ -97,16 +97,16 @@
                                             <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="#sect-2">企業理念</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-2" onclick="navCompany()">企業理念</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="#sect-3">企業ビジョン</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-3" onclick="navCompany()">企業ビジョン</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="#sect-4">アクセス情報</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-4" onclick="navCompany()">アクセス情報</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="#sect-5">沿革</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-5" onclick="navCompany()">沿革</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -154,7 +154,7 @@
                                 <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><img src="<?php echo $filePath; ?>/release/image/header/contact.svg" alt=""></a>
                             </li>
                             <li class="nav__list--item">
-                                <div class="menu">
+                                <div class="menu" id="toggle">
                                     <span class="menu__line line_t"></span>
                                     <span class="menu__line line_m"></span>
                                     <span class="menu__line line_b"></span>
