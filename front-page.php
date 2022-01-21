@@ -125,7 +125,7 @@
             </div>
         </div>
     </section>
-    <section class="sect_3">
+    <!-- <section class="sect_3">
         <div class="l-wrap">
             <div class="sect_3__container">
                 <div class="sect_3__col">
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section class="sect_4">
         <div class="bg"></div>
         <div class="l-wrap">
