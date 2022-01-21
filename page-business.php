@@ -48,7 +48,7 @@ get_header(); ?>
     <section class="sect_2">
         <div class="l-wrap">
             <div class="c-card02">
-                <div class="c-accordion" id="brand">
+                <div class="c-accordion" id="branding">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">ブランディング<br class="u-d-n-pc"><span class="u-d-n-pc">Branding</span></h3>
                     </div>
@@ -120,7 +120,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion" id="market">
+                <div class="c-accordion" id="marketing">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">ダイレクトマーケティング<br class="u-d-n-pc"><span class="u-d-n-pc">Marketing</span></h3>
                     </div>
@@ -187,7 +187,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion" id="promo">
+                <div class="c-accordion" id="promotion">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">デジタルプロモーション<br class="u-d-n-pc"><span class="u-d-n-pc">Promotion</span></h3>
                     </div>
@@ -269,7 +269,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion" id="plan">
+                <div class="c-accordion" id="planning">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">メディアプランニング<br class="u-d-n-pc"><span class="u-d-n-pc">Planning</span></h3>
                     </div>
@@ -336,7 +336,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="c-accordion" id="create">
+                <div class="c-accordion" id="creative">
                     <div class="c-accordion__head">
                         <h3 class="c-accordion__head--title">映像クリエイティブ<br class="u-d-n-pc"><span class="u-d-n-pc">Creative</span></h3>
                     </div>

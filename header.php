@@ -71,19 +71,19 @@
                                     <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Business')) ?>">BUSINESS</a>
                                     <ul class="sub_menu">
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>/#branding">ブランディング</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#branding" onclick="navCompany()">ブランディング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>/#marketing">ダイレクトマーケティング</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#marketing" onclick="navCompany()">ダイレクトマーケティング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>/#promotion">デジタルプロモーション</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#promotion" onclick="navCompany()">デジタルプロモーション</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>/#planning">メディアプランニング</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#planning" onclick="navCompany()">メディアプランニング</a>
                                         </li>
                                         <li class="sub_menu_item">
-                                            <a href="<?php echo esc_url(home_url('/')); ?>/#creative">映像クリエイティブ</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#creative" onclick="navCompany()">映像クリエイティブ</a>
                                         </li>
                                         <!-- <li class="sub_menu_item">
                                             <a href="">実績</a>
