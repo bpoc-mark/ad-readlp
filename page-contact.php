@@ -194,7 +194,7 @@ get_header(); ?>
                         });
                     });
                     observeChanges.observe(target, checkGeneralOptions);
-                    
+
                     getinputValue = (e) => {
                         document.querySelector('.p-multiStepForm__form').classList.add("isConfirmation");
                         document.querySelectorAll('.p-multiStepForm__stepList__item')[0].classList.remove("isCurrent");
@@ -253,7 +253,7 @@ get_header(); ?>
                         let checkboxesValue = Array.from(document.querySelectorAll('input[name="read-inquiry[]"]'))
                             .filter((checkbox) => checkbox.checked)
                             .map((checkbox) => checkbox.value);
-                            console.log(checkboxesValue)
+                        console.log(checkboxesValue)
                         let inquiryElem = document.createElement("p");
                         let inquiryNode = document.createTextNode(checkboxesValue);
                         inquiryEle.style.display = "none";
@@ -302,10 +302,11 @@ get_header(); ?>
                         inquiryEle.parentElement.querySelector('p').remove();
                     }
 
-                    privacyLink = (e) =>{
+                    privacyLink = (e) => {
                         let privacy = document.querySelector('#privacy .wpcf7-list-item label .wpcf7-list-item-label');
                         let privacyElem = document.createElement("a");
-                        privacyElem.setAttribute('href',"privacy");
+                        privacyElem.setAttribute('href', "privacy");
+                        privacyElem.setAttribute("target", "_blank");
                         let privacyNode = document.createTextNode("プライバシーポリシー");
                         privacyElem.appendChild(privacyNode);
                         privacy.appendChild(privacyElem);

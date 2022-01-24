@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 /* Template Name: Privacy Page */
 
-get_header();?>
+get_header(); ?>
 <div class="page_privacy">
     <div class="p-jumbotron">
         <div class="l-wrap">
@@ -12,10 +12,10 @@ get_header();?>
             <p class="p-jumbotron__main">
                 Privacy Policy
             </p>
-            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
             <!-- <div class="c-buttonContact u-d-n-sp">
                 <a href="" class="c-buttonContact__link">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/contact_btn_arrow.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
                     Contact
                 </a>
             </div> -->
@@ -65,10 +65,10 @@ get_header();?>
             <div class="c-stamp--wrap">
                 <h3 class="c-stamp--wrap__ttl">Contact</h3>
                 <p class="c-stamp--wrap__desc">
-                ご依頼に関するお問い合せは下記までご連絡ください。<br>
-                <br>
-                <span>株式会社リード</span><br>
-                〒150-0002 東京都渋谷区渋谷1-11-1 COI西青山ビル4F
+                    ご依頼に関するお問い合せは下記までご連絡ください。<br>
+                    <br>
+                    <span>株式会社リード</span><br>
+                    〒150-0002 東京都渋谷区渋谷1-11-1 COI西青山ビル4F
                 </p>
                 <div class="c-stamp--wrap__row">
                     <div class="c-stamp--wrap__row--col">
@@ -78,11 +78,11 @@ get_header();?>
                         <span>FAX : 03-6418-2476</span>
                     </div>
                     <div class="c-stamp--wrap__row--col">
-                        <a href="">お問い合わせフォーム</a>
+                        <a href="<?php echo get_permalink(get_page_by_path('Contact')) ?>">お問い合わせフォーム</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>

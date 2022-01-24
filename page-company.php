@@ -245,7 +245,7 @@ get_header(); ?>
                 <h3 class="c-card01--ttl">アクセス情報</h3>
                 <div class="row">
                     <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5571.262671895361!2d139.70209831364522!3d35.659552908100196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b588343e88b%3A0x368f280c785c91be!2zSmFwYW4sIOOAkjE1MC0wMDAyIFRva3lvLCBTaGlidXlhIENpdHksIFNoaWJ1eWEsIDEtY2jFjW1l4oiSMTHiiJIxIO-8o--8r--8qeilv-mdkuWxseODk-ODqyA0Zg!5e0!3m2!1sen!2sph!4v1640453730901!5m2!1sja!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12966.59115619972!2d139.7044121!3d35.6610484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9e08026acf%3A0x31339f3313c762e5!2z5qCq5byP5Lya56S-44Oq44O844OJ!5e0!3m2!1sja!2sph!4v1643007136792!5m2!1sja!2sph" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <div class="col">
                         <h3 class="col--ttl">READ CO.,LTD 東京本社</h3>
@@ -270,7 +270,7 @@ get_header(); ?>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.8060141173846!2d135.50980361508257!3d34.684845080438556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e726a1259e41%3A0xfdb2d1c72a2cab70!2zSmFwYW4sIOOAkjU0MC0wMDI0IE9zYWthLCBDaHVvIFdhcmQsIE1pbmFtaXNoaW5tYWNoaSwgMi1jaMWNbWXiiJI04oiSMTIg44Kk44Oz44OG44Oq44Oz44Kv44K55Y2X5paw55S6IDlm!5e0!3m2!1sen!2sph!4v1640455477295!5m2!1sja!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13122.414391940532!2d135.4959097!3d34.6899528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e726a13068e5%3A0xfc40cabcbe569cc6!2z5qCq5byP5Lya56S-44Oq44O844OJ5aSn6Ziq5pSv56S-!5e0!3m2!1sja!2sph!4v1643007283046!5m2!1sja!2sph" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <div class="col">
                         <h3 class="col--ttl">READ CO.,LTD 大阪支社</h3>
