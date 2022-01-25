@@ -20,10 +20,10 @@
                     </div>
                     <ul class="accordion_content hidden">
                         <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>">会社概要</a></li>
-                        <li> <a href="#sect-2">企業理念</a></li>
-                        <li> <a href="#sect-3">企業ビジョン</a></li>
-                        <li> <a href="#sect-4">アクセス情報</a></li>
-                        <li> <a href="#sect-5">沿革</a></li>
+                        <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-2">企業理念</a></li>
+                        <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-3">企業ビジョン</a></li>
+                        <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-4">アクセス情報</a></li>
+                        <li> <a href="<?php echo get_permalink(get_page_by_path('Company')) ?>#sect-5">沿革</a></li>
                     </ul>
                 </div>
                 <div class="page__footer--links__items">
@@ -31,11 +31,11 @@
                         <p>BUSINESS</p>
                     </div>
                     <ul class="accordion_content hidden">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#branding">ブランディング</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#marketing">ダイレクトマーケティング</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#promotion">デジタルプロモーション</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#planning">メディアプランニング</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>/#creative">映像クリエイティブ</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#branding">ブランディング</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#marketing">ダイレクトマーケティング</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#promotion">デジタルプロモーション</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#planning">メディアプランニング</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#creative">映像クリエイティブ</a></li>
                         <!-- <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li> -->
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
     </div>
     <div class="l-wrap">
         <div class="page__footer--copyright">
-            <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="<?php echo get_permalink(get_page_by_path('Privacy')) ?>">　プライバシーポリシー</a></span></p>
+            <p>© READ CO.,LTD. &nbsp;&nbsp;&nbsp;|<span><a href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">　プライバシーポリシー</a></span></p>
         </div>
         <a href="#page-top" class="backtop">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/baktotap.svg" alt="">
