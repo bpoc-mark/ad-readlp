@@ -10,7 +10,7 @@ get_header(); ?>
             <p class="p-jumbotron__main">
                 Contact
             </p>
-            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="l-wrap">
@@ -32,7 +32,7 @@ get_header(); ?>
                     <p class="text">メールの場合、ご連絡にお時間をいただく場合がございます。<br>
                         お急ぎの方はお電話（03-6418-2475）にてお問合せください。<br>
                         受付時間：10:00-19:00</p>
-                    <a href="#" class="c-button01 c-button01--main c-button01--xl">TOPページ戻る</a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>" class="c-button01 c-button01--main c-button01--xl">TOPページ戻る</a>
                 </div>
             </div>
         </div>
