@@ -50,12 +50,12 @@
                         リードならではの強みを活かし、オフラインとオンラインをクロスさせながらビジネスの成功を支援します。
                     </p>
                 </div>
-                <div class="sect_2__content--2" id="branding">
+                <div class="sect_2__content--2">
                     <div class="sect_2__content--2__item">
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-1.jpg" alt="">
                             <p class="sml_ttl"><span></span>ブランディング</p>
-                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#brand" class="sect_2__content--2__ttl-cont">
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#branding" class="sect_2__content--2__ttl-cont">
                                 <h2>Branding</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
@@ -69,7 +69,7 @@
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-2.jpg" alt="">
                             <p class="sml_ttl"><span></span>ダイレクトマーケティング</p>
-                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#market" class="sect_2__content--2__ttl-cont">
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#marketing" class="sect_2__content--2__ttl-cont">
                                 <h2>Marketing</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
@@ -83,7 +83,7 @@
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-3.jpg" alt="">
                             <p class="sml_ttl"><span></span>デジタルプロモーション</p>
-                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#promo" class="sect_2__content--2__ttl-cont">
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#promotion" class="sect_2__content--2__ttl-cont">
                                 <h2>Promotion</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
@@ -97,7 +97,7 @@
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-4.jpg" alt="">
                             <p class="sml_ttl"><span></span>メディアプランニング</p>
-                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#plan" class="sect_2__content--2__ttl-cont">
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#planning" class="sect_2__content--2__ttl-cont">
                                 <h2>Planning</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
@@ -111,7 +111,7 @@
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-5.jpg" alt="">
                             <p class="sml_ttl"><span></span>映像クリエイティブ</p>
-                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#create" class="sect_2__content--2__ttl-cont">
+                            <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#creative" class="sect_2__content--2__ttl-cont">
                                 <h2>Creative</h2>
                                 <div class="sect_2__content--2__ttl-cont--img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
