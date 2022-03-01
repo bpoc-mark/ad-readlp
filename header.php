@@ -49,20 +49,6 @@
                             <ul class="nav__list menu_sp">
                                 <li class="nav__list--item">
                                     <a class="nav__list--item__link" href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
-                                    <!-- <ul class="sub_menu">
-                                        <li class="sub_menu_item">
-                                            <a href="">ポスティング</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">WEBマーケティング</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">OOH</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">TVCM</a>
-                                        </li>
-                                    </ul> -->
                                 </li>
                                 <li class="nav__list--item">
                                     <a class="nav__list--item__link" href="<?php echo get_permalink(get_page_by_path('About')) ?>">ABOUT</a>
@@ -85,9 +71,6 @@
                                         <li class="sub_menu_item">
                                             <a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#creative" onclick="navCompany()">映像クリエイティブ</a>
                                         </li>
-                                        <!-- <li class="sub_menu_item">
-                                            <a href="">実績</a>
-                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="nav__list--item">
@@ -110,23 +93,6 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <!-- <li class="nav__list--item">
-                                    <a class="nav__list--item__link spLink" href="<?php echo get_permalink(get_page_by_path('Column')) ?>">COLUMN</a>
-                                    <ul class="sub_menu">
-                                        <li class="sub_menu_item">
-                                            <a href="">ポスティング</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">WEBマーケティング</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">OOH</a>
-                                        </li>
-                                        <li class="sub_menu_item">
-                                            <a href="">TVCM</a>
-                                        </li>
-                                    </ul>
-                                </li> -->
                                 <li class="nav__list--item">
                                     <a href="https://www.facebook.com/read.official/" target="_blank"><img src="<?php echo $filePath ?>/release/image/header/fb.svg" alt=""></a>
                                 </li>
