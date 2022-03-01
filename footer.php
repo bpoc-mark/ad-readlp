@@ -1,11 +1,11 @@
 </div>
 <footer class="page__footer">
-    <div class="c-buttonContact u-d-n-sp">
+    <!-- <div class="c-buttonContact u-d-n-sp">
         <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonContact__link">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/contact_btn_arrow.svg" alt="">
             Contact
         </a>
-    </div>
+    </div> -->
     <div class="page__footer__wrap">
         <div class="page__footer--row-1">
             <a href="<?php echo esc_url(home_url('/')); ?>">
@@ -36,20 +36,8 @@
                         <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#promotion">デジタルプロモーション</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#planning">メディアプランニング</a></li>
                         <li><a href="<?php echo get_permalink(get_page_by_path('Business')) ?>#creative">映像クリエイティブ</a></li>
-                        <!-- <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">実績</a></li> -->
                     </ul>
                 </div>
-                <!-- <div class="page__footer--links__items">
-                    <div class="accordion active">
-                        <p>COLUMN</p>
-                    </div>
-                    <ul class="accordion_content hidden">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">ポスティング</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">WEBマーケティング</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">OOH</a></li>
-                        <li><a href="<?php echo get_permalink(get_page_by_path('')) ?>">TVCM</a></li>
-                    </ul>
-                </div> -->
                 <div class="page__footer--links__items">
                     <div class="accordion active">
                         <p>SNS</p>
