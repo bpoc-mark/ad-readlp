@@ -101,7 +101,7 @@ get_header(); ?>
                         </p>
                         <button class="c-buttonRight">
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>"><span class="jp_txt">事業領域を見る</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('business')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('business')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ get_header(); ?>
                         </p>
                         <button class="c-buttonRight">
                             <a href="<?php echo get_permalink(get_page_by_path('company')) ?>#sect-2"><span class="jp_txt">企業理念</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>#sect-2"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('company')) ?>#sect-2"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ get_header(); ?>
                         </p>
                         <button class="c-buttonRight">
                             <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><span class="jp_txt">問い合わせる</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -204,7 +204,7 @@ get_header(); ?>
             </div>
             <button class="c-buttonRight">
                 <a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><span class="jp_txt">会社概要を見る</span></a>
-                <span><a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('company')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
             </button>
         </div>
     </section>

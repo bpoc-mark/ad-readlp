@@ -495,7 +495,7 @@ get_header(); ?>
             </div>
             <button class="c-buttonRight">
                 <a href="<?php echo get_permalink(get_page_by_path('about')) ?>"><span class="jp_txt">リードについて見る</span></a>
-                <span><a href="<?php echo get_permalink(get_page_by_path('about')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('about')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
             </button>
         </div>
     </section>

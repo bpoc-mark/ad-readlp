@@ -37,6 +37,16 @@
 			font-family: $font-family-en-text;
 			font-weight: 500;
 			line-height: 1;
+			position: sticky;
+			top: 0;
+			z-index: -150;
+			height: 400px;
+   			padding-bottom: 514px;
+			@include is-sp{
+				position: relative !important;
+				height: auto;
+				padding-bottom: 0;
+			}
 
 			@include font-line(250);
 
@@ -50,6 +60,10 @@
 				white-space: nowrap;
 				overflow: hidden;
 				padding-bottom: 30px;
+				position: sticky;
+				top: 0;
+				padding-top: 80px;
+				margin-top: -80px;
 			}
 		}
 
@@ -57,19 +71,27 @@
 			max-width: 1120px;
 			display: flex;
 			margin-left: auto;
+			margin-top: -290px;
 
 			@include is-sp {
 				flex-wrap: wrap;
 				padding-right: 20px;
+				margin-top: 0;
 			}
 
 			&--1 {
 				width: 40%;
 				margin: 50px 80px 0 0;
+				position: sticky;
+				top: 275px;
+				height: 240px;
 
 				@include is-sp {
 					width: 100%;
 					margin: 0;
+					position: relative;
+					top: 0;
+					height: auto;
 				}
 
 				small {
@@ -97,7 +119,7 @@
 
 			&--2 {
 				width: calc(100% - 40%);
-				margin-top: -60px;
+				margin-top: -30px;
 
 				@include is-sp {
 					width: 100%;
@@ -105,6 +127,15 @@
 				}
 				a{
 					color: unset;
+					figure{
+						overflow: hidden;
+					}
+					img{
+						transition: 0.5s all ease-in-out;
+						&:hover{
+							transform: scale(1.1);
+						}
+					}
 				}
 
 				.sml_ttl {
@@ -174,6 +205,13 @@
 							padding-bottom: 55px;
 						}
 					}
+							&:hover {
+							.s-t-r {
+								animation: cubic-bezier(0.165, 0.84, 0.44, 1) fade-slide-in .4s forwards;	
+								}
+							}
+						@keyframes fade-slide-in{0%{opacity:0}25%{opacity:0;transform:translateX(-1.5625rem)}100%{opacity:1;transform:translateX(0)}}
+
 				}
 			}
 		}
