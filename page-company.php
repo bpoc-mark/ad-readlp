@@ -238,7 +238,7 @@ get_header(); ?>
                         </p>
                         <button class="c-buttonRight">
                             <a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><span class="jp_txt">リードについて見る</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>
@@ -358,7 +358,7 @@ get_header(); ?>
 
                         <button class="c-buttonRight">
                             <a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><span class="jp_txt">リードについて見る</span></a>
-                            <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                            <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                         </button>
                     </div>
                 </div>

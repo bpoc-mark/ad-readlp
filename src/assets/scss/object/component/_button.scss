@@ -394,10 +394,12 @@
 	}
 
 	&:hover {
-		span {
-			transform: scale(1.1);
+		.s-t-r {
+			animation: cubic-bezier(0.165, 0.84, 0.44, 1) fade-slide-in .4s forwards;	
 		}
 	}
+
+	@keyframes fade-slide-in{0%{opacity:0}25%{opacity:0;transform:translateX(-1.5625rem)}100%{opacity:1;transform:translateX(0)}}
 }
 
 .c-buttonContact {

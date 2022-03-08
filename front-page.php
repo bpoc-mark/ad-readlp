@@ -32,7 +32,7 @@
                         生活者の心を動かし、行動を促し、あなたのビジネスの成功を後押しします。</p>
                     <button class="c-buttonRight">
                         <a href="<?php echo get_permalink(get_page_by_path('About')) ?>">READ MORE</a>
-                        <span><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
+                        <span class="s-t-r"><a href="<?php echo get_permalink(get_page_by_path('About')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg" alt=""></a></span>
                     </button>
                 </div>
             </div>
@@ -41,7 +41,6 @@
     <section class="sect_2">
         <div class="l-wrap">
             <h2 class="sect_2__ttl">Business</h2>
-
             <div class="sect_2__content">
                 <div class="sect_2__content--1">
                     <small><span>02 _ </span>事業領域 //</small>
@@ -53,11 +52,11 @@
                 <div class="sect_2__content--2">
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-1.jpg" alt="">
+                            <figure><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-1.jpg" alt=""></figure>
                             <p class="sml_ttl"><span></span>ブランディング</p>
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#branding" class="sect_2__content--2__ttl-cont">
                                 <h2>Branding</h2>
-                                <div class="sect_2__content--2__ttl-cont--img">
+                                <div class="sect_2__content--2__ttl-cont--img s-t-r">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </a>
@@ -67,11 +66,11 @@
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-2.jpg" alt="">
+                            <figure><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-2.jpg" alt=""></figure>
                             <p class="sml_ttl"><span></span>ダイレクトマーケティング</p>
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#marketing" class="sect_2__content--2__ttl-cont">
                                 <h2>Marketing</h2>
-                                <div class="sect_2__content--2__ttl-cont--img">
+                                <div class="sect_2__content--2__ttl-cont--img s-t-r">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </a>
@@ -81,11 +80,11 @@
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-3.jpg" alt="">
+                            <figure><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-3.jpg" alt=""></figure>
                             <p class="sml_ttl"><span></span>デジタルプロモーション</p>
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#promotion" class="sect_2__content--2__ttl-cont">
                                 <h2>Promotion</h2>
-                                <div class="sect_2__content--2__ttl-cont--img">
+                                <div class="sect_2__content--2__ttl-cont--img s-t-r">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </a>
@@ -95,11 +94,11 @@
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-4.jpg" alt="">
+                            <figure><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-4.jpg" alt=""></figure>
                             <p class="sml_ttl"><span></span>メディアプランニング</p>
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#planning" class="sect_2__content--2__ttl-cont">
                                 <h2>Planning</h2>
-                                <div class="sect_2__content--2__ttl-cont--img">
+                                <div class="sect_2__content--2__ttl-cont--img s-t-r">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </a>
@@ -109,11 +108,11 @@
                     </div>
                     <div class="sect_2__content--2__item">
                         <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-5.jpg" alt="">
+                            <figure><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_2_img-5.jpg" alt=""></figure>
                             <p class="sml_ttl"><span></span>映像クリエイティブ</p>
                             <a href="<?php echo get_permalink(get_page_by_path('business')) ?>#creative" class="sect_2__content--2__ttl-cont">
                                 <h2>Creative</h2>
-                                <div class="sect_2__content--2__ttl-cont--img">
+                                <div class="sect_2__content--2__ttl-cont--img s-t-r">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/arrow-big.svg" alt="">
                                 </div>
                             </a>
@@ -125,95 +124,5 @@
             </div>
         </div>
     </section>
-    <!-- <section class="sect_3">
-        <div class="l-wrap">
-            <div class="sect_3__container">
-                <div class="sect_3__col">
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-1.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-2.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-3.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-4.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-5.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-6.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-7.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-8.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-9.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-10.png" alt="">
-                    </div>
-                    <div class="sect_3__col--item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_3/sect_3_img-11.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="sect_4">
-        <div class="bg"></div>
-        <div class="l-wrap">
-            <div class="head_row">
-                <div class="head_row--left">
-                    <small><span>03 _ </span>事例 //</small>
-                    <h3 class="head_row--left__ttl">Works</h3>
-                </div>
-                <div class="head_row--right">
-                    <p>
-                        リードが手掛けてきた実績を紹介します。<br>
-                        クライアントの課題に向き合い、分析・改善を繰り返すことで<br>
-                        企業・ブランド価値向上のお手伝いしています。
-                    </p>
-                    <button class="c-buttonRight">
-                        <a href="">READ MORE</a>
-                        <span><img src="<?php echo get_template_directory_uri(); ?>/release/image/read_morebigger.svg"
-                                alt=""></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="slider_cont">
-            <div class="swiper top_swiper">
-                <div class="swiper-wrapper">
-                    <?php
-                    $list = [
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 1'],
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 2'],
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 3'],
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 4'],
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 5'],
-                        ['/release/image/pages/top/sect_4/img_1.jpg', '- ギンザビューティークリニーク 6'],
-                    ];
-                    foreach ($list as $key => $el) :
-                    ?>
-                        <div class="swiper-slide">
-                            <figure>
-                                <img src="<?php echo get_template_directory_uri(); ?><?= $el[0] ?>" alt="">
-                            </figure> 
-                            <p><?= $el[1] ?></p>
-                        </div> 
-                    <?php endforeach; ?>
-                </div>
-            </div>
-            <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
-            <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/release/image/pages/top/sect_4/slider_arrow.svg" alt=""></div>
-        </div>
-    </section> -->
 </div>
 <?php get_footer(); ?>
