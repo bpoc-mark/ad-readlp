@@ -51,15 +51,24 @@
     &__circle{
             &--inner {
 			position: absolute;
-			background-size: 60%;
-			background-position: center -50px;
-			background-repeat: no-repeat;
-			animation:spin 3s ease-out infinite;
-     		transform: scale(0.6);
+			animation: spin 10s ease-out infinite;
+     		transform: scale(0.8);
 			top: 0;
 			width: 62%;
 			left: 20%;
-			@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+            transform-origin: center;
+			// @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+            transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+
+
+            @keyframes spin {
+                    from {
+                        transform: scale(0);
+                    }
+                    to {
+                        transform: scale(1.9);
+                    }
+                }
 
 			@include is-sp{
 				width: 100%;
