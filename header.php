@@ -36,7 +36,7 @@
     $filePath = get_template_directory_uri();
     $filePath = parse_url($filePath, PHP_URL_PATH);
     ?>
-    <main>
+    <main style="transform: translateZ(0); overflow: hidden;">
         <div id="page-top"></div>
         <div class="page__header">
             <div class="l-wrap">
