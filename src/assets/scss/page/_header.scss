@@ -23,6 +23,7 @@ main {
 		@include is-sp {
 			height: 70px;
 			position: fixed;
+			background-color: #fff;
 			&.isActive {
 				background-image: url(../image/bg.jpg);
 				background-size: 100% auto;

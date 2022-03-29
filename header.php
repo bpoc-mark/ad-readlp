@@ -131,9 +131,4 @@
                 </div>
             </div>
         </div>
-        <div class="page__circle">
-            <div class="page__circle--inner">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/main_bg.png" alt="">
-            </div>
-        </div>
         <div class="page__content">

@@ -117,3 +117,48 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 	function navCompany() {
 		$(".menu").click();
 	}
+	
+
+
+// $(document).ready(function() {
+//     setInterval(function() {
+//         $('.page__banner').animate( { 'background-color': 'red' }, 1000)
+//             .animate( { 'background-color': 'green' }, 1000);
+//     }, 1000);
+// });
+
+// $(document).ready(function () {
+// 	setInterval(function () {
+// 		$('.page__banner').css({ 'background-color': 'yellow' }, 2000);
+// 	});
+// });
+
+// var i = 0;
+// function change() {
+//   var doc = document.getElementById("bg");
+//   var color = ["#fff","hsla(0, 0%, 0%, 0)"];
+//   doc.style.backgroundColor = color[i];
+//   i = (i + 1) % color.length;
+// }
+// setInterval(change, 10000);
+
+
+var myIndex = 0;
+function scale () {
+  var i;
+  var inner = document.querySelectorAll('.inner');
+   for (i = 0; i < inner.length; i++) {
+    inner[i].classList.remove('isActive');
+    }
+  myIndex++;
+  if (myIndex > inner.length) {
+    myIndex = 1
+  }
+  inner[myIndex - 1].classList.add('isActive');
+  setTimeout(scale, 4300);
+ setTimeout(function(){
+  document.querySelector('.page__inner').style.backgroundColor = getComputedStyle(inner[myIndex - 1]).backgroundColor;
+ }, 4200);
+  console.log(getComputedStyle(inner[myIndex - 1]).backgroundColor);
+ }
+scale();

@@ -1,6 +1,18 @@
 <?php get_header(); ?>
 <div class="top">
     <section class="page__banner">
+        <div class="page__inner">
+            <!-- <img src="<?php echo get_template_directory_uri(); ?>/release/image/main_bg.png" alt=""> -->
+
+
+
+            <div class="inner inner1 isActive"></div>
+            <div class="inner inner2"></div>
+
+
+
+
+        </div>
         <div class="l-wrap">
             <h1 class="page__banner--ttl">集まらないと、<br>
                 はじまらない。</h1>
