@@ -28,6 +28,8 @@
 
     <!-- END ADOBE FONTS -->
 
+    <script src="https://d3js.org/d3.v7.js"></script>
+
     <?php wp_head(); ?>
 </head>
 
@@ -36,7 +38,7 @@
     $filePath = get_template_directory_uri();
     $filePath = parse_url($filePath, PHP_URL_PATH);
     ?>
-    <main style="transform: translateZ(0); overflow: hidden;">
+    <main>
         <div id="page-top"></div>
         <div class="page__header">
             <div class="l-wrap">

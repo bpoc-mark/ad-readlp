@@ -18,11 +18,18 @@ main {
 		height: 130px;
 		display: flex;
 		align-items: center;
-		height: 70px;
    		 position: fixed;
+
+			&.isScroll{
+				background-color: #fff;
+				z-index: 9999;
+			}
+			
 		@include is-sp {
 			height: 70px;
 			position: fixed;
+			z-index: 9999;
+
 			background-color: #fff;
 			&.isActive {
 				background-image: url(../image/bg.jpg);
