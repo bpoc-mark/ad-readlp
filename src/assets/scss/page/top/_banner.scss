@@ -207,7 +207,6 @@
 
             .blob-1 {
                 transform: translate(-50%, -50%);
-                // animation: scale 20s ease-out infinite;
                 z-index: 99;
                 position: absolute;
                 top: 43%;
@@ -215,13 +214,18 @@
                 opacity: 0;
 
                 @include is-sp{
-                    left: 20%;
+                    left: 30vw;
+                }
+
+                @include is-max(375px){
+                    @include is-sp {
+                        left: 15vw;
+                    }
                 }
             }
 
             .blob-2 {
                 transform: translate(-50%, -50%);
-                // animation: scale 20s ease-out infinite;
                 z-index: 99;
                 position: absolute;
                 top: 43%;
@@ -229,7 +233,13 @@
                 opacity: 0;
 
                 @include is-sp {
-                    left: 20%;
+                    left: 30vw;
+                }
+
+                @include is-max(375px) {
+                    @include is-sp {
+                        left: 15vw;
+                    }
                 }
         
             }
@@ -241,9 +251,13 @@
             .blob-1.isActive,
             .blob-2.isActive {
                 transform: translate(-50%, -50%);
-                animation: scale 70s ease-out infinite;
+                animation: scale 200s ease-out infinite;
                 z-index: 99;
                 opacity: 1;
+
+                @include is-sp{
+                    animation: scale 600s ease-out infinite;
+                }
             }
             
             @keyframes scale {
@@ -252,9 +266,23 @@
                 }
             
                 to {
-                    transform: scale(45);
+                    transform: scale(110);
                 }
             }
+
+            @include is-sp{
+                @keyframes scale {
+                    from {
+                        transform: scale(0);
+                    }
+                
+                    to {
+                        transform: scale(170);
+                    }
+                }
+            }
+
+
     }
 
 }

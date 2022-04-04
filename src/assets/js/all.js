@@ -178,7 +178,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 // }, 2300 * 3);
 
 var ow = window.outerWidth;
-var owOutput = (ow > 750) ? '10000' : '4200';
+var owOutput = (ow > 750) ? '7400' : '4800';
 
 
 var myIndex = 0;
