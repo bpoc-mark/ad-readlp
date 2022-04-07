@@ -217,11 +217,16 @@
                     left: 30vw;
                 }
 
+                @include is-max(500px) {
+                        left: 18vw;
+                }
+
                 @include is-max(375px){
                     @include is-sp {
                         left: 15vw;
                     }
                 }
+
             }
 
             .blob-2 {
@@ -234,6 +239,10 @@
 
                 @include is-sp {
                     left: 30vw;
+                }
+
+                @include is-max(500px) {
+                        left: 18vw;
                 }
 
                 @include is-max(375px) {
@@ -251,7 +260,7 @@
             .blob-1.isActive,
             .blob-2.isActive {
                 transform: translate(-50%, -50%);
-                animation: scale 200s ease-out infinite;
+                animation: scale 150s ease-out infinite;
                 z-index: 99;
                 opacity: 1;
 
@@ -266,7 +275,7 @@
                 }
             
                 to {
-                    transform: scale(110);
+                    transform: scale(90);
                 }
             }
 
