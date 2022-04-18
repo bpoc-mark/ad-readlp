@@ -119,64 +119,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 	}
 	
 
-
-// $(document).ready(function() {
-//     setInterval(function() {
-//         $('.page__banner').animate( { 'background-color': 'red' }, 1000)
-//             .animate( { 'background-color': 'green' }, 1000);
-//     }, 1000);
-// });
-
-// $(document).ready(function () {
-// 	setInterval(function () {
-// 		$('.page__banner').css({ 'background-color': 'yellow' }, 2000);
-// 	});
-// });
-
-// var i = 0;
-// function change() {
-//   var doc = document.getElementById("bg");
-//   var color = ["#fff","hsla(0, 0%, 0%, 0)"];
-//   doc.style.backgroundColor = color[i];
-//   i = (i + 1) % color.length;
-// }
-// setInterval(change, 10000);
-
-
-// var myIndex = 0;
-// function scale () {
-//   var i;
-//   var inner = document.querySelectorAll('.inner');
-//    for (i = 0; i < inner.length; i++) {
-//     inner[i].classList.remove('isActive');
-//     }
-//   myIndex++;
-//   if (myIndex > inner.length) {
-//     myIndex = 1
-//   }
-//   inner[myIndex - 1].classList.add('isActive');
-//   setTimeout(scale, 2300);
-//  setTimeout(function(){
-//   document.querySelector('.page__inner').style.backgroundColor = getComputedStyle(inner[myIndex - 1]).backgroundColor;
-//  }, 4200);
-//   console.log(getComputedStyle(inner[myIndex - 1]).backgroundColor);
-//  }
-// scale();
-
-// var myIndex2 = 0;
-// setTimeout(function(){
-//   function removeScale() {
-//     var inner2 = document.querySelectorAll('.inner');
-//     myIndex2++;
-//     if(myIndex2 > inner2.length) {
-//       myIndex2 = 1;
-//     }
-//     inner2[myIndex2 - 1].classList.remove('isActive');
-//     setTimeout(removeScale, 2300);
-//   }
-//   removeScale();
-// }, 2300 * 3);
-
 var ow = window.outerWidth;
 var owOutput = (ow > 750) ? '7400' : '4800';
 

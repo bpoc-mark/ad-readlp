@@ -4,6 +4,7 @@
         height: 100vh;
         display: flex;
         align-items: center;
+        overflow: initial;
         @include is-sp {
             height: 560px;
         }
@@ -48,150 +49,90 @@
                 }
             }
         }
+
+        &--circle{
+            position: absolute;
+            width: 1000px;
+            height: auto;
+            top: 450px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            @include is-max(1000px){
+                width: 90%;
+                top: 50%;
+            }
+        }
     }
-
-    // &__circle{
-    //         &--inner {
-	// 		position: absolute;
-	// 		animation: spin 10s ease-out infinite;
-    //  		transform: scale(0.8);
-	// 		top: 0;
-	// 		width: 62%;
-	// 		left: 20%;
-    //         transform-origin: center;
-	// 		// @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-    //         transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
-
-
-    //         @keyframes spin {
-    //             from {
-    //                 transform: scale(0);
-    //             }
-    //             to {
-    //                 transform: scale(1.9);
-    //             }
-    //         }
-
-	// 		@include is-sp{
-	// 			width: 100%;
-    // 			left: 0;
-	// 		}
-	// 	}
-    // }
-
-            // &__inner {
-            //     position: absolute;
-            //     height: 1000px;
-            //     width: 1000px;
-            //     background-color: #f8f8f8;
-            //     animation:
-            //     spin 10s ease-out infinite forwards;
-            //     border-radius: 100%;
-            //     top: 0;
-            //     left: 0;
-            //     right: 0;
-            //     margin: 0 auto;
-            //     transition-timing-function: ease, step-start, cubic-bezier(0.1, 0.7, 1.0, 0.1);
-
-            //     @include is-sp{
-                    
-            //     }
-            // }
-
-        // @keyframes spin {
-        // 0% {
-        //     transform: scale(0);
-        // }
-        // 100% {
-        //     transform: scale(2.3);
-        // }
-        // }
-
+    
         &__inner {
         width: 100vw;
         height: 100%;
-        background-color: #fff;
+        // background-color: #fff;
         position: absolute;
-        overflow: hidden;
         z-index: 150;
 
-            // .inner1 {
-            //     // background-color: #F8F8F8;
-            //     background-image: url("../image/bg.jpg");
-            //     background-repeat: repeat;
-            //     background-size: contain;
-            //     width: 20px;
-            //     height: 20px;
-            //     transform: scale(0.8);
-            //     border-radius: 50%;
-            //     position: absolute;
-            //     top: 50%;
-            //     left: 50%;
-            //     }           
-            //     .inner2 {
-            //     background-color: #fff;
-            //     width: 20px;
-            //     height: 20px;
-            //     border-radius: 50%;
-            //     position: absolute;
-            //     top: 50%;
-            //     left: 50%;
-            //     }
-            //     .inner1.isActive, .inner2.isActive {
+            // .blob-1 {
             //     transform: translate(-50%, -50%);
-            //     animation: scale 30s infinite forwards;
-            //     transform: scale(0);
+            //     z-index: 99;
+            //     position: absolute;
+            //     top: 43%;
+            //     left: 43%;
+            //     opacity: 0;
+
+            //     @include is-sp{
+            //         left: 30vw;
             //     }
 
-            //     .current {
+            //     @include is-max(500px) {
+            //             left: 18vw;
+            //     }
+
+            //     @include is-max(375px){
+            //         @include is-sp {
+            //             left: 15vw;
+            //         }
+            //     }
+
+            // }
+
+            // .blob-2 {
+            //     transform: translate(-50%, -50%);
+            //     z-index: 99;
+            //     position: absolute;
+            //     top: 43%;
+            //     left: 43%;
+            //     opacity: 0;
+
+            //     @include is-sp {
+            //         left: 30vw;
+            //     }
+
+            //     @include is-max(500px) {
+            //             left: 18vw;
+            //     }
+
+            //     @include is-max(375px) {
+            //         @include is-sp {
+            //             left: 15vw;
+            //         }
+            //     }
+        
+            // }
+
+            // .current {
             //         z-index: 999 !important;
             //     }
-                
-            //     .inner1.isActive,
-            //     .inner2.isActive {
-            //         transform: translate(-50%, -50%);
-            //         animation: scale 20s forwards;
-            //         z-index: 99;
-            //     }
 
-            //     @keyframes scale {
-            //     from {transform: scale(0);}
-            //     to {transform: scale(600);}
-            //     }
-
-            // .inner1 {
-            //     background-image: url("../image/bg.jpg");
-            //     background-repeat: repeat;
-            //     background-size: contain;
-            //     width: 20px;
-            //     height: 20px;
-            //     border-radius: 50%;
-            //     position: absolute;
-            //     top: 50%;
-            //     left: 50%;
-            //     z-index: 1;
-            // }
-            
-            // .inner2 {
-            //     background-color: #fff;
-            //     width: 20px;
-            //     height: 20px;
-            //     border-radius: 50%;
-            //     position: absolute;
-            //     top: 50%;
-            //     left: 50%;
-            //     z-index: 1;
-            // }
-            
-            // .current {
-            //     z-index: 999 !important;
-            // }
-            
-            // .inner1.isActive,
-            // .inner2.isActive {
+            // .blob-1.isActive,
+            // .blob-2.isActive {
             //     transform: translate(-50%, -50%);
-            //     animation: scale 60s forwards;
+            //     animation: scale 150s ease-out infinite;
             //     z-index: 99;
+            //     opacity: 1;
+
+            //     @include is-sp{
+            //         animation: scale 600s ease-out infinite;
+            //     }
             // }
             
             // @keyframes scale {
@@ -200,97 +141,21 @@
             //     }
             
             //     to {
-            //         transform: scale(620);
+            //         transform: scale(90);
             //     }
             // }
 
-
-            .blob-1 {
-                transform: translate(-50%, -50%);
-                z-index: 99;
-                position: absolute;
-                top: 43%;
-                left: 43%;
-                opacity: 0;
-
-                @include is-sp{
-                    left: 30vw;
-                }
-
-                @include is-max(500px) {
-                        left: 18vw;
-                }
-
-                @include is-max(375px){
-                    @include is-sp {
-                        left: 15vw;
-                    }
-                }
-
-            }
-
-            .blob-2 {
-                transform: translate(-50%, -50%);
-                z-index: 99;
-                position: absolute;
-                top: 43%;
-                left: 43%;
-                opacity: 0;
-
-                @include is-sp {
-                    left: 30vw;
-                }
-
-                @include is-max(500px) {
-                        left: 18vw;
-                }
-
-                @include is-max(375px) {
-                    @include is-sp {
-                        left: 15vw;
-                    }
-                }
-        
-            }
-
-            .current {
-                    z-index: 999 !important;
-                }
-
-            .blob-1.isActive,
-            .blob-2.isActive {
-                transform: translate(-50%, -50%);
-                animation: scale 150s ease-out infinite;
-                z-index: 99;
-                opacity: 1;
-
-                @include is-sp{
-                    animation: scale 600s ease-out infinite;
-                }
-            }
-            
-            @keyframes scale {
-                from {
-                    transform: scale(0);
-                }
-            
-                to {
-                    transform: scale(90);
-                }
-            }
-
-            @include is-sp{
-                @keyframes scale {
-                    from {
-                        transform: scale(0);
-                    }
+            // @include is-sp{
+            //     @keyframes scale {
+            //         from {
+            //             transform: scale(0);
+            //         }
                 
-                    to {
-                        transform: scale(170);
-                    }
-                }
-            }
-
+            //         to {
+            //             transform: scale(170);
+            //         }
+            //     }
+            // }
 
     }
 
